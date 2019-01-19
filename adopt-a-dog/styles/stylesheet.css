@@ -34,4 +34,11 @@
   .footer{
     color: white;
     background-color: #02214d;
+    text-align: center;
+}
+.header{
+  color: white;
+  background-color:black;
+  color: green;
+  margin: .5rem;
 }
