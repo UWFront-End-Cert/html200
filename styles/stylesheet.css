@@ -9,35 +9,39 @@
     width: 100%;
     background-color: darkgray;
   }
-  .site-nav a{
+.site-nav a{
     color: white;
     text-decoration: none;
   }
-  .site-nav ul{
+.site-nav ul{
     list-style-type: none;
     padding-left: 0;
   }
-  .site-nav a{
+.site-nav a{
     color: white;
     text-decoration: none;
   }
 
-  .site-nav li{
+.site-nav li{
     display: inline-block;
     position: relative;
     font-size: 1rem;
     padding: .5rem 3rem;
   }
-  .row{
+.row{
       text-align: center;
   }
-  .footer{
+.footer{
     color: white;
     background-color: #02214d;
     text-align: center;
 }
 .header{
 background-color:black;
-color: yellow;
-margin: .5rem;
+color: green;
+margin: .2rem;
+}
+.Check-out{
+/*background-color: green;*/
+color: white;
 }
