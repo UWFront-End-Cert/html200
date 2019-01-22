@@ -75,3 +75,22 @@ float: right;
 .content{
   box-sizing: border-box;
   height: 750px;
+}
+
+.dog-tile{
+  display: inline-block;
+}
+
+.small-dog-picture{
+  object-fit: cover;
+  object-position: 100% 50;
+
+  width: 260px;
+  height: 160px;
+}
+
+.more-dogs-button{
+  background-color: lightgrey;
+  color: navy;
+  font-weight: bold;
+}
