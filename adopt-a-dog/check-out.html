@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Adopt A Dog</title>
+      <link rel="stylesheet" type="text/css" href="styling/stylesheet.css">
+  </head>
+  <body>
+    <header>
+        <div class="page-banner">
+           <div>
+             <img src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo" class="logo">
+             <h1>Seattle's premiere dog adoption agency</h1>
+           </div>
+           <div>
+            <img src="images/cart-icon.svg" alt="Shopping icon" class="shopping-icon">
+            <form  action="check-out.html">
+              <input type="submit" class="checkout-button" value="Checkout">
+            </form>
+           </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <h1>Checkout</h1>
+        <label>Name</label><br>
+        <input type="text" name="fullname"><br>
+        <label>Email Address</label><br>
+        <input type="email" name="email-add"><br>
+        <label>Street address</label><br>
+        <input type="text" name="street-add"><br>
+        <label class="broad-label">City</label>
+        <label class="broad-label">State</label>
+        <label class="broad-label">Zip Code</label><br>
+        <input type="text" name="city-name">
+        <select name="state-list" >
+            <option value="wa">Washington</option>
+            <option value="or">Oregon</option>
+            <option value="ca">California</option>
+            <option value="tx">Texas</option>
+            <option value="va">Virginia</option>
+            <option value="fl">Florida</option>
+        </select>
+        <input type="number" name="zip-code"><br>
+        <label>First Time Adopter?</label><br>
+        <label><input type="radio" name="adopter" value="yes" checked>YES</label>
+        <label><input type="radio" name="adopter" value="no">NO</label> <br>
+        <label>Pickup Location</label><br>
+        <select name="pickup-list" >
+            <option value="seattle">Seattle</option>
+            <option value="bellevue">Bellevue</option>
+            <option value="redmond">Redmond</option>
+            <option value="kirkland">Kirkland</option>
+        </select><br>
+        <label>Dogs Adopted</label><br>
+        <img src="images/tucker-good-589776-unsplash.jpg" alt="lucas image" class="adopted-dog-img">
+        <p> Lucas <p><br>
+        <p>Cost of Adoption : $123.45</p><br>
+        <label>Total Adoption Cost</label><br>
+        <p>$123.45</p> <br>
+        <form  action="#">
+          <input type="submit" class="checkout-button" value="Submit">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <img src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo" class="logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <p>2018 Adoptadog, LLC | Seattle, WA</p>
+    </footer>
+  </body>
+</html>

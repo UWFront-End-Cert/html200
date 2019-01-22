@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.page-banner
+{
+  background-image: url("../images/christopher-harris-57366-unsplash.jpg");
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: white;
+  height: 300px;
+}
+.dog-img
+{
+width: 10rem;
+height: 6rem;
+}
+.hugging-img{
+  width:15rem;
+  height: 15rem;
+}
+.blog-img{
+  width: 15rem;
+  height: 15rem;
+}
+.adopted-dog-img
+{
+  width:4rem;
+  height:4rem;
+}
+.broad-label{
+  display: inline-block;
+  width: 160px;
+}
+footer{
+  background-color: #004466;
+  color: white;
+}
+.logo{
+  width: 20rem;
+  height: 10rem;
+}
+.shopping-icon
+{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.checkout-button
+{
+  background-color: #66cc00;
+  color: white;
+  width:5rem;
+  padding: 5px;
+}
+.grey-button
+{
+  background-color: grey;
+  color: white;
+  width:8rem;
+  padding: 5px;
+}
