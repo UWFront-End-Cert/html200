@@ -7,18 +7,6 @@ header img {
   height: auto;
   background-color: grey;
 }
-.home-intro img {
-  width: 25%;
-  height: auto;
-}
-.dog-list img {
-  width: 10%;
-  height: auto;
-}
-.blog-post img {
-  width: 30%;
-  height: auto;
-}
 footer {
   background-color: #00436a;
   width: 100%;
@@ -31,3 +19,34 @@ footer img {
   width: 20%;
   height: auto;
 }
+/* -----------------------------------Home page-----------------------------------*/
+.home-grid-container {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 3.8rem;
+}
+.home-intro {
+  grid-column: 1 / span 4;
+  background-color: lavender;
+}
+.home-intro img {
+  float: left;
+  width: 40%;
+  height: auto;
+  margin-right: 5%;
+}
+.dog-bio img {
+  width: 100%;
+  height: auto;
+}
+.dog-bio {
+  background-color: lightblue;
+}
+/* -----------------------------------Blog page-----------------------------------*/
+.blog-post img {
+  width: 30%;
+  height: auto;
+}
+/* -----------------------------------Dogs page-----------------------------------*/
