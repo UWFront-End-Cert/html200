@@ -1,11 +1,42 @@
 * {
   box-sizing: border-box;
 }
-header img {
-  display: block;
-  width: 20%;
+header {
+  background-image: url("../images/christopher-harris-57366-unsplash.jpg");
+  background-color: white;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+.header-logo img {
+  width: 25rem;
+}
+.header-logo p {
+  color: #7dc837;
+}
+.header-cart img {
+  width: 30px;
   height: auto;
-  background-color: grey;
+}
+.header-cart p {
+  color: white;
+}
+.header-cart button {
+  background-color: #7dc837;
+  color: white;
+  border-radius: 2px;
+  border-color: #7dc837;
+  width: 150px;
+  height: 25px;
 }
 footer {
   background-color: #00436a;
