@@ -2,6 +2,15 @@
 margin: 0 auto;
 max-width: 1000px;
 padding: 1rem;
-font-family: 'Francois One', sans-serif;
-font-family: 'Jacques Francois', serif;
+}
+
+h1{
+  font-family: 'Francois One', sans-serif;
+  weight: bold;
+  font-style: italic;
+  color: white;
+}
+h2{
+  font-family: 'Jacques Francois', serif;
+  color: blue;
 }
