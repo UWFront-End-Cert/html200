@@ -1,12 +1,11 @@
 .container {
-margin: 0 auto;
-max-width: 1000px;
-padding: 1rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
 }
 
 h1{
   font-family: 'Francois One', sans-serif;
-  weight: bold;
   font-style: italic;
   color: white;
 }
@@ -19,8 +18,41 @@ h3{
   color: blue;
   font-size: 1.1rem;
 }
+h4{
+  font-family: 'Francois One', sans-serif;
+  color: white;
+  font-size: .8rem;
+}
 p{
   font-family: 'Francois One', sans-serif;
   font-size: .8rem;
   font-weight: 100;
+}
+a{
+  font-family: 'Francois One', sans-serif;
+  font-size: 1rem;
+}
+nav {
+  overflow: auto;
+  background-color: silver;
+  color: blue;
+}
+nav li {
+  float: left;
+  margin: 0;
+  padding: .5rem 1rem .5rem 0;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.header {
+  padding: 60px;
+  text-align: left;
+  background-image: image("christopher-harris-57366-unsplash.jpg");
+}
+.footer{
+  height: 100px;
+  width: auto;
+  background-color: darkblue;
 }
