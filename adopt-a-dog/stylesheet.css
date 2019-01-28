@@ -8,7 +8,7 @@
   background-color: lightgrey;
   font-size: 1rem;
   color: black;
-  height: 40px;
+  height: 25px;
 }
 .nav-list{
   display: flex;
@@ -93,4 +93,43 @@ float: right;
   background-color: lightgrey;
   color: navy;
   font-weight: bold;
+}
+
+.flexrow{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexcolumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.dog-tile{
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px lightgrey;
+}
+
+.tile-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+
+#main-intro{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+
+.main-body{
+  margin-left: 100px;
+  margin-right: 100px;
 }
