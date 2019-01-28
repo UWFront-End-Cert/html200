@@ -72,64 +72,101 @@ float: right;
   background-color: rgb(141,180,83)
 }
 
-.content{
-  box-sizing: border-box;
-  height: 750px;
-}
-
-.dog-tile{
-  display: inline-block;
-}
 
 .small-dog-picture{
   object-fit: cover;
   object-position: 100% 50;
-
   width: 260px;
   height: 160px;
 }
 
 .more-dogs-button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:  15px;
+  margin-bottom: 15px;
   background-color: lightgrey;
-  color: navy;
+  font-size: 1.5em;
+  height: 40px;
+  width: 260px;
+  color: white;
   font-weight: bold;
+  text-align: center;
+}
+
+.Adopt{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:  15px;
+  margin-bottom: 15px;
+  background-color: rgb(141,180,83);
+  font-size: 1.5em;
+  height: 1.5em;
+  width: 240px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.more-dogs-button > a{
+    text-decoration: none;
 }
 
 .flexrow{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .flexcolumn{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .dog-tile{
+  display: inline-block;
   width: 260px;
   display: flex;
   flex-direction: column;
   border: solid 1px lightgrey;
+  overflow: auto;
+  margin: 10px 10px 10px 10px;
+}
+
+.tile-body > h3{
+  font-size: 1.2EM;
+  color: navy;
 }
 
 .tile-container{
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  align-content: flex-start;
 }
 
+ .tile-body{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-#main-intro{
+.main-intro{
   display: flex;
-  flex-direction: row;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  text-align: left;
 }
 
-
-.main-body{
-  margin-left: 100px;
-  margin-right: 100px;
-}
+/* Small screens */
+@media all and (max-width: 600px) {
+.main-intro{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  text-align: left;
+} }
