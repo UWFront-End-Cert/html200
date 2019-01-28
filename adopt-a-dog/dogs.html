@@ -4,16 +4,24 @@
 
     <head>
       <meta charset="utf-8">
-      <title>
-        Adoptadog
-      </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Adoptadog</title>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Open+Sans:400,700|Source+Sans+Pro" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
 
     <body>
-      <header>
-        <img src="images/adoptadog-logo.png" alt="adoptadog logo">
-        Seattle's premiere dog adoption agency
-          <a href="#">Checkout</a>
+      <header class="hero-image">
+        <figure class="hero-logo">
+          <img src="images/adoptadog-logo.png" alt="adoptadog logo">
+          <figcaption class="caption">Seattle's premiere dog adoption agency</figcaption>
+        </figure>
+        <figure class="cart">
+          <div>
+            <img src="images/cart-icon.png" alt="cart logo">
+            <a href="checkout.html" id="cart-button">Checkout</a>
+          </div>
+        </figure>
       </header>
 
       <nav>
@@ -21,111 +29,113 @@
           <h3 hidden>Browse the site</h3>
         </header>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Dogs</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogs.html">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
         </ul>
       </nav>
       <main>
         <header>
           <h1>Here are all of our Dogs!</h1>
         </header>
-        <div>
-          <img src="images/murphy.jpg" alt="brown dog with white snout">
-          <h2>Murphy</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/poppy.jpg" alt="small white dog">
-          <h2>Poppy</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/jack.jpg" alt="small brown and white dog looking up">
-          <h2>Jack</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/duffy.jpg" alt="short haired brown and white dog">
-          <h2>Duffy</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/lucas.jpg" alt="black dog looking up">
-          <h2>Lucas</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/jake.jpg" alt="golden dog on beach">
-          <h2>Jake</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/alicia.jpg" alt="tiny brown dog">
-          <h2>Alicia</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/violet.jpg" alt="fluffy dog with tongue out">
-          <h2>Violet</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/piper.jpg" alt="golden dog surrounded by people">
-          <h2>Piper</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/maximus.jpg" alt="small black and white dog">
-          <h2>Maximus</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/luna.jpg" alt="blond dog looking happy">
-          <h2>Luna</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
-        <div>
-          <img src="images/stella.jpg" alt="golden pup with ears up">
-          <h2>Stella</h2>
-          <p>Cost to adopt: $123.45</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <a href="#">Adopt</a>
-        </div>
+        <section class="flex-container">
+          <div>
+            <img src="images/murphy.jpg" alt="brown dog with white snout">
+            <h2>Murphy</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/poppy.jpg" alt="small white dog">
+            <h2>Poppy</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/jack.jpg" alt="small brown and white dog looking up">
+            <h2>Jack</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/duffy.jpg" alt="short haired brown and white dog">
+            <h2>Duffy</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/lucas.jpg" alt="black dog looking up">
+            <h2>Lucas</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/jake.jpg" alt="golden dog on beach">
+            <h2>Jake</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/alicia.jpg" alt="tiny brown dog">
+            <h2>Alicia</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/violet.jpg" alt="fluffy dog with tongue out">
+            <h2>Violet</h2>
+            <p><strong>Cost to adopt:</strong> $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/piper.jpg" alt="golden dog surrounded by people">
+            <h2>Piper</h2>
+            <p>Cost to adopt: $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/maximus.jpg" alt="small black and white dog">
+            <h2>Maximus</h2>
+            <p>Cost to adopt: $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/luna.jpg" alt="blond dog looking happy">
+            <h2>Luna</h2>
+            <p>Cost to adopt: $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+          <div>
+            <img src="images/stella.jpg" alt="golden pup with ears up">
+            <h2>Stella</h2>
+            <p>Cost to adopt: $123.45</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <a href="#" class="adopt-button">Adopt</a>
+          </div>
+        </section>
       </main>
 
       <footer>
