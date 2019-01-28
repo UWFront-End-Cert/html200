@@ -46,13 +46,25 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-.header {
-  padding: 60px;
-  text-align: left;
-  background-image: image("christopher-harris-57366-unsplash.jpg");
-}
-.footer{
-  height: 100px;
+.header{
+  height: 300px;
   width: auto;
   background-color: darkblue;
+  align-content: center;
+}
+.footer{
+  height: 300px;
+  width: auto;
+  background-color: darkblue;
+  align-content: center;
+}
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
 }
