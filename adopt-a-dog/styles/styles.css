@@ -1,0 +1,19 @@
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  background-color: rgb(235,235,235);
+
+}
+
+li::after{
+  content: " /";
+}
+
+li:last-child::after{
+    content: " ";
+  }
+
+img {
+  max-height: 10rem;
+}
