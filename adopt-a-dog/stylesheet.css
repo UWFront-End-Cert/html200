@@ -55,6 +55,23 @@ footer{
   padding-bottom: 3%;
 }
 
+.container-main{
+  margin-left: 120px;
+  margin-right: 120px
+}
+
+h2 {
+  color: midnightblue;
+}
+
+/* Small screens */
+@media all and (max-width: 550px) {
+  .container-main{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .banner-logo{
 vertical-align: top;
 display: inline-block;
@@ -75,7 +92,7 @@ float: right;
 
 .small-dog-picture{
   object-fit: cover;
-  object-position: 100% 50;
+  object-position: 100% 50%;
   width: 260px;
   height: 160px;
 }
@@ -138,7 +155,7 @@ float: right;
 
 .tile-body > h3{
   font-size: 1.2EM;
-  color: navy;
+  color: midnightblue;
 }
 
 .tile-container{
@@ -162,7 +179,7 @@ float: right;
 }
 
 /* Small screens */
-@media all and (max-width: 600px) {
+@media all and (max-width: 550px) {
 .main-intro{
   display: flex;
   flex-flow: column;
@@ -170,3 +187,59 @@ float: right;
   align-content: flex-start;
   text-align: left;
 } }
+
+.row >.col-100{
+  float: left;
+  width:100%;
+  margin-top: 5px;
+}
+.row >.col-40{
+  float: left;
+  width:40%;
+  margin-top: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  flex: 25%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.5em;
+  color: midnightblue;
+  font-weight: bold;
+}
+
+
+fieldset {
+    border: 0;
+}
