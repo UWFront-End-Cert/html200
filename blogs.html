@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Noto+Serif+SC:300,400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Blog</title>
 </head>
@@ -9,13 +11,18 @@
   <header>
     <div class="flexbox">
       <div class="left-side">
-        <img src="adopt-a-dog/adoptadog-logo.svg" alt="logo" width="600">
+        <img src="adopt-a-dog/adoptadog-logo.svg" alt="logo" width="550">
         <h1>Seattle’s premiere dog adoption agency</h1>
       </div>
       <div class="right-side">
-        <img class="cart" src="adopt-a-dog/cart-icon.svg" alt="cart image" width="50" height="50">
-        $1234.56
-        <br>
+        <div class="flex">
+          <div class="column-left">
+            <img class="cart" src="adopt-a-dog/cart-icon.svg" alt="cart image" width="35" height="35">
+          </div>
+          <div class="column-right">
+            <p>$1234.56</p>
+          </div>
+        </div>
         <button type="button">Checkout</button>
       </div>
     </div>
@@ -27,15 +34,13 @@
       <a href="blogs.html">Blog</a>
     </nav>
   </div>
-  <main>
+  <section>
     <h2> Adoptadog Blog </h2>
-    <div class="flex-container2">
-      <div class="left-column2">
+    <div class="row">
+      <div class="column left">
         <img src="adopt-a-dog/images/patrick-hendry-221863-unsplash.jpg" alt="Image of a man holding a dog" width="400" height="350">
-        <img src="adopt-a-dog/images/matt-nelson-259365-unsplash.jpg" alt="Image of a man holding a dog" width="400" height="350">
-        <img src="adopt-a-dog/images/wyatt-ryan-367017-unsplash.jpg" alt="Image of a man holding a dog" width="400" height="350">
       </div>
-      <div class="right-column2">
+      <div class="column right">
         <h3> Traveling With Your Dog </h3>
         <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem
           quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium
@@ -46,7 +51,13 @@
           qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam
           voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit
           ulparume nonseca estorer spernam.</p>
-        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <img src="adopt-a-dog/images/matt-nelson-259365-unsplash.jpg" alt="Image of a man holding a dog" width="400" height="350">
+      </div>
+      <div class="column right">
         <h3> How To Walk Multiple Dogs </h3>
         <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem
           quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium
@@ -57,7 +68,13 @@
           qui con nes cus esere dolut hicto teni solutenis alit ulparume nonseca estorer spernam
           voluptassim quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis alit
           ulparume nonseca estorer spernam.</p>
-        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <img src="adopt-a-dog/images/wyatt-ryan-367017-unsplash.jpg" alt="Image of a man holding a dog" width="400" height="350">
+      </div>
+      <div class="column right">
         <h3> Teach Your Dog To Fetch! </h3>
         <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem
           quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium
@@ -70,7 +87,7 @@
           ulparume nonseca estorer spernam.</p>
       </div>
     </div>
-  </main>
+  </section>
   <br><br><br><br><br>
   <footer>
     <div class="footer-container">
