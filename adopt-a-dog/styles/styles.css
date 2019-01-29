@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: lightgrey;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: DarkBlue;
+  font-weight: bold;
+}
+
+footer {
+  background-color: DarkBlue;
+  color: white;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
