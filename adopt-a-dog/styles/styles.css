@@ -101,7 +101,6 @@ li:last-child:after {
   padding: 2rem;
   margin-left: 2rem;
   width: 90%;
-  position: center;
   margin-right: 2rem;
   overflow: hidden;
 }
@@ -183,9 +182,18 @@ input, option, textarea {
   display: block;
   outline: none;
   margin: 1rem;
-  width: 300px;
+  width: 20%;
+  padding: 1rem;
+  position: relative;
   }
 
+label {
+  color: #2F425F;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 1rem;
+}
 
 /* FOOTER */
 .footer {
@@ -210,9 +218,3 @@ input, option, textarea {
   text-decoration: none;
   font-weight: bold;
   color: white;
-
-.clearfix::after {
-content: "";
-display: block;
-clear: both;
-}
