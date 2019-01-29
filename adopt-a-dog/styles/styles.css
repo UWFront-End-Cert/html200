@@ -52,11 +52,17 @@ nav ul {
   background-color: darkblue;
   align-content: center;
 }
+.header-cart {
+  vertical-align: top;
+  display: inline-block;
+  float: right;
+}
 .footer{
   height: 300px;
   width: auto;
   background-color: darkblue;
   align-content: center;
+  text-align: center;
 }
 .button {
   background-color: green;
@@ -67,4 +73,14 @@ nav ul {
   text-decoration: none;
   display: inline-block;
   font-size: 16px
+}
+.dog-profile{
+  display:flex;
+  width: 250px;
+  flex-direction: column;
+  border: lightblue;
+}
+.blog-entry {
+  float: left;
+  image-orientation: clearfix;
 }
