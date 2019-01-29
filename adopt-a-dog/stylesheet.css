@@ -1,0 +1,38 @@
+header {
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 10%;
+}
+h1 {
+    color: #009933;
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: Arial;
+    font-style: italic;
+    padding-left: .5em;
+}
+a:link {
+  color: #003399;
+  font-family: Arial;
+  font-size: 17px;
+  text-decoration: none;
+}
+a:visited {
+  color: #003399;
+  font-family: Arial;
+  font-size: 17px;
+  text-decoration: none;
+}
+p {
+  font-family: Arial;
+}
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #003399;
+}
