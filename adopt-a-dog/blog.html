@@ -2,29 +2,36 @@
   <html lang="en">
     <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Adoptadog Blog</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="styles/styles.css">
+      <title>Adoptadog Homepage</title>
     </head>
     <body>
-      <header>
-        <img src="images/adoptadog-logo.png" alt="Adoptadog Seattle's premiere dog adoption agency" width="400" height="200">
-        <img src="images/cart-icon.png" alt="shopping cart" width="50" height="50">
-        <a href="checkout.html">Checkout</a>
-        <img src="images/christopher-harris-57366-unsplash.jpg" alt="one of our sweet dogs" width="400" height="200">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="dogs.html">Dogs</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </nav>
-      </header>
+      <div class="page-container">
+        <header>
+          <div class="header">
+            <div class="checkout">
+              <img src="images/cart-icon.png" alt="shopping cart">
+              <p>$1234.56</p>
+              <a href="checkout.html" class="cta">Checkout</a>
+            </div>
+              <img src="images/adoptadog-logo.png" alt="Adoptadog Seattle's premiere dog adoption agency" class="logo">
+              <p class="tag-line">Seattle's premiere dog adoption agency</p>
+          </div>
+          <nav class="nav">
+            <ul>
+              <li><a href="index.html" class="nav-li">Home</a></li>
+              <li><a href="dogs.html" class="nav-li">Dogs</a></li>
+              <li><a href="blog.html" class="nav-li">Blog</a></li>
+            </ul>
+          </nav>
+        </header>
       <main>
         <section>
-          <h1>Adoptadog Blog</h1>
-          <article>
+          <h1 class="blog-header">Adoptadog Blog</h1>
+          <article class="blog-style">
+            <img src="images/patrick-hendry-221863-unsplash.jpg" alt="a woman and her dog enjoy the view" class="blog-img">
             <h2>Traveling With Your Dog</h2>
-            <img src="images/patrick-hendry-221863-unsplash.jpg" alt="a woman and her dog enjoy the view" width="250" height="250">
             <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet
               adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur,
               cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum
@@ -37,9 +44,9 @@
               quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis
               alit ulparume nonseca estorer spernam.</p>
           </article>
-          <article>
+          <article class="blog-style">
+            <img src="images/matt-nelson-259365-unsplash.jpg" alt="four dogs on leashes being walked" class="blog-img">
             <h2>How To Walk Multiple Dogs</h2>
-            <img src="images/matt-nelson-259365-unsplash.jpg" alt="four dogs on leashes being walked" width="250" height="250">
             <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet
               adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur,
               cum volore, undipsa doloreium hillupta aut es ut alitatuscit ommossum
@@ -52,9 +59,9 @@
               quisciatquam ea ad qui con nes cus esere dolut hicto teni solutenis
               alit ulparume nonseca estorer spernam.</p>
             </article>
-          <article>
+          <article class="blog-style">
+            <img src="images/wyatt-ryan-367017-unsplash.jpg" alt="a dog waits patiently for a ball" class="blog-img">
             <h2>Teaching Your Dog To Fetch!</h2>
-            <img src="images/wyatt-ryan-367017-unsplash.jpg" alt="a dog waits patiently for a ball" width="250" height="250">
             <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
               dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore,
               undipsa doloreium hillupta aut es ut alitatuscit ommossum haritatur
@@ -65,16 +72,17 @@
             </article>
           </section>
         </main>
-        <footer>
-          <img src="images/adoptadog-logo.png" alt="Adoptadog Seattle's premiere dog adoption agency">
+        <footer class="footer">
+          <img src="images/adoptadog-logo.png" alt="Adoptadog Seattle's premiere dog adoption agency" class="blog-img">
           <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque
             invenienihil imaximu scideru ptistiusam consequunt</p>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="dogs.html">Dogs</a></li>
-              <li><a href="blog.html">Blog</a></li>
+              <li><a href="index.html" class="foot-li">Home</a></li>
+              <li><a href="dogs.html" class="foot-li">Dogs</a></li>
+              <li><a href="blog.html" class="foot-li">Blog</a></li>
             </ul>
             <p>&#9400; 2018 Adoptadog, LLC  |  Seattle, WA</p>
         </footer>
+        </div>
       </body>
     </html>

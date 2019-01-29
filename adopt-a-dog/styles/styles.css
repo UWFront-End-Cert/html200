@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.page-container {
+  /* display: grid;
+  grid-template-columns: 15% auto;
+  grid-template-rows: 15% auto;
+  grid-template-areas:
+    "header"
+    "nav"
+    "blog-style"
+    "boxes"
+    "footer"; */
+  height: 100%;
+  margin: 0 auto;
+  }
+
+.header {
+  /* grid-row: 1 / 1;
+  grid-column: 1 / 5; */
+  background-image: url(../images/christopher-harris-57366-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.tag-line {
+  color: #8fc518;
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 3rem;
+  padding-left: 2rem;
+  font-family: serif;
+  padding-bottom: 5rem;
+  margin-bottom: 6rem;
+
+}
+
+.checkout {
+  text-align: right;
+  padding: 1rem;
+}
+
+.responsive {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  height: auto;
+  width: 35%;
+  margin-left: 3rem;
+  padding-left: 2rem;
+}
+
+.nav {
+  /* grid-row: 1;
+  grid-column: 2 / 4; */
+  background-color: #f0f0f0;
+  padding: .50rem;
+}
+
+.nav-li {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+  color: #2F425F;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2F425F;
+  font-family: serif;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+li:after {
+  content: " / ";
+  padding: 1rem;
+
+}
+li:last-child:after {
+    content: " ";
+  }
+
+/* HOMEPAGE */
+.blog-style {
+  /* grid-row: 2 / 2;
+  grid-column: 2 / 4; */
+  padding: 2rem;
+  margin-left: 2rem;
+  width: 90%;
+  position: center;
+  margin-right: 2rem;
+  overflow: hidden;
+}
+
+.blog-img {
+  float: left;
+  height: auto;
+  width: 25%;
+  margin: 1rem;
+}
+
+/* BLOG */
+.blog-header {
+  margin-left: 4.5rem;
+  font-size: 30px;
+}
+
+/* BOX CONTENT */
+.boxes {
+  /* grid-row: 3 / 4;
+  grid-column: 2 / 4; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.dog-box {
+  object-fit: cover;
+  width: 20%;
+  margin: 1rem;
+  border: 1px solid lightgrey;
+}
+
+.box-text {
+  font-size: small;
+  padding: 1rem;
+}
+
+.cta {
+  background: #8fc518;
+  color: white;
+  /* margin: 2rem; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-decoration: none;
+  border-radius: 1px;
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-weight: bold;
+  font-size: 14px;
+ }
+
+ .white-cta {
+  background-color: #f0f0f0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  border-radius: 1px;
+  padding-top: .50rem;
+  padding-bottom: .50rem;
+  font-size: 18px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+ }
+
+/* CHECKOUT */
+/* .form {
+align-content: center;
+margin: 2rem;
+} */
+
+input, option, textarea {
+  display: block;
+  outline: none;
+  margin: 1rem;
+  width: 300px;
+  }
+
+
+/* FOOTER */
+.footer {
+  /* grid-row: 5 / 5;
+  grid-column: 1 / span 5; */
+  background-color: #19466aff;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-kerning: normal;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+.footer-logo {
+  height: auto;
+  width: 25%;
+}
+
+.foot-li {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+
+.clearfix::after {
+content: "";
+display: block;
+clear: both;
+}
