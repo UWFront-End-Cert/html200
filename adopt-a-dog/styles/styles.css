@@ -2,22 +2,22 @@
   box-sizing: border-box;
 }
 
-nav {
+.site-nav {
   background-color: lightgrey;
 }
 
-nav ul {
+.site-nav ul {
   list-style-type: none;
   text-decoration: none;
   display: flex;
   justify-content: flex-start;
 }
 
-nav ul li {
+.site-nav ul li {
   padding: 0.5rem 1rem;
 }
 
-nav ul li a {
+.site-nav a {
   text-decoration: none;
   color: DarkBlue;
   font-weight: bold;
@@ -37,4 +37,25 @@ footer ul {
 footer ul li a {
   text-decoration: none;
   color: white;
+}
+
+.thumbnail img {
+  width: 10%;
+}
+
+h1 {
+  color: green;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+h3 {
+  color: DarkBlue;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h4 {
+  color: DarkBlue;
+  font-weight: bold;
 }
