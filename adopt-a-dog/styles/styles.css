@@ -1,13 +1,14 @@
 .container {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 1rem;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
-.clearfix::after {
+/* .clearfix::after {
   content: "";
   display: block;
   clear:both;
-}
+} */
 h1{
   font-family: 'Francois One', sans-serif;
   font-style: italic;
@@ -42,6 +43,7 @@ nav {
   color: blue;
 }
 nav li {
+  display: flex;
   float: left;
   margin: 0;
   padding: .5rem 1rem .5rem 0;
@@ -52,8 +54,11 @@ nav ul {
 }
 .header{
   height: 300px;
+  box-sizing: border-box;
   width: auto;
   background-color: darkblue;
+  background-size: auto;
+  background-repeat: no-repeat;
   align-content: center;
 }
 .header-cart {
@@ -78,18 +83,21 @@ nav ul {
   display: inline-block;
   font-size: 16px
 }
-.dog-profile{
-  display:flex;
-  width: 250px;
-  flex-direction: column;
-  border: lightblue;
+.dog-tile-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
-.blog-entry {
-  float: left;
+
+.tile {
+  width: 25%;
+  outline: 1px solid gray;
+  margin: 16px;
+  align-items: center;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 40px auto auto auto auto;
-  grid-gap: 5px 5px;
+
+.tile img {
+  width: 100%;
+  align-items:flex-start;
 }
