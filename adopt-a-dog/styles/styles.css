@@ -106,11 +106,11 @@ nav ul {
   width: 100%;
   height: 300px;
   display: flex;
-  margin: 15%;
+  margin: 3%;
+  margin-bottom: 10%;
 }
 
 .blog img {
-  float: none;
-  align-items: flex-start;
-
+  float:left;
+  width: auto;
 }
