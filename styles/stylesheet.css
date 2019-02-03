@@ -1,9 +1,12 @@
 h1 {
   font-family: arial bold;
-  font-size: 3rem;
+  font-size: 2rem;
+  color: silver;
+  padding: 2rem;
+  border: 1rem;
+  margin: 1rem;
 }
 
-}
 .site-nav {
   display: flex;
   background-color: black;
@@ -11,6 +14,7 @@ h1 {
   border: 1rem;
   margin: 1rem;
 }
+
 .site-nav a {
   color: whitesmoke;
   text-decoration: none;
@@ -18,6 +22,7 @@ h1 {
   padding: 14px 20px;
   text-align: center;
 }
+
 .site-nav a:hover {
   color: darkgray;
 }
@@ -54,8 +59,9 @@ h1 {
 }
 
 .sidebar-one {
-  flex-basis: 45%;
+  flex-basis: 32%;
   order: 1;
+  flex-direction: row;
 }
 
 @media(min-width: 900px) {
@@ -107,7 +113,7 @@ h1 {
 }
 
 .sidebar-one img {
-  width: 90%;
+  width: 100%;
 }
 
 .main-column img {
@@ -138,5 +144,5 @@ h1 {
   background-color: #99cc00;
   font-size: 1rem;
   margin: auto;
+  color: white;
 }
-
