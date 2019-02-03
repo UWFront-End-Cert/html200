@@ -1,9 +1,62 @@
 * {
   box-sizing: border-box;
 }
+
 body {
 font-family: Arial, sans-serif;
 font-size: 14px;
+}
+
+header {
+  background-image: url("https://github.com/meghanmullally/html200/blob/master/adopt-a-dog/images/christopher-harris-57366-unsplash.jpg?raw=true");
+  width: 100%;
+}
+
+.logo {
+  height: 15%;
+  width: 15%;
+}
+
+h1 {
+  font-size: 25px; 
+  color: white;
+}
+
+h2 {
+  color: lightgreen; 
+  font-size: 20px; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightgrey; 
+}
+
+
+nav{
+  padding: 1rem;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #26466D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; 
+}
+
+
+img {
+  padding: 5px;
+  width: 100%;
 }
 
 
@@ -15,7 +68,7 @@ grid-container {
   padding: 10px;
 }
 
-grid-dog {
+.grid-dog {
   background-color: rgba(255, 255, 255);
   border: 1px solid rgba(0, 0, 0);
   padding: 20px;
@@ -23,8 +76,8 @@ grid-dog {
   text-align: center;
 }
 
-footer {
-  background-color: gray;
+.footer {
+  background-color: #26466D;
   position: relative;
   text-align: center;
   padding: 4rem;
