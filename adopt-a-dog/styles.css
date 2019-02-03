@@ -27,6 +27,12 @@ h2 {
   font-size: 20px; 
 }
 
+
+nav{
+  padding: 1rem;
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -35,11 +41,6 @@ ul {
   background-color: lightgrey; 
 }
 
-
-nav{
-  padding: 1rem;
-  width: 100%;
-}
 
 li {
   float: left;
