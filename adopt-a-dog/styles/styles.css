@@ -3,47 +3,21 @@
 }
 
 body {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
 }
 
+/* Header Code */
+
 header {
-  background-image: url("../adopt-a-dog/images/christopher-harris-57366-unsplash.jpg");
+  background-image: url("../images/christopher-harris-57366-unsplash.jpg");
   max-width: 100%;
+  min-width: 10%;
   height: 36rem;
   background-size: cover;
-  background-attachment: fixed;
 }
-
-footer {
-  background-color: rgb(9, 60, 96);
-}
-
-.footer-container {
-  width: 35%;
-  margin: auto;
-  padding: 100px 0px;
-  text-align: center;
-  line-height: 160%;
-  color: white;
-  /* font-size: 1.1rem; */
-}
-
-.footer-container > p {
-  padding: 0 50px 0 50px;
-  font-size: 1.2rem;
-}
-
-.footer-container > a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 40px 20px 30px 0;
-}
-
-/* Home Page Code */
 
 .flexbox {
   display: flex;
@@ -51,12 +25,15 @@ footer {
 
 .left-side {
   flex: 50%;
-  margin-left: 100px;
-  padding: 5px 0px 5px 0px;
+  margin-left: 5%;
+  padding: 1% 0;
 }
 
 .left-side > img {
   margin-top: 8%;
+  max-width: 100%;
+  height: 40%;
+  min-width: 10%;
 }
 
 .left-side > h1 {
@@ -64,14 +41,15 @@ footer {
   color: rgb(129,183,65);
   font-style: italic;
   margin: 0;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .right-side {
   flex: 50%;
   float: right;
-  margin-right: 70px;
+  margin-right: 5%;
   color: white;
+  padding: 1% 0;
 }
 
 .flex {
@@ -79,18 +57,15 @@ footer {
 }
 
 .column-left {
-  flex: 13%;
-  float: right;
-  width: 0;
-  margin-left: 68%;
+  max-width: 100%;
+  min-width: 5%;
+  margin-left: 67%;
   margin-top: 8%;
 }
 
 .column-right {
-  flex: 85%;
-  float: right;
   margin-top: 8%;
-  padding-left: 0;
+  padding-left: 1%;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -101,10 +76,12 @@ footer {
   width: 20%;
   height: 12%;
   border: none;
-  margin: 0 0 0 62%;
+  margin-left: 62%;
   font-weight: bold;
   padding: 0;
 }
+
+/* Navigation Bar Code */
 
 .nav-container {
   padding: 2rem 1.5rem 2rem 0;
@@ -114,14 +91,51 @@ footer {
 }
 
 nav {
-  margin: 0px 250px;
+  margin: 0 13%;
 }
 
 nav > a {
-  padding: 10px;
+  padding: 1%;
   color: rgb(9,60,96);
   text-decoration: none;
 }
+
+/* Footer Code */
+
+footer {
+  background-color: rgb(9, 60, 96);
+  max-width: 100%;
+  min-width: 10%;
+}
+
+.footer-container {
+  width: 35%;
+  margin: auto;
+  padding: 3% 0;
+  text-align: center;
+  line-height: 160%;
+  color: white;
+}
+
+.footer-container > p {
+  padding: 0 5%;
+  font-size: 1.2rem;
+}
+
+.footer-container > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.footer-container > img {
+  max-width: 70%;
+  height: 20%;
+  min-width: 10%;
+}
+
+/* Home Page Code */
 
 main {
   background-color: white;
@@ -129,22 +143,29 @@ main {
 
 .flex-container {
   display: flex;
-  padding: 20px 20px 20px 0;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  padding: 2% 2% 0 0;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
 }
 
 .left-column {
   flex: 30%;
-  margin-left: 250px;
-  padding: 15px 0px 5px 0px;
+  margin-left: 13%;
+  padding-top: 1%;
+}
+
+.left-column > img {
+  height: auto;
+  max-width: 100%;
+  min-width: 10%;
 }
 
 .right-column {
   flex: 70%;
-  margin-right: 250px;
-  padding-left: 70px;
-  /* font-size: 1.5rem; */
+  margin-right: 13%;
+  padding-left: 5%;
+  max-width: 100%;
+  min-width: 10%;
 }
 
 .right-column > h1 {
@@ -155,7 +176,7 @@ main {
 
 .right-column > p {
   color: black;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 button {
@@ -174,42 +195,49 @@ button {
   background-color: rgb(236, 236, 236);
   text-align: center;
   width: 15%;
-  padding: 15px;
+  padding: 1%;
   color: rgb(9, 60, 96);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   border: none;
   display: block;
-  margin: 0 auto 7% auto;
+  margin: 2% auto 7% auto;
 }
 
 /* Dog-Tile Code */
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  margin-left: 250px;
-  margin-right: 250px;
-  width: 650px;
-  grid-column-gap: 70px;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin-left: 13%;
+  margin-right: 13%;
+  max-width: 100%;
+  min-width: 10%;
+  height: 5%;
+  grid-column-gap: 5%;
 }
 
 .dog-tile {
-  border: .5px solid lightgray;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  margin: 20px 0 50px 0;
+  margin: 15% 0 5% 0;
+}
+
+.dog-tile > img {
+  height: auto;
+  max-width: 100%;
+  min-width: 10%;
 }
 
 .dog-tile > h3 {
   font-family: 'Noto Serif SC', serif;
-  margin: 15px;
-  font-size: 1.3rem;
+  margin: 6%;
+  font-size: 1.2rem;
   color: rgb(9, 60, 96);
 }
 
 .dog-tile > p {
   font-size: 1rem;
-  margin: 5px 70px 20px 15px;
+  margin: 1% 8% 8% 6%;
   font-weight: normal;
 }
 
@@ -218,7 +246,7 @@ button {
 h2 {
   font-family: 'Noto Serif SC', serif;
   font-size: 2rem;
-  margin-left: 250px;
+  margin-left: 13%;
   color: rgb(9, 60, 96);
 }
 
@@ -230,7 +258,12 @@ h2 {
 
 .left {
   width: 35%;
-  height: 400px;
+}
+
+.left > img {
+  height: auto;
+  max-width: 90%;
+  min-width: 10%;
 }
 
 .right {
@@ -238,7 +271,9 @@ h2 {
 }
 
 .right > p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin-top: 0;
 }
 
 .right > h3 {
@@ -251,7 +286,7 @@ h2 {
 .row {
   background-color: #fff;
   margin: 1% 11%;
-  padding: 40px 40px 0 40px;
+  padding: 2% 2% 0 2%;
 }
 
 .row:after {
@@ -260,61 +295,40 @@ h2 {
   clear: both;
 }
 
-.right-column2 > h3 {
-  font-family: 'Noto Serif SC', serif;
-  color: rgb(9,60,96);
-  margin-left: 35px;
-  margin-top: 35px;
-  margin-bottom: 0;
-  /* font-size: 1.9rem; */
-}
-
-.right-column2 > p {
-  margin-right: 250px;
-  text-align: justify;
-  /* font-size: 1.2rem; */
-  margin-left: 35px;
-  line-height: 2rem;
-}
-
-.left-column2 > img {
-  margin-top: 4px;
-  padding: 25px 25px 25px 0;
-}
-
 /* Contact Page Code */
 
 label {
   color: rgb(9,60,96);
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 20px 20px 20px 0;
-  margin-left: 250px;
+  padding: 1% 1% 1% 0;
+  margin-left: 13%;
 }
 
 input[type=text], input[type=email] {
-  margin: 20px 0px 20px 250px;
-  padding: 20px;
+  margin: 1% 0 1% 13%;
+  padding: 1%;
   width: 20%;
 }
 
 .move-left {
-  margin-left: 455px;
+  margin-left: 22%;
 }
 
 .move-left2 {
-  margin-left: 250px;
+  margin-left: 13%;
 }
 
 select {
-  margin-left: 100px;
-  padding: 20px;
-  width: 10%;
+  margin-left: 5%;
+  padding: 1%;
+  min-width: 10%;
+  max-width: 100%;
 }
 
 #zip-code {
-  margin-left: 140px;
-  padding: 20px;
+  margin-left: 7%;
+  padding: 1%;
   width: 10%;
 }
 
@@ -325,22 +339,21 @@ input[type=submit] {
   font-size: 1.5rem;
   width: 15%;
   border-radius: 5px;
-  height: 50px;
   border: none;
-  padding: 0;
+  padding: 1%;
 }
 
 .radio-button {
-  margin: 30px 0 10px 250px;
+  margin: 2% 0 1% 13%;
 }
 
 .place > select {
-  margin-left: 250px;
-  margin-top: 20px;
-  padding: 20px;
+  margin-left: 13%;
+  margin-top: 2%;
+  padding: 1%;
   width: 20%;
 }
 
 form > p {
-  margin: 30px 0 0 250px;
+  margin: 2% 13%;
 }
