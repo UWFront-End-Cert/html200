@@ -7,7 +7,7 @@ h1 {
   margin: 1rem;
 }
 
-.site-nav {
+.nav-bar {
   display: flex;
   background-color: black;
   padding: 1rem;
@@ -15,7 +15,7 @@ h1 {
   margin: 1rem;
 }
 
-.site-nav a {
+.nav-bar a {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1rem;
@@ -27,6 +27,18 @@ h1 {
   color: darkgray;
 }
 
+.nav-bottom {
+  display: flex;
+  background-color: #02214d; 
+}
+
+.nav-bottom a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+}
+
 .header {
   background-color: black;
   color: rgb(11, 230, 11);
@@ -34,22 +46,24 @@ h1 {
   border: 1rem;
   margin: 1rem;
   height: 200px;
+  position: relative;
 }
-
+/*
 .header-positioned-left {
   position: absolute;
   top: 80px;
   left: 80px;
-}
-
-.header-positioned-left img {
-  width: 70%;
-}
+} 
 
 .header-positioned-left-two {
-  position: absolute;
-  top: 150px;
+  position: relative;
+  top: 130px;
   left: 40px;
+}
+*/
+
+.header-positioned-left img {
+  width: 30%;
 }
 
 .header-positioned-right {
@@ -111,12 +125,11 @@ h1 {
   margin-bottom: 20px;
   flex-basis: 24%;
   text-align: center;
-  border: .1rem;
 }
 
 .sub-gallery {
   padding: 20px;
-  border: .05rem outset silver;
+  border: 1px solid whitesmoke;
   text-align: center;
 }
 
