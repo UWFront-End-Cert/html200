@@ -116,7 +116,6 @@ li:last-child:after {
   margin: 1rem;
   padding-bottom: 1rem;
   max-width: 250px;
-  max-height: auto;
   border: 1px solid lightgrey;
   text-align: left;
   font-size: 9px;
