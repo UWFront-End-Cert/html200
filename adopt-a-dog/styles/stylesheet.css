@@ -1,7 +1,17 @@
 *{
   box-sizing: border-box;
   overflow: auto;
+}
+h1 {
+  font-size: 2.5em;
+}
 
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
 }
 header {
   background-image:url('images/christopher-harris-57366-unsplash.JPG');
@@ -14,6 +24,7 @@ body {
   width: 100%;
   font-family: 'Merriweather', serif;
   background-color: rgb(232, 234, 237);
+  font-size: 100%;
   }
 .main{
   background-color: white;
@@ -21,6 +32,7 @@ body {
 }
 .summary {
   flex: auto;
+  font-size: 2.5em;
 }
 .dog-and-man {
   float: left;
@@ -68,8 +80,19 @@ button {
   width: 100%;
 }
 #moreDogsButton {
-  color: blue;
-  background-color: #e5e7ea;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  clear:both;
+  color: rgb(11, 33, 68);
+  font-weight: bold;
+  background-color: #c6cbd3;
+  border: 1px;
+  padding: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 footer {
   background-color: rgb(11, 33, 68);
