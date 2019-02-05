@@ -6,39 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adopt a Dog - Checkout</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700|Open+Sans:300,700" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="images/christopher-harris-57366-unsplash.jpg" alt="Profile angle of a dog's face">
-      <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
-      <img src="images/cart-icon.svg" alt="cart button logo">
-      <div class="total-cost">
-        $1234.56
-      </div>
-      <div class="checkout-button">
-        Checkout
+      <div class="header-flex-container">
+        <div class="header-logo">
+          <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+          <p>Seattle's Premier Dog Adoption Agency</p>
+        </div>
+        <div class="header-cart">
+          <p><img src="images/cart-icon.svg" alt="cart button logo">$1234.56</p>
+          <button>Checkout</button>
+        </div>
       </div>
     </header>
     <nav class="main-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="dogs.html">Dogs</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
+      <div class="main-nav-container">
+        <ul>
+          <li class="nav-with-slash"><a href="index.html">Home</a></li>
+          <li class="nav-with-slash"><a href="dogs.html">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
     </nav>
     <main>
-      <h1>Checkout</h1>
-      <form class="checkout-form" method="get">
-      </form>
+      <div class="checkout-container">
+        <h1>Checkout</h1>
+        <form class="checkout-form" method="get">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name">
+          <label for="email">Email Address:</label>
+          <input type="email" name="email" id="email">
+          <label for="street">Street Address:</label>
+          <input type="text" name="street" id="street">
+          <label for="city">City:</label>
+          <input type="text" name="city" id="city">
+          <label for="state">State:</label>
+          <select name="state" id="state">
+            <option value="wa">WA</option>
+            <option value="wv">WV</option>
+          </select>
+          <label for="zip">Zip Code:</label>
+          <input type="text" name="zip" id="zip">
+          <p>First Time Adopter?</p>
+          <input type="radio" name="adoption-experience" value="yes" id="yes"><label for="yes">Yes</label>
+          <input type="radio" name="adoption-experience" value="no" id="no"><label for="no">No</label>
+          <label for="pickup-location">Pickup Location:</label>
+          <select name="pickup-location" id="pickup-location">
+            <option value="a">A</option>
+            <option value="b">B</option>
+          </select>
+          <label for="submit"></label>
+          <input class="submit-checkout" type="submit" name="submit" value="Submit" id="submit">
+        </form>
+      </div>
     </main>
     <footer>
       <div class="footer-container">
         <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <nav>
+        <nav class="footer-nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="dogs.html">Dogs</a></li>
+            <li class="nav-with-slash"><a href="index.html">Home</a></li>
+            <li class="nav-with-slash"><a href="dogs.html">Dogs</a></li>
             <li><a href="blog.html">Blog</a></li>
           </ul>
         </nav>
