@@ -59,3 +59,11 @@ h4 {
   color: DarkBlue;
   font-weight: bold;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
