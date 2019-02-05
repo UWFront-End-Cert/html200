@@ -1,16 +1,16 @@
-.container{
+.container {
   padding-left: 7%;
   padding-right: 7%;
   padding-top: 3%;
   padding-bottom: 3%;
 }
-.nav-bar{
+.nav-bar {
   background-color: lightgrey;
   font-size: 1rem;
   color: black;
   height: 25px;
 }
-.nav-list{
+.nav-list {
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -20,21 +20,21 @@
   font-size: 25px;
 }
 
-.nav-list-footer{
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: center;
-  position: relative;
-  font-size: 1rem;
-}
+  .nav-list-footer {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    position: relative;
+    font-size: 1rem;
+  }
 
 li:after {
   content: "/";
   padding-right: 1rem;
   padding-left: 1rem;
 }
-.banner{
+.banner {
   box-sizing: border-box;
   height: 300px;
   background-color: rgb(10,10,10);
@@ -44,7 +44,7 @@ li:after {
   background-repeat: no-repeat;
   color: rgb(141,180,83)
 }
-footer{
+footer {
   box-sizing: border-box;
   height: 260px;
   background-color: rgb(24,60,93);
@@ -55,7 +55,7 @@ footer{
   padding-bottom: 3%;
 }
 
-.container-main{
+.container-main {
   margin-left: 120px;
   margin-right: 120px
 }
@@ -72,32 +72,32 @@ h2 {
   }
 }
 
-.banner-logo{
+.banner-logo {
 vertical-align: top;
 display: inline-block;
 float: left;
 }
 
-.banner-cart{
+.banner-cart {
 vertical-align: top;
 display: inline-block;
 float: right;
 }
 
-.checkout{
+.checkout {
   color: white;
   background-color: rgb(141,180,83)
 }
 
 
-.small-dog-picture{
+.small-dog-picture {
   object-fit: cover;
   object-position: 100% 50%;
   width: 260px;
   height: 160px;
 }
 
-.more-dogs-button{
+.more-dogs-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -112,7 +112,7 @@ float: right;
   text-align: center;
 }
 
-.Adopt{
+.Adopt {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -127,23 +127,23 @@ float: right;
   text-align: center;
 }
 
-.more-dogs-button > a{
-    text-decoration: none;
-}
+  .more-dogs-button > a {
+      text-decoration: none;
+  }
 
-.flexrow{
+.flexrow {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.flexcolumn{
+.flexcolumn {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.dog-tile{
+.dog-tile {
   display: inline-block;
   width: 260px;
   display: flex;
@@ -153,24 +153,24 @@ float: right;
   margin: 10px 10px 10px 10px;
 }
 
-.tile-body > h3{
-  font-size: 1.2EM;
-  color: midnightblue;
-}
+  .tile-body > h3 {
+    font-size: 1.2EM;
+    color: midnightblue;
+  }
 
-.tile-container{
+.tile-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: flex-start;
 }
 
- .tile-body{
+ .tile-body {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.main-intro{
+.main-intro {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -188,22 +188,22 @@ float: right;
   text-align: left;
 } }
 
-.row >.col-100{
-  float: left;
-  width:100%;
-  margin-top: 5px;
-}
-.row >.col-40{
-  float: left;
-  width:40%;
-  margin-top: 5px;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -16px;
 }
+
+  .row >.col-100{
+    float: left;
+    width:100%;
+    margin-top: 5px;
+  }
+  .row >.col-40{
+    float: left;
+    width:40%;
+    margin-top: 5px;
+  }
 
 .col-25 {
   flex: 25%;
@@ -223,13 +223,19 @@ float: right;
   padding: 0 16px;
 }
 
-input {
+input, select {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  font-size: 1.2em;
 }
+
+input [type="radio"] {
+    display: flex;
+    flex-direction: row;
+  }
 
 label {
   margin-bottom: 10px;
