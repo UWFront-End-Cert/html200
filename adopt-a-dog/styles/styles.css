@@ -64,6 +64,8 @@ body {
 }
 
 .adopt-button {
+  display: block;
+  width: 100%;
   font-size: 1rem;
   font-weight: bold;
   font-family: sans-serif;
@@ -114,8 +116,13 @@ nav li a {
   font-weight: bold;
 }
 
+nav ul li:not(:last-child):after {
+  content: "/";
+  padding-left: 2rem;
+}
+
 main {
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 10rem 1rem 10rem;
 }
 
 #main-image {
@@ -175,6 +182,17 @@ h4 {
   width: 100%;
 }
 
+.dog-profile {
+  border: 1px solid gainsboro;
+}
+
+.profile-text {
+  padding-top: 0;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .blog-image {
   float: left;
   width: 25%;
@@ -220,6 +238,15 @@ input, select {
   padding: 10px 15px;
 }
 
+.address {
+  float: left;
+  padding: 10px;
+}
+
+input[type=radio] {
+  display: inline;
+}
+
 input[type="submit"] {
   font-size: 1rem;
   font-weight: bold;
@@ -231,11 +258,20 @@ input[type="submit"] {
   padding: 4px 10px 4px 10px;
 }
 
+.address {
+  display: float;
+  float: left;
+}
+
 label {
   font-family:'Noto Serif', serif;
   font-size: 1.3rem;
   font-weight: bold;
   color: #01094D;
+}
+
+.clear {
+  clear: both;
 }
 
 footer {
@@ -255,11 +291,17 @@ footer ul {
 
 footer li {
   display: inline-block;
-  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 footer li a {
   text-decoration: none;
   font-weight: bold;
   color: white;
+}
+
+footer ul li:not(:last-child):after {
+  content: "/";
+  padding: 0.5rem;
 }
