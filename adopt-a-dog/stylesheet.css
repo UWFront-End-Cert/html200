@@ -28,6 +28,12 @@ a:visited {
   font-size: 17px;
   text-decoration: none;
 }
+.grid-container {
+  padding: 3em 3em 3em 3em;
+  display: grid;
+  grid-column-gap: 5em;
+  grid-row-gap: 5em;
+}
 p {
   font-family: Arial;
 }
