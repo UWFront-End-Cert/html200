@@ -28,7 +28,7 @@ h2 {
 }
 
 
-nav{
+.nav{
   padding: 1rem;
   width: 100%;
 }
@@ -87,4 +87,5 @@ grid-container {
   margin-right: auto;
   width: 100%;
   }
+  
   
