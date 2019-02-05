@@ -3,7 +3,7 @@ nav ul {
   list-style-type: none;
   flex-direction: row;
   background-color: rgb(235,235,235);
-
+  max-height: 10rem;
 }
 
 li::after{
@@ -16,4 +16,30 @@ li:last-child::after{
 
 img {
   max-height: 10rem;
+}
+
+.dog-info-box {
+  max-width: 12rem;
+  border-style: solid;
+  border-color: grey;
+}
+
+#home-description {
+  float: right;
+}
+
+#adopt-button {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  border-radius: 6px;
+  color: white;
+  }
+
+#adopt-button:hover {
+  background-color: white;
+  color: black;
+}
+
+#home-description {
+  max-width: 25rem;
 }
