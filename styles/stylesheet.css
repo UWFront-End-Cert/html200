@@ -188,6 +188,22 @@ input[type="text"], select {
   box-sizing: border-box;
 }
 
+input[type="text2"], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+option[value="wa"], select {
+  width: 10%;
+  padding: 12px 20px;
+
+}
+
 input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
