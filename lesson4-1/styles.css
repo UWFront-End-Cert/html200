@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  outline: 1px dotted red;
+  display: flex;
+}
+
+.ron-tile {
+  outline: 1 px dotted orange; 
+  width: 25%; 
+  margin: 5px 5px 5px;
+}
+
+.ron-tile img {
+  width: 100%;
+}
