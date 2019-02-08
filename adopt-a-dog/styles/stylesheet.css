@@ -69,7 +69,7 @@ nav.main-nav {
 }
 .main-nav li {
   color: #183c5d;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: Bold;
 }
 .main-nav ul {
@@ -228,9 +228,53 @@ button.more-dogs {
   margin: 2% auto;
   max-width: 1000px;
 }
-.checkout-container input {
+.checkout-container h1 {
+  margin: 0 0 40px;
+}
+.checkout-form input {
   display: block;
 }
-.checkout-container label {
+.checkout-form label {
   display: block;
+  margin: 0 0 10px;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.35rem;
+  color: #183c5d;
+}
+.checkout-form input {
+  background-color: lavender;
+  min-width: 300px;
+  width: 65%;
+  height: 50px;
+  margin: 0 0 30px;
+}
+.form-flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  background-color: lightgrey;
+}
+.form-flex input {
+  width: 100%;
+}
+input.city {
+  width: 90%;
+}
+input.zip {
+  min-width: 100px;
+}
+.form-flex div:nth-child(1) {
+  border: 2px solid Gold;
+  width: 50%;
+  min-width: 300px;
+}
+.form-flex div:nth-child(2) {
+  border: 2px solid DodgerBlue;
+  width: 20%;
+  min-width: 100px;
+}
+.form-flex div:nth-child(3) {
+  border: 2px solid Magenta;
+  width: 30%;
+  min-width: 100px;
 }

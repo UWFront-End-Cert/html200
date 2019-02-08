@@ -40,18 +40,28 @@
           <input type="email" name="email" id="email">
           <label for="street">Street Address:</label>
           <input type="text" name="street" id="street">
-          <label for="city">City:</label>
-          <input type="text" name="city" id="city">
-          <label for="state">State:</label>
-          <select name="state" id="state">
-            <option value="wa">WA</option>
-            <option value="wv">WV</option>
-          </select>
-          <label for="zip">Zip Code:</label>
-          <input type="text" name="zip" id="zip">
+          <div class="form-flex">
+            <div>
+              <label for="city">City:</label>
+              <input class="city" type="text" name="city" id="city">
+            </div>
+            <div>
+              <label for="state">State:</label>
+              <select name="state" id="state">
+                <option value="wa">WA</option>
+                <option value="wv">WV</option>
+              </select>
+            </div>
+            <div>
+              <label for="zip">Zip Code:</label>
+              <input class="zip" type="text" name="zip" id="zip">
+            </div>
+          </div>
           <p>First Time Adopter?</p>
-          <input type="radio" name="adoption-experience" value="yes" id="yes"><label for="yes">Yes</label>
-          <input type="radio" name="adoption-experience" value="no" id="no"><label for="no">No</label>
+          <input class="radio" type="radio" name="adoption-experience" value="yes" id="yes">
+          <label class="radio" for="yes">Yes</label>
+          <input class="radio" type="radio" name="adoption-experience" value="no" id="no">
+          <label class="radio" for="no">No</label>
           <label for="pickup-location">Pickup Location:</label>
           <select name="pickup-location" id="pickup-location">
             <option value="a">A</option>
