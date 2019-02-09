@@ -231,7 +231,7 @@
   }
 
   .content {
-    height: 4rem;
+    height: 10rem;
     max-width: 20rem;
     margin: auto;
     background-color: lightgrey;
@@ -245,7 +245,7 @@
   }
 
   .show-more {
-    background: #1594e5;
+    background: lightgrey;
     color: #fff;
     display: block;
     max-width: 1400px;  
