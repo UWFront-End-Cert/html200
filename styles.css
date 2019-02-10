@@ -19,7 +19,6 @@
   }
   
   .nav-bottom {
-  
     background-color: #02214d; 
   }
   
@@ -183,11 +182,9 @@
     box-sizing: border-box;
   }
   
-  
   option[value="wa"], select {
     width: 10%;
     padding: 12px 20px;
-  
   }
   
   input[type=submit] {
@@ -242,4 +239,3 @@
     color: black;
     margin: auto;
   }
-
