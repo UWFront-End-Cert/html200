@@ -7,7 +7,7 @@ function square(number) {
 function square(number1) {
   return number1 * number1
 }
-alert(square(number) + ' '+ square(number1));
+alert(square(number) + ' ' + square(number1));
 
 function myfunction() {
   document.getElementById("demo").style.color = "blue";
