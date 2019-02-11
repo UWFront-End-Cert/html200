@@ -125,7 +125,7 @@ body{
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-   max-width: 1450px;
+  max-width: 1450px;
   margin: auto 0;
 }
 .intro-content{
