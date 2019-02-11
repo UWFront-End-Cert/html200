@@ -1,9 +1,11 @@
-let numberSquared = prompt("Pick a Number to be Squared");
+function showAlert() {
 
-console.log(numberSquared);
+  let numberSquared = prompt("Pick a Number to be Squared");
 
-let changedNumber = Number(numberSquared);
+  let changedNumber = Number(numberSquared);
 
-changedNumber = numberSquared * numberSquared;
+  changedNumber = numberSquared * numberSquared;
 
-alert(changedNumber);
+  console.log(changedNumber);
+
+}
