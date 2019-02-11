@@ -56,3 +56,31 @@ function violetAlert() {
   console.log(violetAlert);
 
 }
+function piperAlert() {
+
+  let piperAlert = alert ('I am Piper. An Irish Setter. You can bring me home for $123.45')
+
+  console.log(piperAlert);
+
+}
+function maximusAlert() {
+
+  let maximusAlert = alert ('I am Maximus. A Schnauzer. You can bring me home for $123.45')
+
+  console.log(maximusAlert);
+
+}
+function lunaAlert() {
+
+  let lunaAlert = alert ('I am Luna. A Golden Lab. You can bring me home for $123.45')
+
+  console.log(lunaAlert);
+
+}
+function stellaAlert() {
+
+  let stellaAlert = alert ('I am Stella. A Chihuahua. You can bring me home for $123.45')
+
+  console.log(stellaAlert);
+
+}
