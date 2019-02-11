@@ -84,3 +84,10 @@ function stellaAlert() {
   console.log(stellaAlert);
 
 }
+
+let total = 0;
+
+function runningTotal() {
+  total = total + 123.45;
+  alert('Your total is $' + total)
+}
