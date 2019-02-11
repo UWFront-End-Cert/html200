@@ -1,5 +1,15 @@
-function myFunction() {
-    document.getElementById('dogProfile').innerHTML = "My name is Murphy. I am border collie. Age: 2. . Loves running and bacon. Adoption cost $125";
+function showMessage() {
+    alert('Welcome to adopt a dog!');
 }
 
-//to display dog profile.
+showMessage();
+
+//to display greetings
+
+function myProfile() {
+     alert('My Name is Murphy. Border Collie. $125');
+
+}
+console.log();
+
+//to display dog name etc
