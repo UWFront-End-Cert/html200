@@ -21,3 +21,24 @@ function jackAlert() {
   console.log(jackAlert);
 
 }
+function duffyAlert() {
+
+  let duffyAlert = alert ('I am Duffy. A pitbull terrier. You can bring me home for $123.45')
+
+  console.log(duffyAlert);
+
+}
+function lucasAlert() {
+
+  let lucasAlert = alert ('I am Lucas. A shepherd mix. You can bring me home for $123.45')
+
+  console.log(lucasAlert);
+
+}
+function jakeAlert() {
+
+  let jakeAlert = alert ('I am Jake. A yellow lab. You can bring me home for $123.45')
+
+  console.log(jakeAlert);
+
+}
