@@ -20,14 +20,14 @@
   font-size: 25px;
 }
 
-  .nav-list-footer {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: center;
-    position: relative;
-    font-size: 1rem;
-  }
+.nav-list-footer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  position: relative;
+  font-size: 1rem;
+}
 
 li:after {
   content: "/";
@@ -112,7 +112,7 @@ float: right;
   text-align: center;
 }
 
-.Adopt {
+.adopt {
   display: block;
   margin-left: auto;
   margin-right: auto;
