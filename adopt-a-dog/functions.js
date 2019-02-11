@@ -42,3 +42,17 @@ function jakeAlert() {
   console.log(jakeAlert);
 
 }
+function angusAlert() {
+
+  let angusAlert = alert ('I am Angus. A beagle. You can bring me home for $123.45')
+
+  console.log(angusAlert);
+
+}
+function violetAlert() {
+
+  let violetAlert = alert ('I am Violet. A beagle. You can bring me home for $123.45')
+
+  console.log(violetAlert);
+
+}
