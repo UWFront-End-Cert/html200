@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Ryan Petersen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopt a Dog - Seattl's Premiere Dog Adoption Agency</title>
+    <title>Adopt a Dog - Seattle's Premiere Dog Adoption Agency</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700|Open+Sans:300,700" rel="stylesheet">
   </head>
@@ -17,7 +17,7 @@
         </div>
         <div class="header-cart">
           <p><img src="images/cart-icon.svg" alt="cart button logo">$1234.56</p>
-          <button>Checkout</button> 
+          <button>Checkout</button>
         </div>
       </div>
     </header>
@@ -45,16 +45,16 @@
       </section>
       <div class="home-grid-container">
         <article class="dog-bio">
-          <img src="images/lucas-ludwig-580293-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Murphy', 'Mutt', '$65')" src="images/lucas-ludwig-580293-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Murphy</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <button>Adopt</button>
+            <button onclick="calcTotal(65)">Adopt</button>
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/jisu-lee-55400-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Poppy', 'Mutt', '$65')" src="images/jisu-lee-55400-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Poppy</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -63,7 +63,7 @@
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Jack', 'Mutt', '$65')" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Jack</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -72,7 +72,7 @@
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/jonathan-daniels-416786-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Duffy', 'Mutt', '$65')" src="images/jonathan-daniels-416786-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Duffy</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -81,7 +81,7 @@
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/duffy-brook-350225-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Lucus', 'Mutt', '$65')" src="images/duffy-brook-350225-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Lucus</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -90,7 +90,7 @@
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/mitchell-orr-237216-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Jake', 'Mutt', '$65')" src="images/mitchell-orr-237216-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Jake</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -99,7 +99,7 @@
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/alicia-gauthier-253619-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Angus', 'Mutt', '$65')" src="images/alicia-gauthier-253619-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Angus</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -108,7 +108,7 @@
           </div>
         </article>
         <article class="dog-bio">
-          <img src="images/kenan-kitchen-1136827-unsplash.jpg" alt="dog available for adoption">
+          <img onclick="dogInformation('Violet', 'Mutt', '$65')" src="images/kenan-kitchen-1136827-unsplash.jpg" alt="dog available for adoption">
           <div class="dog-bio-container">
             <h3>Violet</h3>
             <p><span>Cost to adopt: </span>$123.45</p>
@@ -133,5 +133,6 @@
         <p>&copy; 2018 Adoptadog, LLC | Seattle, WA</p>
       </div>
     </footer>
+    <script src="dog-events.js" charset="utf-8"></script>
   </body>
 </html>
