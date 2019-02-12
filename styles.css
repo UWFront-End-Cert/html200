@@ -30,7 +30,7 @@
   }
   
   .header {
-    width: 100%;
+    width: 94%;
     height: 180px;
     background-color: black;
     color: rgb(11, 230, 11);
@@ -38,6 +38,7 @@
     margin: 1rem;
     box-sizing: content-box;
     font-size: .8rem;
+    padding: 20px;
   }
   
   .header img {
@@ -61,7 +62,7 @@
   }
   
   h2 {
-    width: 60%;
+    width: 50%;
   }
   
   .footer {
@@ -151,8 +152,8 @@
     width: 100%;
   }
   
-  h2 {
-    padding: 1rem;
+  h1 {
+    padding: 2rem;
   }
   
   .form-container {
