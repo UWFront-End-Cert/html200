@@ -301,13 +301,22 @@ footer p {
   font-size: 10px;
   text-indent: 50px;
   text-align: center;
+  /* line-height: 1.6; */
+ padding: 2px 2px; 
 }
 
-footer img {
+/* footer img {
   width: 25%;
   padding-left: 3rem;
   padding-top: 2rem;
-}
+} */
+
+
+.footer-title img{
+  width: 25%;
+  padding-left: 3rem;
+  padding-top: 2rem;
+} 
 
 a {
   color: white;
@@ -319,7 +328,9 @@ footer ul {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  font-size: 9px;
+  font-size: 10px;
+  text-align: center;
+  word-spacing: 30px;
 }
 
 footer li {
