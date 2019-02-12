@@ -51,7 +51,7 @@ h1 {
   display: flex;
   padding-left: 3rem;
   padding-top: 2rem;
-  flex-direction: left;
+  text-align: left;
 }
 
 /*Style Nav*/
@@ -80,8 +80,9 @@ h1 {
   float: left;
 }
 
-/* .main-nav li:not(:last-child):after {
-     content: " /";
+/* 
+.main-nav li:not(:last-child):after {
+  content: " /";
 }
  */
 
@@ -169,13 +170,11 @@ article {
 
 .dog-tile {
   border: 2px solid #f0f0f0;
-  float: center;
   width: 160px;
   text-align: center;
   height: auto;
   margin: 5px;
-  /* min-width: 10rem;
-     */
+  /* min-width: 10rem; */
 }
 
 /*Dog tile details*/
@@ -228,7 +227,7 @@ h6 {
   position: relative;
   width: 90%;
   height: 30px;
-  color: #004466;
+  color: #26466D;
   font-weight: bolder;
   border: none;
   padding: 4px;
