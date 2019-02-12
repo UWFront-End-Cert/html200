@@ -32,6 +32,38 @@ header {
   margin: 15px 35px 25px 35px;
 }
 
+
+/*Header & Shopping cart*/
+
+.checkout button {
+  font-weight: bold;
+  position: absolute;
+  font-size: .8rem;
+  margin: 4px 5px 5px 10px;
+  color: white;
+  top: 6rem;
+  right: 9rem;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  background-color: #7ba428;
+  color: white;
+  border: none;
+  font-weight: bold;
+} 
+
+.shopping-cart{
+  font-size: 1rem;
+  position: absolute;
+  top: 3rem;
+  right: 11.5rem;
+  color: white;
+}
+.fa-shopping-cart{
+  font-size: 2rem;
+}
+
+/*HEADERS H1, H2....*/
+
 /* h1 {
      color: lightgreen;
      font-size: 20px;
@@ -46,11 +78,13 @@ h2 {
   color: #004466;
   margin: 0;
   padding: 10px;
+  font-family: Neuton;
 }
 
 h1 {
   color: #7ba428;
   font-style: italic;
+  font-family: Neuton;
   font-weight: normal;
   font-size: 20px;
   display: flex;
@@ -121,6 +155,7 @@ h1 {
   /* float: left; */
   vertical-align: top;
   line-height: 1.6;
+  font-family: sans-serif;
 }
 
 .clearfix {
@@ -129,6 +164,7 @@ h1 {
 
 .main h3 {
   color: #004466;
+  font-family: Neuton;
 }
 
 /*Style Grid - old style grid*/
@@ -218,6 +254,7 @@ article {
   margin: 4px 5px 5px 10px;
   /* word-wrap: break-word; */
   line-height: 1.6;
+  font-family: sans-serif;
 }
 
 .dog-tile button {
@@ -227,7 +264,9 @@ article {
   color: white;
   margin: 6px;
   border: none;
+  cursor: pointer;
   position: relative;
+  font-family: sans-serif;
   font-weight: bolder;
 }
 
@@ -235,15 +274,17 @@ h5 {
   text-align: left;
   margin: 4px 5px 5px 10px;
   color: #004466;
+  font-family: Neuton;
   font-weight: bolder;
 }
-
-/* h6 {
+ 
+h6 {
   font-weight: bold;
   text-align: left;
   font-size: 9px;
   margin: 4px 5px 5px 10px;
-} */
+  color: white;
+}  
 
 .see-more-button button {
   display: block;
@@ -253,6 +294,7 @@ h5 {
   height: 2rem; 
   color: #26466D;
   font-weight: bolder;
+  cursor: pointer;
   border: none;
   padding: 6px;
   text-align: center;
@@ -284,15 +326,18 @@ h5 {
   font-size: 12px;
   text-align: justify;
   line-height: 1.8;
+  font-family: sans-serif;
 }
 
 .blog-main h3 {
   color: #004466; 
+  font-family: Neuton;
 }
 
 .blog-main h2 {
   color: #004466; 
   margin: 10px;
+  font-family: Neuton;
 }
 
 
@@ -311,6 +356,7 @@ footer p {
   text-align: center;
   /* line-height: 1.6; */
  padding: 2px 2px; 
+ font-family: sans-serif;
 }
 
 /* footer img {
@@ -329,6 +375,7 @@ footer p {
 a {
   color: white;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 footer ul {
