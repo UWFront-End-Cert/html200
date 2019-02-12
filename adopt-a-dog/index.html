@@ -29,12 +29,13 @@
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
+      <div class="container">
       <div class="dog-card">
-        <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Alex the Dog">
+        <img onclick="dogInfo" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Alex the Dog">
         <h2>Alex</h2>
         <h3>Cost to Adopt: $123.45</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-        <button type="button">Adopt</button>
+        <button onclick="adpotTally()" type="button">Adopt</button>
       </div>
       <div class="dog-card">
         <img src="images/alicia-gauthier-253619-unsplash.jpg" alt="Alicia the Dog">
@@ -85,6 +86,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
         <button type="button">Adopt</button>
       </div>
+      </div>
       <button id="moreDogsButton" type="button">See More Dogs</button>
 </div>
 
@@ -98,5 +100,6 @@
     </nav>
     <small>&copy; Copyright 2018, Adopt A Dog, LLC</small>
   </footer>
+  <script src="./js/adopt-a-dog.js"charset="utf-8"type="text/javascript"></script>
   </body>
 </html>
