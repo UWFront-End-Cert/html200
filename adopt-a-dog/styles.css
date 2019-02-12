@@ -230,8 +230,8 @@ h6 {
 /*Style Blog page*/
 
 .blog-img {
-  padding: 5px;
-  width: 34%;
+  padding: 10px;
+  width: 30%;
   height: auto;
   margin: 10px;
   float: left;
@@ -240,13 +240,19 @@ h6 {
 
 .blog-main p {
   display: inline;
-  /* margin: 15px;
-     */
   vertical-align: top;
+  font-size: 10px;
+  padding: 10px;
+  text-align: justify;
 }
 
 .blog-main h3 {
-  color: #004466;
+  color: #004466; 
+}
+
+.blog-main h2 {
+  color: #004466; 
+  margin: 10px;
 }
 
 
