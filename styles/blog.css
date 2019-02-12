@@ -46,75 +46,51 @@ nav li {
   font-family: arial;
   padding-right: 1rem;
 }
-img{
-  width: 100%;
-  height: 7rem;
-}
-.mainpic {
-  width: 45%;
-  height: 45%;
-  margin: 1rem;
-  margin-top: 0;
-}
-.main {
-  display: grid;
-  grid-column-start: span 4;
-  display: flex;
-  justify-content: flex-start;
-  justify-content: space-around;
-}
-.mainwords {
-  display: flex;
-  flex-direction: column;
-  
-}
-.mainwords h2 {
-  margin-bottom: 0;
-  margin-top: 0;
-  color: darkblue;
-}
-.mainwords p {
-  margin-top: 0;
+article h2 {
+    color: darkblue;
+    padding: 1rem;
 }
 main {
-  display: grid;
-  grid-column-gap: 0rem;
-  grid-template-columns: 25% 25% 25% 25%;
-  padding: 0rem;
-  margin: 5rem;
-}
-.item {
-  outline: 1px solid gray;
-  margin: 1rem;
-  padding: .25rem;
-}
-.item img {
-  object-fit: cover;
-}
-.item button {
-  color: white;
-  background-color: green;
-  padding: 1rem;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+	flex-direction: column;
+	
 }
+
+.item {
+  width: 100%;
+  margin: 5px;
+  min-width: 8rem;
+	padding: 1rem;
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
 .item h3 {
   padding: 1rem;
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 0;
-  margin-bottom: 0;  
+	margin-bottom: 0;
+	color: darkblue;
+	
 }
 .item p {
   padding: 1rem;
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 0;
-  margin-bottom: 0;
+	margin-bottom: 0;
+	display: block;
 }
-a button {
-  width: 100%;
-  height: 2rem;
-  color: darkblue;
+.item img {
+  width: 35%;
+  height: 35%;
+	object-fit: cover;
+	float: left;
+	padding-right: 1rem;
 }
 footer {
   background-color: darkblue;
