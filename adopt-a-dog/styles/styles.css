@@ -170,12 +170,14 @@ h4 {
   flex-wrap: wrap;
   flex-direction: row;
   overflow: hidden;
+  /* width: 100%; */
 }
 
 .flex-container div {
   padding: 1.5rem;
   width: 25%;
   font-size: 0.75rem;
+  min-width: 200px;
 }
 
 .flex-container div img {
@@ -245,6 +247,7 @@ input, select {
 
 input[type=radio] {
   display: inline;
+  width: 50%;
 }
 
 input[type="submit"] {

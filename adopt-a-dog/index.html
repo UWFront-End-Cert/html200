@@ -59,33 +59,33 @@
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Murphy</h5></header>
-                <img src="images/murphy.jpg" alt="brown dog with white snout">
+                <img src="images/murphy.jpg" alt="brown dog with white snout" onclick="dogInfo('Murphy', 'Mutt', '123.45')">
                 <section class="profile-text">
                   <h2>Murphy</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <a href="#" class="adopt-button">Adopt</a>
+                  <button class="adopt-button" onclick="dogCost(123.45)">Adopt</button>
                 </section>
              </section>
             </div>
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Poppy</h5></header>
-                <img src="images/poppy.jpg" alt="small white dog">
+                <img src="images/poppy.jpg" alt="small white dog" onclick="dogInfo('Poppy', 'Terrier', '123.45')">
                 <section class="profile-text">
                   <h2>Poppy</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <a href="#" class="adopt-button">Adopt</a>
+                  <button class="adopt-button" onclick="dogCost(123.45)">Adopt</button>
                 </section>
               </section>
             </div>
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Jack</h5></header>
-                <img src="images/jack.jpg" alt="small brown and white dog looking up">
+                <img src="images/jack.jpg" alt="small brown and white dog looking up" onclick="dogInfo('Jake', 'Beagal', '123.45')">
                 <section class="profile-text">
                   <h2>Jack</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -98,7 +98,7 @@
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>duffy</h5></header>
-                <img src="images/duffy.jpg" alt="short haired brown and white dog">
+                <img src="images/duffy.jpg" alt="short haired brown and white dog" onclick="dogInfo('Duffy', 'Boxer', '123.45')">
                 <section class="profile-text">
                   <h2>Duffy</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -111,7 +111,7 @@
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Lucas</h5></header>
-                <img src="images/lucas.jpg" alt="black dog looking up">
+                <img src="images/lucas.jpg" alt="black dog looking up" onclick="dogInfo('Lucas', 'German Shepherd', '123.45')">
                 <section class="profile-text">
                   <h2>Lucas</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -124,7 +124,7 @@
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Jake</h5></header>
-                <img src="images/jake.jpg" alt="golden dog on beach">
+                <img src="images/jake.jpg" alt="golden dog on beach" onclick="dogInfo('Jake', 'Golden Retriever', '123.45')">
                 <section class="profile-text">
                   <h2>Jake</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -137,7 +137,7 @@
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Alicia</h5></header>
-                <img src="images/alicia.jpg" alt="tiny brown dog">
+                <img src="images/alicia.jpg" alt="tiny brown dog" onclick="dogInfo('Alicia', 'Chihuahua', '123.45')">
                 <section class="profile-text">
                   <h2>Alicia</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -150,7 +150,7 @@
             <div>
               <section class="dog-profile">
                 <header><h5 hidden>Violet</h5></header>
-                <img src="images/violet.jpg" alt="fluffy dog with tongue out">
+                <img src="images/violet.jpg" alt="fluffy dog with tongue out" onclick="dogInfo('Violet', 'Chocolate Labrador', '123.45')">
                 <section class="profile-text">
                   <h2>Violet</h2>
                   <p><strong>Cost to adopt:</strong> $123.45</p>
@@ -180,5 +180,6 @@
         </ul>
         <p>&copy; Adoptadog, LLC | Seattle, WA</p>
       </footer>
+      <script src="./adoptadog.js" charset="utf-8"></script>
     </body>
   </html>
