@@ -87,9 +87,9 @@ h1 {
  */
 
 .main {
-  border: 3px solid white;
+  /* border: 3px solid white; */
   padding: 5px;
-  margin: 5px;
+  margin: 0;
 }
 
 .main-img {
@@ -250,13 +250,19 @@ h6 {
 
 /*Style Blog page*/
 
+.blog-main {
+  /* border: 3px solid white; */
+  padding: 5px;
+  margin: 0;
+}
+
 .blog-img {
   padding: 10px;
   width: 30%;
   height: auto;
   margin: 10px;
-  /* float: left; */
-  display: inline-block;
+  float: left;
+  /* display: inline-block; */
   overflow: hidden;
   object-fit: cover;
 } 
