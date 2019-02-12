@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8">
+    <style>
+      .button {
+        background-color: #000000;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 4px 10px;
+        cursor: pointer;
+        border-radius: 7px;
+      }
+
+      p {
+        margin: 15px 10px;
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Click below to find a square of the number:</p>
+    <button class="button" onclick="square()">Click me</button>
+    <!-- <p id="output"></p> -->
+    <script>
+        function square() {
+          let num1 = prompt('Enter the first number: ');
+          let num2 = prompt('Enter the second number: ');
+          alert("Square of " + num1 + " = " + num1 * num1 + "\nSquare of " + num2 + " = " + num2 * num2);
+          // let num = prompt('Enter the number: ');
+          // let num_square = num * num;
+          // document.getElementById("output").innerHTML = num + " * " + num + " = " + num_square;
+        }
+    </script>
+    <script src="" charset="utf-8"></script>
+  </body>
+</html>
