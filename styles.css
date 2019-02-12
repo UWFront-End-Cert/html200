@@ -233,6 +233,7 @@
     background-color: lightgrey;
     display: flex;
     margin: auto;
+    border-radius: 10px;
   }
 
   .center-me {
