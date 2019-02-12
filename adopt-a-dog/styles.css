@@ -92,6 +92,8 @@ h1 {
   margin: 10px;
   float: left;
   display: inline-block;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .main p {
@@ -99,6 +101,7 @@ h1 {
   /* margin: 15px;
      */
   vertical-align: top;
+  line-height: 1.6;
 }
 
 .main h3 {
@@ -167,7 +170,7 @@ article {
 .dog-tile {
   border: 2px solid #f0f0f0;
   float: center;
-  width: 180px;
+  width: 160px;
   text-align: center;
   height: auto;
   margin: 5px;
@@ -178,8 +181,12 @@ article {
 /*Dog tile details*/
 
 .dog-tile img {
+  /* width: 100%;
+  height: 5rem; */
   width: 100%;
   height: 5rem;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .dog-tile p {
@@ -187,8 +194,8 @@ article {
   text-align: left;
   padding: 1px;
   margin: 4px 5px 5px 10px;
-  /* word-wrap: break-word;
-     */
+  /* word-wrap: break-word; */
+  line-height: 1.6;
 }
 
 .dog-tile button {
@@ -197,6 +204,7 @@ article {
   background-color: #7ba428;
   color: white;
   margin: 6px;
+  border: none;
   position: relative;
   font-weight: bolder;
 }
@@ -236,14 +244,16 @@ h6 {
   margin: 10px;
   float: left;
   display: inline-block;
-}
+  overflow: hidden;
+  object-fit: cover;
+} 
 
 .blog-main p {
   display: inline;
   vertical-align: top;
-  font-size: 10px;
-  padding: 10px;
+  font-size: 12px;
   text-align: justify;
+  line-height: 1.8;
 }
 
 .blog-main h3 {
