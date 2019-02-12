@@ -28,11 +28,77 @@ a:visited {
   font-size: 17px;
   text-decoration: none;
 }
-.grid-container {
+/*.grid-container {
   padding: 3em 3em 3em 3em;
   display: grid;
   grid-column-gap: 5em;
   grid-row-gap: 5em;
+}*/
+.grid-container {
+  width: 100%;
+  /*outline: 1px dotted red;*/
+  display: flex;
+  flex-wrap: wrap;
+}
+.Murphy {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Poppy {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Jack {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Duffy {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Lucas {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Jake {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Angus {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Violet {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Piper {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Maximus {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Luna {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
+}
+.Stella {
+  outline: 2px solid lightgray;
+  width: 25%;
+  margin: 15px;
 }
 p {
   font-family: Arial;
@@ -41,4 +107,7 @@ footer {
   width: 100%;
   height: 400px;
   background-color: #003399;
+}
+.profile {
+  width: 100%;
 }
