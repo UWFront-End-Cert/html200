@@ -2,44 +2,71 @@ nav ul {
   display: flex;
   list-style-type: none;
   flex-direction: row;
-  background-color: rgb(235,235,235);
-  max-height: 10rem;
 }
 
-adopt-a-dog-logo.img{
+div.nav-bar {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  background-color: rgb(235,235,235);
+  max-height: 15rem;
+}
+
+#check-out {
+  float: right;
+  padding-top: 20rem;
+  margin: 8rem;
+}
+
+div.adopt-home-description {
+  max-width: 100%;
+}
+
+adopt-a-dog-logo.img {
   padding-top: 5%;
+}
+
+img#man-hugging {
+  padding-top: 2rem;
+  max-width: 20rem;
+  max-height: 20rem;
 }
 
 body{
   max-width: 100%;
 }
 
-#site-heading{
-  color: green;
+#site-heading {
+  color: rgb(142, 205, 0);
+  font-style: italic;
+  padding-bottom: 7rem;
+  padding-left: 5rem;
+  border: 0;
+  margin: 0;
 }
-li::after{
+li::after {
   content: " /";
 }
 
-li:last-child::after{
+li:last-child::after {
     content: " ";
   }
 
-.dog-header-image{
+.dog-header-image {
   background-image: url(../images/christopher-harris-57366-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
 }
 
-header img{
-  max-height: 7rem;
+header img {
+  padding-top: 2.5rem;
+  padding-left: 5rem;
 }
 
-.adopt-a-dog-logo img {
+img.adopt-a-dog-logo {
   max-height: 10rem;
-  width: 10rem;
-  padding-top: 0.5rem;
+  width: 25rem;
 }
 
 .dog-info img {
@@ -62,7 +89,10 @@ header img{
 }
 
 #home-description {
+  max-width: 35rem;
+  padding-right: 22rem;
   float: right;
+  clear: both;
 }
 
 #adopt-button {
@@ -76,8 +106,4 @@ header img{
 #adopt-button:hover {
   background-color: white;
   color: black;
-}
-
-#home-description {
-  max-width: 25rem;
 }
