@@ -12,15 +12,24 @@ let dogDescr;
 let dogPrice = 123.45;
 let checkoutTotal = 0;
 
-// Checkout Total - dogAdd
+// Checkout Total: adding the totals of each dog when button is clicked
 
 function dogAdd(click_id) {
   checkoutTotal = dogPrice + checkoutTotal;
-  alert("Your total cost is " + '$' + checkoutTotal);
+  alert('Your total cost is' + '$' + checkoutTotal);
+}
+
+//Alert - dog info hmmmmmmmmmmm :/
+
+function dogInfo(click.img) {
+  alt = dogInfo;
+ alert('Information ' + alt);
 }
 
 
 
-//Alert - dog info 
 
-// alert('Name: ' + dogName + ' is ' + dogDescr + ' and ' + dogBreed + ' $ ' + dogPrice );
+
+// my side note/idea: later on change the totals of each dog so they are all different $$ 
+
+//'Name: ' + dogName + ' is ' + dogDescr + ' and ' + dogBreed + ' $ ' + dogPrice

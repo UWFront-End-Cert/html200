@@ -236,6 +236,10 @@ article {
   /* min-width: 10rem; */
 }
 
+.dog-tile img:hover {
+  cursor: pointer;
+}
+
 /*Dog tile details*/
 
 .dog-tile img {
