@@ -88,15 +88,16 @@ h1 {
 
 .main {
   /* border: 3px solid white; */
-  padding: 5px;
-  margin: 0;
+  padding: 10px;
+  margin: 5px;
+  line-height: 1.6;
 }
 
 .main-img {
   padding: 10px;
   width: 34%;
   height: auto;
-  margin: 10px;
+  margin: 5px;
   float: left;
   /* display: inline-block; */
   overflow: hidden;
@@ -116,7 +117,7 @@ h1 {
 
 .clearfix {
   overflow: auto;
-}
+} 
 
 .main h3 {
   color: #004466;
@@ -229,23 +230,25 @@ h5 {
   font-weight: bolder;
 }
 
-h6 {
+/* h6 {
   font-weight: bold;
   text-align: left;
   font-size: 9px;
   margin: 4px 5px 5px 10px;
-}
+} */
 
 .see-more-button button {
+  display: block;
   background-color: #f0f0f0;
   position: relative;
   width: 90%;
-  height: 30px;
+  height: 2rem; 
   color: #26466D;
   font-weight: bolder;
   border: none;
-  padding: 4px;
+  padding: 6px;
   text-align: center;
+  margin: 0 auto;
 }
 
 /*Style Blog page*/
