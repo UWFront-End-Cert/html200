@@ -86,23 +86,36 @@ h1 {
 }
  */
 
-.main-img {
+.main {
+  border: 3px solid white;
   padding: 5px;
+  margin: 5px;
+}
+
+.main-img {
+  padding: 10px;
   width: 34%;
   height: auto;
   margin: 10px;
   float: left;
-  display: inline-block;
+  /* display: inline-block; */
   overflow: hidden;
   object-fit: cover;
 }
 
 .main p {
   display: inline;
-  /* margin: 15px;
-     */
+  /* margin: 15px;*/
+  padding: 5px;
+  margin: 2px;
+  font-size: 12px;
+  /* float: left; */
   vertical-align: top;
   line-height: 1.6;
+}
+
+.clearfix {
+  overflow: auto;
 }
 
 .main h3 {
@@ -161,11 +174,12 @@ article {
 
 .grid-container {
   display: grid;
-  grid-gap: 2px;
-  grid-column-gap: 2px;
+  grid-gap: 15px 15px;
+  /* grid-column-gap: 1px; */
   grid-template-columns: auto auto auto auto;
   background-color: white;
   padding: 10px;
+  justify-content: space-evenly;
 }
 
 .dog-tile {
@@ -241,7 +255,7 @@ h6 {
   width: 30%;
   height: auto;
   margin: 10px;
-  float: left;
+  /* float: left; */
   display: inline-block;
   overflow: hidden;
   object-fit: cover;
