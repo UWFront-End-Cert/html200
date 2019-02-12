@@ -6,6 +6,17 @@ nav ul {
   max-height: 10rem;
 }
 
+adopt-a-dog-logo.img{
+  padding-top: 5%;
+}
+
+body{
+  max-width: 100%;
+}
+
+#site-heading{
+  color: green;
+}
 li::after{
   content: " /";
 }
@@ -14,16 +25,21 @@ li:last-child::after{
     content: " ";
   }
 
-header{
+.dog-header-image{
   background-image: url(../images/christopher-harris-57366-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 header img{
-  max-height: 20rem;
-  z-index: 0;
+  max-height: 7rem;
 }
-img {
+
+.adopt-a-dog-logo img {
   max-height: 10rem;
+  width: 10rem;
+  padding-top: 0.5rem;
 }
 
 .dog-info img {
