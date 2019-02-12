@@ -12,7 +12,15 @@ let dogDescr;
 let dogPrice = 123.45;
 let checkoutTotal = 0;
 
+// Checkout Total - dogAdd
+
+function dogAdd(click_id) {
+  checkoutTotal = dogPrice + checkoutTotal;
+  alert("Your total cost is " + '$' + checkoutTotal);
+}
+
+
 
 //Alert - dog info 
 
-alert('Name: ' + dogName + ' is ' + dogDescr + ' and ' + dogBreed + ' $ ' + dogPrice );
+// alert('Name: ' + dogName + ' is ' + dogDescr + ' and ' + dogBreed + ' $ ' + dogPrice );
