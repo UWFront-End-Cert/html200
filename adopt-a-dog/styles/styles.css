@@ -12,7 +12,7 @@ body {
 .page-container {
   height: 100%;
   margin: 0 auto;
-  }
+}
 
 .header {
   background-image: url(../images/christopher-harris-57366-unsplash.jpg);
@@ -67,7 +67,6 @@ h1 {
   color: #2F425F;
   font-family: serif;
   margin-left: 1rem;
-
 }
 
 li {
@@ -78,11 +77,11 @@ li {
 li:after {
   content: " / ";
   padding: 1rem;
-
 }
+
 li:last-child:after {
     content: " ";
-  }
+}
 
 /* HOMEPAGE */
 .blog-style {
@@ -107,24 +106,28 @@ li:last-child:after {
 
 /* BOX CONTENT */
 .boxes {
+  /* outline: 1px dotted red; */
   display: flex;
   flex-wrap: wrap;
   margin: 1rem;
+  width: 100%;
 }
 
 .dog-box {
   margin: 1rem;
   padding-bottom: 1rem;
   max-width: 250px;
+  min-width: 200px;
   border: 1px solid lightgrey;
   text-align: left;
   font-size: 9px;
 }
+
 .box-text {
   margin: .5rem;
 }
 
-.responsive {
+.dog-box img {
   object-fit: cover;
   width: 100%;
 	height: auto;
@@ -132,42 +135,31 @@ li:last-child:after {
   padding: 0;
 }
 
-.cta {
+.dog-box button {
   background: #8fc518;
   color: white;
-  margin: 2rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  width: 100%;
   text-decoration: none;
   border-radius: 1px;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
   font-weight: bold;
   font-size: 10px;
  }
 
- .white-cta {
-  display: flex;
-  justify-content: center;
+.button {
+  text-align: center;
 }
 
-.white-cta-link {
+ .white-cta button {
   background-color: #f0f0f0;
   color: #19466aff;
-  padding-left: 3rem;
-  padding-right: 3rem;
   text-decoration: none;
-  border-radius: 1px;
-  padding-top: .25rem;
-  padding-bottom: .25rem;
+  padding-top: .25rem 0 .25rem 0;
   font-weight: bold;
   font-size: 14px;
-  text-align: center;
   font-family: serif;
-  width: 15%;
-  margin-bottom: 1rem;
+  width: 20%;
+  margin: 1rem;
  }
-
 
 /* CHECKOUT */
 .form {
@@ -180,7 +172,7 @@ input, option, textarea {
   width: 50%;
   padding: 1rem;
   position: relative;
-  }
+}
 
 label {
   color: #2F425F;
@@ -220,6 +212,7 @@ select {
   padding: 2rem;
   margin: 1rem;
 }
+
 /* FOOTER */
 .footer {
   background-color: #19466aff;
