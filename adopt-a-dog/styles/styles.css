@@ -14,14 +14,35 @@ li:last-child::after{
     content: " ";
   }
 
+header{
+  background-image: url(../images/christopher-harris-57366-unsplash.jpg);
+}
+
+header img{
+  max-height: 20rem;
+  z-index: 0;
+}
 img {
   max-height: 10rem;
 }
 
-.dog-info-box {
-  max-width: 12rem;
-  border-style: solid;
-  border-color: grey;
+.dog-info img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  outline: 1px dotted red;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dog-info {
+  outline: 1px dotted orange;
+  width: 24%;
+  margin: 5px;
+  min-width: 18.75rem;
 }
 
 #home-description {
@@ -33,6 +54,7 @@ img {
   border-color: #4CAF50;
   border-radius: 6px;
   color: white;
+  width: 100%;
   }
 
 #adopt-button:hover {
