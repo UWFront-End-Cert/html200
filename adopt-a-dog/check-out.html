@@ -5,8 +5,10 @@
     <title>Adopt A Dog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styling/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+    <script src="./script/javascript.js"> </script>
   </head>
-  <body>
+  <body onload = " webpageOnLoad() ">
     <header>
         <div class="page-banner">
            <div class="page-banner-title">
@@ -16,7 +18,7 @@
            <div class="page-banner-Link">
             <img src="images/cart-icon.svg" alt="Shopping icon" class="shopping-icon">
             <div class="banner-price">
-              <p>$1234.56</p>
+              <p id = "cartAmount">$0.00</p>
             </div>
             <form  action="check-out.html">
               <input type="submit" class="checkout-button-top" value="Checkout">
@@ -41,34 +43,26 @@
             <input type="email" name="email-add" tabindex="2">
             <label>Street address</label>
             <input type="text" name="street-add" tabindex="3">
-            <div class="form-multi-content" >
-              <div class="form-sub">
-                <label class="broad-label">City</label>
-                <input type="text" name="city-name" tabindex="4">
-              </div>
-              <div class="form-sub">
-                <label class="broad-label">State</label>
-                <select name="state-list" tabindex="5">
-                  <option value="wa">Washington</option>
-                  <option value="or">Oregon</option>
-                  <option value="ca">California</option>
-                  <option value="tx">Texas</option>
-                  <option value="va">Virginia</option>
-                  <option value="fl">Florida</option>
-                </select>
-              </div>
-              <div class="form-sub" >
-                <label class="broad-label">Zip Code</label>
-                <input type="text" name="zip-code" tabindex="6">
-              </div>
-            </div>
+            <label class = "label-inline">City</label>
+            <label class = "label-inline">State</label>
+            <label class = "label-inline">Zip Code</label>
+            <input type="text" class = "input-inline" name="city-name" tabindex="4">
+            <select name="state-list" tabindex="5" class = "select-inline">
+              <option value="wa">Washington</option>
+              <option value="or">Oregon</option>
+              <option value="ca">California</option>
+              <option value="tx">Texas</option>
+              <option value="va">Virginia</option>
+              <option value="fl">Florida</option>
+            </select>
+            <input type="text" name="zip-code" tabindex="6" class = "input-inline">
+            <!--*********************************-->
             <label>First Time Adopter?</label>
-            <div class="form-multi-content-radio">
-              <input type="radio" name="adopter" value="yes" checked tabindex="6">
-              <label> YES </label>
-              <input type="radio" name="adopter" value="no" tabindex="7">
-              <label > NO </label>
-            </div>
+            <input type="radio" name="adopter" value="yes" checked tabindex="6" class = "input-inline-small">
+            <label class = "label-inline-small"> YES </label>
+            <input type="radio" name="adopter" value="no" tabindex="7" class = "input-inline-small">
+            <label class = "label-inline-small" > NO </label>
+
             <label>Pickup Location</label>
             <select name="pickup-list" tabindex="8">
               <option value="seattle">Seattle</option>
@@ -77,16 +71,13 @@
               <option value="kirkland">Kirkland</option>
             </select>
             <label>Dogs Adopted</label>
-            <div class="form-multi-content-dog">
-              <img src="images/tucker-good-589776-unsplash.jpg" alt="lucas image" class="adopted-dog-img">
-              <div class="form-sub-dogs">
-                <p> Lucas <p>
-                <p>Cost of Adoption : $123.45</p>
-              </div>
-            </div>
-            <label>Total Adoption Cost</label>
-            <p>$123.45</p>
-            <input type="submit" class="checkout-button" value="Submit" tabindex="9">
+            <img src="images/tucker-good-589776-unsplash.jpg" alt="lucas image" class="adopted-dog-img">
+            <p class="adopted-dog-name"> Lucas <p>
+            <p class="adopted-dog-price">Cost of Adoption : $123.45</p>
+
+            <p class="adoption-title">Total Adoption Cost</p>
+            <p class="price" id="finalPrice">$123.45</p>
+            <input type="submit" class="checkout-button" value="Submit" tabindex="9" onclick="thankYou()">
         </form>
       </div>
     </main>

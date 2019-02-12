@@ -3,15 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   background-color: #e6e6e6;
   width : 100%;
-  max-width: 1450px;
-  min-width: 500px;
 }
+
 /****** Header ******/
-.page-banner
-{
+.page-banner {
   background-image: url("../images/christopher-harris-57366-unsplash.jpg");
   background-size: 100% 500px;
   background-repeat: no-repeat;
@@ -19,20 +18,24 @@ body{
   color: white;
   height: 300px;
   width: 100%;
+  min-width: 200px;
   padding: 10px;
   display : flex;
   align-items :center;
 }
-.page-banner-title{
+
+.page-banner-title {
   padding-left: 30%;
 }
-.page-banner-title h1{
+
+.page-banner-title h1 {
   color: #4d9900;
   font-size: 1.5rem;
   position: absolute;
   left: 8%;
   top: 150px;
-  }
+}
+
 .logo-top{
  width: 30%;
  height: 15%;
@@ -43,8 +46,8 @@ body{
  left: 100px;
  top: 20px;
 }
-.shopping-icon
-{
+
+.shopping-icon {
  width: 5%;
  min-width: 0.8rem;
  height: 1.5rem;
@@ -52,15 +55,16 @@ body{
  top: 30px;
  right: 180px;
 }
-.banner-price{
+
+.banner-price {
  font-size: 1rem;
  color: white;
  position: absolute;
  top: 35px;
  right: 120px;
 }
-.checkout-button-top
-{
+
+.checkout-button-top {
  background-color: #66cc00;
  outline: none;
  border: none;
@@ -74,12 +78,20 @@ body{
  top: 55px;
  right: 80px;
 }
-/* Banner Navigation*/
-.nav-bar-container{
+
+.checkout-button-top:hover {
+  background-color: grey;
+
+}
+
+/************** Banner Navigation************/
+
+.nav-bar-container {
   width : 100%;
   padding-left: 15%;
 }
-.nav-bar{
+
+.nav-bar {
   padding: 0.5rem;
   width: 40%;
   display: flex;
@@ -87,21 +99,25 @@ body{
   justify-content: start;
   list-style-type: none;
 }
-.nav-bar li::after{
+
+.nav-bar li::after {
   padding-left: 20px;
   padding-right: 20px;
   content: "/";
 }
-.nav-bar li:last-child::after{
+
+.nav-bar li:last-child::after {
   content: "";
 }
-.nav-bar li a{
+
+.nav-bar li a {
   text-decoration : none;
   color: #003366;
   font-size: 1.2rem;
   font-weight: bold;
 }
-.wrapper{
+
+.wrapper {
   background-color: white;
   width: 100%;
   max-width: 1450px;
@@ -111,97 +127,109 @@ body{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.page-title{
-  font-size: 2rem;
-  color: #003366;
+
+.page-title {
+  font-size : 2rem;
+  color : #003366;
 }
-/* article = Introduction*/
-.hugging-img{
-  width:15rem;
-  height: 15rem;
-}
-.intro{
+
+/************ article = Introduction*************/
+
+.intro {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  max-width: 1450px;
   margin: auto 0;
 }
-.intro-content{
+
+.hugging-img {
+  min-width: 10rem;
+  width : 25%;
+  height : 18rem;
+}
+
+.intro-content {
   display: flex;
   flex-direction: column;
   width: 70%;
-  padding-left: 30px;
+  padding-left: 20px;
 }
-.intro-content p{
+
+.intro-content p {
   font-size: 1.3rem;
   align-self: center;
   font-family: 'Noto Sans SC', sans-serif;
 }
+
 /* picture flex ----Dogs HTML*/
+
 .picture-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content:space-around;
   width: 100%;
+  min-width: 400px;
   margin: auto 0;
   margin-top: 15px;
 }
-.dog-info{
-  width :12rem;
-  height : 23rem;
-  display: flex;
-  flex-direction: column;
-  align-items:flex-start;
-  justify-content: space-around;
-  padding-left: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+
+.dog-info {
+  width: 22%;
+  min-width: 200px;
+  margin-right: 1%;
+  margin-left: 1%;
   margin-bottom: 1.8rem;
   margin-top: 1.8rem;
   border: 1px solid #e6e6e6;
 }
-.dog-img{
-width: 12rem;
-height: 7rem;
+
+.dog-img {
+width: 100%;
+min-width: 200px;
+height: 9rem;
 }
-.dog-info > h3{
+
+.dog-info > h3 {
   color: #003366;
+  margin-top: 0.2rem;
+  padding-left: 10px;
 }
-.dog-info > h5{
+
+.dog-info > h5 {
+  margin-top: 0.2rem;
+  padding-left: 10px;
   font-size: 0.7rem;
   font-family: 'Noto Sans SC', sans-serif;
 }
-.dog-info > p{
+
+.dog-info > p {
+  margin-top: 0.2rem;
+  padding-left: 10px;
   font-size: 0.7rem;
   font-family: 'Noto Sans SC', sans-serif;
 }
-.checkout-button
-{
+
+.checkout-button {
   background-color: #66cc00;
   color: white;
-  width: 8rem;
+  width: 60%;
   height: 1.5rem;
-  margin-left:  25px;
-  outline: none;
-  border: none;
-  padding: 3px;
-}
-.checkout-button
-{
-  background-color: #66cc00;
-  color: white;
-  width: 8rem;
-  height: 1.5rem;
-  margin-left:  25px;
+  margin-top: 0.7rem;
+  margin-left: 20%;
+  margin-bottom: 0.5rem;
   outline: none;
   border: none;
   padding: 3px;
   font-size: 1rem;
 }
-.grey-button
-{
+
+.checkout-button:hover {
+  background-color: #408000;
+}
+
+.grey-button {
   background-color: grey;
   color: white;
   width:10rem;
@@ -212,8 +240,14 @@ height: 7rem;
   margin-right: auto;
   display: block;
 }
-/***** footer *****/
-footer{
+
+.grey-button:hover {
+  background-color: black;
+}
+
+/****** footer *******/
+
+footer {
   width: 100%;
   height: 25rem;
   display: flex;
@@ -223,7 +257,8 @@ footer{
   background-color: #004466;
   color: white;
 }
-.footer-wrapper{
+
+.footer-wrapper {
   width: 100%;
   height: 18rem;
   display: flex;
@@ -231,17 +266,20 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
-.logo-bottom{
+
+.logo-bottom {
  width: 50%;
  height: 30%;
  max-width: 20rem;
  min-width: 5rem;
  align-self: center;
  }
-.nav-footer-container{
+
+.nav-footer-container {
   width : 100%;
 }
-.nav-footer{
+
+.nav-footer {
   padding: 0.5rem;
   width: 100%;
   display: flex;
@@ -249,32 +287,39 @@ footer{
   justify-content:center;
   list-style-type: none;
 }
-.nav-footer li::after{
+
+.nav-footer li::after {
   padding-left: 20px;
   padding-right: 20px;
   content: "/";
 }
-.nav-footer li:last-child::after{
+
+.nav-footer li:last-child::after {
   content: "";
 }
-.nav-footer li a{
+
+.nav-footer li a {
   text-decoration : none;
   color: white;
   font-size: 1rem;
 }
-.footer-text{
+
+.footer-text {
   height: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-/* blog Web-pages */
-.blog-img{
+
+/******** blog Web-pages ************/
+
+.blog-img {
   width: 20rem;
   height: 15rem;
 }
-.blog-topic{
+
+.blog-topic {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -283,110 +328,139 @@ footer{
   margin-top: 40px;
   margin-bottom: 60px;
 }
-.blog-content{
+
+.blog-content {
   display: flex;
   flex-direction: column;
   width: 60%;
   padding-left: 30px;
 }
-.blog-content p{
+
+.blog-content p {
   font-size: 1rem;
   align-self: center;
   font-family: 'Noto Sans SC', sans-serif;
 }
-.blog-content h3{
-font-size: 1.6rem;
-color: #003366;
-margin-bottom: 20px;
+
+.blog-content h3 {
+  font-size: 1.6rem;
+  color: #003366;
+  margin-bottom: 20px;
 }
-/* Checkout Form */
-.checkout-form{
-  width: 60%;
-  height: 45rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+/********** Checkout Form *************/
+.checkout-form {
+  width: 80%;
   padding: 20px;
 }
-.form-multi-content{
-  width: 100%;
-  display: flex;
-  justify-content:space-between;
-}
-.form-multi-content-radio{
-  width: 50%;
-  display: flex;
-}
-.form-multi-content-radio input{
-  width : 10%;
-  padding: 0;
-  min-width: 50px;
-}
-.form-multi-content-radio label{
-  width : 10%;
-  padding: 0;
-  min-width: 50px;
-}
-.form-sub{
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-start;
-}
-.form-multi-content-dog{
-  width : 40%;
-  display: flex;
-  justify-content: space-between;
-}
-.form-sub-dogs{
-  display: flex;
-  flex-direction: column;
-}
-.form-sub-dogs p:first-child   {
-  color: #003366;
-  font-size: 1.6rem;
-}
-.form-sub-dogs p:last-child{
-  color:  #666666;
-  font-size: 0.8rem;
-}
-.checkout-form p{
-  font-size: 1.5rem;
-}
-label{
+
+label {
   width: 40%;
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   min-width: 100px;
-  max-width: 500px;
+  max-width: 1500px;
   font-size: 1.2rem;
   color: #003366;
   font-weight: bold;
 }
-input{
+
+input {
   width: 80%;
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   min-width: 100px;
-  max-width: 500px;
+  max-width: 1500px;
   border: 1px black solid;
   font-size: 1.2rem;
   padding: 6px;
   border: 1px  #cccccc solid;
 }
-select{
+
+select {
   width: 40%;
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   font-size: 1rem;
   padding: 8px;
   border: 1px  #cccccc solid;
 }
-.form-sub > label{
-  width: 90%;
+
+.label-inline {
+  display: inline-block;
+  width: 30%;
 }
-.form-sub > select{
-  width: 90%;
+
+.input-inline {
+  display: inline-block;
+  width: 30%;
 }
-.form-sub > input{
-  width: 90%;
+
+.select-inline {
+  display: inline-block;
+  width: 30%;
 }
-.adopted-dog-img
-{
-  width:5rem;
-  height:4.5rem;
+
+.label-inline-small {
+  display: inline-block;
+  min-width: 40px;
+  max-width: 100px;
+  width: 5%;
+}
+
+.input-inline-small {
+  display: inline-block;
+  min-width: 40px;
+  max-width: 100px;
+  width: 5%;
+}
+
+.adopted-dog-img {
+  display: inline-block;
+  float: left;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  width : 15%;
+  height: 4.5rem;
+  min-width: 4.5rem;
+  max-width: 15rem;
+}
+
+.adopted-dog-name {
+  display: inline-block;
+  width: 40%;
+  margin-top: 0.75rem;
+  color: #003366;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+
+.adopted-dog-price {
+  display: inline-block;
+  width: 40%;
+  margin-top: 1rem;
+  color:  #666666;
+  font-size: 0.8rem;
+  margin-left: 20px;
+}
+
+.adoption-title{
+  clear: both;
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  width: 40%;
+  font-size: 1.2rem;
+  color: #003366;
+  font-weight: bold;
+}
+
+.price {
+  display: block;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
 }
