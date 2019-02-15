@@ -24,3 +24,11 @@
 // alert(name + " has been driving for " + driveCalculator + " years!");
 //
 // ---
+
+function squareANumber(num) {
+  num = prompt('Enter a number')
+  squaredNum = num*num;
+  alert(squaredNum);
+}
+
+squareANumber();
