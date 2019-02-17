@@ -1,10 +1,21 @@
-let enterNumber = prompt("Enter a number");
+// ------------ This is the code I submitted
+// let enterNumber = prompt("Enter a number");
+//
+// let value = Number(enterNumber);
+//
+// var btn = document.querySelector('button');
+//
+// btn.onclick = function() {
+//   let valueSquared = value * value;
+//   alert("Your number squared = " + valueSquared);
+// }
 
-let value = Number(enterNumber);
+// -------------This is the code we did in class
+let num = prompt("Enter a number");
 
-var btn = document.querySelector('button');
-
-btn.onclick = function() {
-  let valueSquared = value * value;
-  alert("Your number squared = " + valueSquared);
+function squareANumber(numberToSquare) {
+  let squaredNumber = numberToSquare * numberToSquare;
+  alert(squaredNumber);
 }
+
+squareANumber(Number(num));
