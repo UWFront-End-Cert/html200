@@ -35,3 +35,17 @@ function myProfile(name, breed, costs) {
 // console.log();
 
 // //to display dogprofile 4
+
+// const dog1 = 'name = murphy, cost = 123, breed= beagle';
+// const dog2 = 'name = blake, cost = 123, breed = collie';
+// const dog3 = 
+
+// then after alert after picture ('alert dog1')
+
+let totalAdoptionFees =0;
+
+function adoptThisDog(adoptionFees) {
+    totalAdoptionFees += adoptionFees;
+    console.log(totalAdoptionFees); 
+}
+
