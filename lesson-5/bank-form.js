@@ -1,6 +1,7 @@
 // starting balance is $1000
 let startingBalance = 1000;
 let balance = "Balance"
+let quit = false;
 // account for upper and lower case
 // let withdrawl = withdrawl.toUpperCase('W');
 // let deposit = deposit.toUpperCase('D');
@@ -19,7 +20,7 @@ const Q = 'quit';
 let q = quit.toUpperCase('Q');
 
 function withdraw(){
-  withdrawAmt = prompt('How much would you like to withdraw')
+  withdrawAmt = prompt('How much would you like to withdraw?')
   withdrawAmt = Number(withdrawAmt)
   balance = balance - withdrawAmt
 }
@@ -46,7 +47,7 @@ function bankingTotal (); {
     balanceAmount = alert ('Here is your balance:');
       break;
     case (Q):
-    alert = ('Thank you for banking with us!')
+    quit = alert ('Thank you for banking with us!')
   }
     try {
       console.log('You entered in a incorrect key command, try again');
@@ -55,5 +56,10 @@ function bankingTotal (); {
     } finally {
       console.log('You entered in a incorrect key command, try again');
     }
-
-}    
+    while(quit === false) {
+      if (input === 'Q') {
+      } else if (input === 'B') {
+        else if (input === 'D') {
+        else if (input === 'W')
+        }
+}
