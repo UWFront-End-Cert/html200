@@ -19,35 +19,38 @@ let d = deposit.toUpperCase('D');
 const Q = 'quit';
 let q = quit.toUpperCase('Q');
 
-function withdraw(){
-  withdrawAmt = prompt('How much would you like to withdraw?')
-  withdrawAmt = Number(withdrawAmt)
-  balance = balance - withdrawAmt
-}
+// function withdraw(){
+//   withdrawAmt = prompt('How much would you like to withdraw?')
+//   withdrawAmt = Number(withdrawAmt)
+//   balance = balance - withdrawAmt
+// }
 
-function bankingTotal (); {
-  switch (withdrawlAmount) {
+function bankingTotal () {
+  switch (withdrawl) {
     case (W):
-    withdrawlAmount = prompt ('How much would you like to withdraw from your account?');
-    withdrawlAmount = Number
-    console.log(balance) = Number - withdrawlAmount;
+    withdrawl = prompt ('How much would you like to withdraw from your account?');
+    withdrawl = Number - startingBalance
+    console.log(withdrawl);
+    withdrawl = alert (bankingTotal);
       break;
-    default:
-    console.log('Please enter a withdrawl amount');
-    break;
+    // default:
+    // console.log('Please enter a withdrawl amount');
+    // break;
     case (D):
-    depositAmount = prompt ('How much would you like to deposit into your account?');
-    depositAmount = Number
-    console.log(balance) = Number + depositAmount;
+    deposit = prompt ('How much would you like to deposit into your account?');
+    deposit = Number
+    console.log(balance) = Number + deposit;
       break;
-    default:
+    // default:
     console.log('Please enter a deposit amount');
     break;
     case (B):
-    balanceAmount = alert ('Here is your balance:');
+    balance = alert ('Here is your balance:');
       break;
     case (Q):
-    quit = alert ('Thank you for banking with us!')
+    quit = alert ('Thank you for banking with us!');
+    default:
+      console.log('Welcome to the Banking Calculator. Type in B to see your balance. Type in W to make a withdrawl. Type in D to make a deposit. And type in Q to quit.')
   }
     try {
       console.log('You entered in a incorrect key command, try again');
@@ -56,10 +59,10 @@ function bankingTotal (); {
     } finally {
       console.log('You entered in a incorrect key command, try again');
     }
-    while(quit === false) {
-      if (input === 'Q') {
-      } else if (input === 'B') {
-        else if (input === 'D') {
-        else if (input === 'W')
-        }
+    // while(quit === false) {
+    //   if (input === 'Q') {
+    //   } else if (input === 'B') {
+    //     else if (input === 'D') {
+    //     else if (input === 'W')
+    //     }
 }
