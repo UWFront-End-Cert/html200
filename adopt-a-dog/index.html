@@ -13,21 +13,20 @@
 
 <body>
   <!-- hero image -->
-  <section class="hero">
-    <div id="hero-inner">
-      <div class="logo">
-        <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+  <header class="">
+    <section class="header-content">
+      <div id="hero-inner">
+        <h1>Seattle's premiere dog adoption agency</h1>
       </div>
-      <h1>Seattle's premiere dog adoption agency</h1>
-    </div>
-    <div class="shopping-cart">
-      <img src="images/cart-icon.svg" alt="adopt a dog shopping cart">
-    </div>
-    <button aria-label="Checkout" type="Submit" class="checkout-btn">Checkout</button>
-    <span id="count" class="dogPrice">$0.00</span>
-  </section>
+      <div class="shopping-cart">
+        <img src="images/cart-icon.svg" alt="adopt a dog shopping cart">
+      </div>
+      <button aria-label="Checkout" type="Submit" class="checkout-btn">Checkout</button>
+      <span id="count" class="dogPrice">$0.00</span>
+    </section>
+  </header>
 
-  <header class="menu-section">
+  <section class="menu-section">
     <nav class="single-nav-menu">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -35,7 +34,7 @@
         <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
-  </header>
+  </section>
 
   <main class="main-container">
     <section class="container">
@@ -63,7 +62,7 @@
         <h4>Cost to Adopt: $123.45</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
           sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" onclick="changePrice()" class="button-1">Adopt</button>
+        <button aria-label="Adopt" onclick="changePrice(123.45)" class="button-1">Adopt</button>
       </div>
 
       <div class="dog">
@@ -167,8 +166,8 @@
 
     </section>
     <div class="see-more-button">
-    <button onclick="myFunction()" id="show-more">See More Dogs</button>
-        </div>
+      <button onclick="myFunction()" id="show-more">See More Dogs</button>
+    </div>
   </main>
 
   <footer class="footer-container">
@@ -184,7 +183,7 @@
       <p class="copyright">Copyright &copy; 2018 Adoptadog, LLC Seattle, WA</p>
     </div>
   </footer>
-  <script src="script.js"></script>
+  <script src="javascript/script.js"></script>
 </body>
 
 </html>
