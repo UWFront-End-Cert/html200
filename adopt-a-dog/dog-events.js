@@ -2,10 +2,11 @@ function dogInformation(name, breed, fee) {
   alert('This is ' + name + '\nBreed: ' + breed + '\nAdoption fee: ' + fee);
 }
 
+let totalAdoptionFees = 0;
+
 function calcTotal(fee) {
-  let total = 0;
-  let total = total + fee;
-  alert('Total adoption fees: ' + fee);
+  totalAdoptionFees += fee;
+  alert('Total adoption fees: ' + totalAdoptionFees);
 }
 
 
