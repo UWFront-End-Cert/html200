@@ -9,30 +9,32 @@ function OnlineBank() {
 
   let balance = 1200;
   let deposit = 0;
-  let withdraw  = 0;
+  let withdraw = 0;
 
-  while (bank === 'Q' && bank === 'q') {
-    switch (bank)  {
+  while (banking === 'Q' && banking === 'q') {
+    switch (banking)  {
       case 'b':
       case 'B':
+      // b & B for Balance 
         alert('Hello! Your balance is:' + balance);
-          bank = prompt ('Q to quit, W to withdraw, D to deposit, B to view balance');
+          bank();
            break;
         case 'W':
         case 'w':
+        // w and W for withdrawl
          alert('Withdrawal Amount is:' + withdraw);
-          bank = prompt ('Q to quit, W to withdraw, D to deposit, B to view balance');
+         bank();
           break;
             case 'd':
             case 'D':
+            // d and D for deposit 
               alert('Deposit Amount is:' + deposit);
-                bank = prompt ('Q to quit, W to withdraw, D to deposit, B to view balance');
+              bank();
                 break;
                 default:
-                  bank = prompt ('Q to quit, W to withdraw, D to deposit, B to view balance');
+                bank();
     }
   }
 
 }
 
-OnlineBank();
