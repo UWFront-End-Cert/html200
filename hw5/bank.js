@@ -1,17 +1,6 @@
-// set the user's beginning balance to 1000
 let balance = 1000;
 
-
-// alert the user possible commands of w, d, b, q.
 alert(' Welcome to the Bank of An, Press W for Withdrawls, D for Deposits, B to see current Balance, or Q to Quit.')
-
-// if the user presses w or W, then prompt how much would they like to Withdrawl
-//w keycode = 87 || 119
-function withdraw(){
-  withdrawAmt = prompt('how much would you like to withdraw')
-  withdrawAmt = Number(withdrawAmt)
-  balance = balance - withdrawAmt
-}
 
 document.onkeydown = function (e) {
     switch (e.key) {
@@ -55,6 +44,17 @@ document.onkeydown = function (e) {
         alert('this key press is not supported')
     }
 };
+// ****old code****
+// function withdraw(){
+//   withdrawAmt = prompt('how much would you like to withdraw')
+//   withdrawAmt = Number(withdrawAmt)
+//   balance = balance - withdrawAmt
+// }
+
+// set the user's beginning balance to 1000
+// alert the user possible commands of w, d, b, q.
+// if the user presses w or W, then prompt how much would they like to Withdrawl
+//w keycode = 87 || 119
 // Subtract the prompted withdrawl amount from the balance
 // if the user presses d or D, then prompt how much would they like to Deposit
 //d keycode = 68 || 100
