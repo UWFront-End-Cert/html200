@@ -4,20 +4,48 @@ alert(' Welcome to the Bank of An, Press W for Withdrawls, D for Deposits, B to 
 
 document.onkeydown = function (e) {
     switch (e.key) {
-        case 'w':
+            case 'w':
             withdrawAmt = prompt('how much would you like to withdraw')
             withdrawAmt = Number(withdrawAmt)
-            balance = balance - withdrawAmt
+            if (withdrawAmt < 0) {
+              alert('You must enter a positive number')
+            } else if (withdrawAmt > balance){
+              alert('You cannot withdraw more than your current balance')
+            } else if ((balance - withdrawAmt) <300){
+              if(confirm('Doing this transaction will result in a balance less than $300, are you sure you want to proceed?')){
+                balance = balance - withdrawAmt
+              } else{
+                alert('Withdraw aborted')
+              } } else {
+                balance = balance - withdrawAmt
+              }
             break;
         case 'W':
             withdrawAmt = prompt('how much would you like to withdraw')
             withdrawAmt = Number(withdrawAmt)
-            balance = balance - withdrawAmt
+            if (withdrawAmt < 0) {
+              alert('You must enter a positive number')
+            } else if (withdrawAmt > balance){
+              alert('You cannot withdraw more than your current balance')
+            } else if ((balance - withdrawAmt) <300){
+              if(confirm('Doing this transaction will result in a balance less than $300, are you sure you want to proceed?')){
+                balance = balance - withdrawAmt
+              } else{
+                alert('Withdraw aborted')
+              } } else {
+                balance = balance - withdrawAmt
+              }
             break;
         case 'd':
             depositAmt = prompt('how much would you like to deposit')
             depositAmt = Number(depositAmt)
-            balance = balance + depositAmt
+            if (depositAmt>50000){
+              alert('Sorry, we do not support deposits over $50,000')
+            } else if ( depositAmt < 0){
+              alert('Sorry, you cannot deposit negative amounts')
+            } else{
+              balance = balance + depositAmt
+            }
             break;
         case 'D':
             depositAmt = prompt('how much would you like to deposit')
