@@ -11,30 +11,32 @@ function OnlineBank() {
   let deposit = 0;
   let withdraw = 0;
 
-  while (bank === "Q" && bank === "q") {
+  while (bank !=== "Q" && bank !=== "q") {
     switch (bank)  {
       case "b":
       case "B":
       // b & B for Balance 
         alert("Hello! Your balance is:" + balance);
-          bank();
+          Onlinebank();
            break;
         case "W":
         case "w":
         // w and W for withdrawl
-         alert("Withdrawal Amount is:" + withdraw);
-         bank();
+         prompt("Withdrawal Amount is:" + withdraw);
+         Onlinebank();
           break;
             case "d":
             case "D":
             // d and D for deposit 
               alert("Deposit Amount is:" + deposit);
-              bank();
+              Onlinebank();
                 break;
                 default:
-                bank();
+                Onlinebank();
     }
   }
 
 }
 
+
+OnlineBank();
