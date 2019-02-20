@@ -11,7 +11,7 @@ function OnlineBank() {
   let deposit = 0;
   let withdraw = 0;
 
-  while (bank !=== "Q" && bank !=== "q") {
+  while (bank !== "Q" && bank !== "q") {
     switch (bank)  {
       case "b":
       case "B":
