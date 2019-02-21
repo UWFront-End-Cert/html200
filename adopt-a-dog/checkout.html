@@ -35,11 +35,11 @@
         <h1>Checkout</h1>
         <form class="checkout-form" method="get">
           <label for="name">Name:</label>
-          <input type="text" name="name" id="name">
+          <input class="name" type="text" name="name" id="name">
           <label for="email">Email Address:</label>
-          <input type="email" name="email" id="email">
+          <input class="email" type="email" name="email" id="email">
           <label for="street">Street Address:</label>
-          <input type="text" name="street" id="street">
+          <input class="street" type="text" name="street" id="street">
           <div class="form-flex">
             <div>
               <label for="city">City:</label>
@@ -62,12 +62,11 @@
           <label class="radio" for="yes">Yes</label>
           <input class="radio" type="radio" name="adoption-experience" value="no" id="no">
           <label class="radio" for="no">No</label>
-          <label for="pickup-location">Pickup Location:</label>
+          <label class="pickup-location" for="pickup-location">Pickup Location:</label>
           <select name="pickup-location" id="pickup-location">
             <option value="a">A</option>
             <option value="b">B</option>
           </select>
-          <label for="submit"></label>
           <input class="submit-checkout" type="submit" name="submit" value="Submit" id="submit">
         </form>
       </div>
