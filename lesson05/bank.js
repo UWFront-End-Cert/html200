@@ -1,6 +1,6 @@
-let balance = 1000;
+let balance = 0;
 
-while (balance > 0) {
+while (balance >= 0) {
 
   let enteredOption = prompt('Enter Q to quit, Enter W to withdraw, Enter D to deposit, Enter in B to view balance.')
 
