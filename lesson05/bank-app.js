@@ -4,9 +4,9 @@ function startApp () {
 
   let choiceSmall;
 
-  while (choiceSmall != 'q') {
+  while (choiceSmall !== 'q') {
 
-    let choice = prompt('What would you like to do? Enter:\nW to withdraw\nD to deposit\nB to see balance\nQ to quit');  // Prompt the options Q/W/D/B
+    let choice = prompt('What would you like to do? Enter:\nW to withdraw\nD to deposit\nB to see balance\nQ to quit');
 
     choiceSmall = choice.toLowerCase();
 
@@ -41,10 +41,10 @@ function getWithdraw () {
     let lowPrompt = prompt("Low balance alert! \nIf you withdraw, your remaining balance will be: " + lowBalance + ". \nType 'yes' to continue with this withdrawal or click 'OK' to return to the main menu.");
     let lowPromptSmall = lowPrompt.toLowerCase();
     if (lowPromptSmall === 'yes') {
-      balance = balance - withdrawAmount;
+      balance -= withdrawAmount;
     }
   } else {
-    balance = balance - withdrawAmount;
+    balance -= withdrawAmount;
     alert('Your account balance is: ' + balance);
   }
 }
@@ -57,7 +57,7 @@ function getDeposit () {
   } else if (depositAmount > 50000) {
     alert('The deposit amount must be less than $50,000. Please enter a smaller amount.')
   } else {
-    balance = balance + depositAmount;
+    balance += depositAmount;
     alert('Your account balance is: ' + balance);
   }
 }
