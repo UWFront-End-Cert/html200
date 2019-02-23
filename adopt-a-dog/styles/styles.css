@@ -147,3 +147,12 @@ nav ul {
   float:left;
   width: auto;
 }
+
+@media screen (min-width: 500px) {
+  .right-section {
+    width: 0%;
+  }
+  .right-section img {
+    width: 0%;
+  }
+}
