@@ -154,10 +154,15 @@ nav ul {
     flex-wrap: wrap;
   }
   .right-section {
-    flex-wrap: wrap;
+    width: 0px;
+    flex-direction: column;
   }
   .dog-tile-container {
     flex-direction: column;
+    width: 100%;
+  }
+  p {
+    flex-wrap: wrap;
   }
 }
 
