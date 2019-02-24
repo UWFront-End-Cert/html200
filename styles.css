@@ -65,6 +65,7 @@ width: 70%;
 
 .right-section {
   display: none;
+  width: 0;  
 }
 }
 /* to transform to 1 column on 500px mobile */
@@ -77,6 +78,12 @@ width: 70%;
   width: 80%;
   margin: 10px auto;
 }
+}
+
+@media print {
+  p {
+    color: black;
+  }
 }
 
 /* dog page - dog gallery============================================ */
