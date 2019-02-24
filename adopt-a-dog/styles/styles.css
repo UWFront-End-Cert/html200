@@ -148,11 +148,24 @@ nav ul {
   width: auto;
 }
 
-@media screen (min-width: 500px) {
-  .right-section {
-    width: 0%;
+@media (max-width:576px) {
+  .left-section {
+    width: 100%;
+    flex-wrap: wrap;
   }
-  .right-section img {
-    width: 0%;
+  .right-section {
+    flex-wrap: wrap;
+  }
+  .dog-tile {
+    flex-direction: column;
+  }
+}
+
+@media (min-width:577px and max-width:1000px) {
+  .left-section {
+    width: 100%;
+  }
+  .right-section {
+    flex-wrap: wrap;
   }
 }
