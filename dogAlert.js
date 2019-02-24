@@ -16,16 +16,13 @@ function adoptThisDog(adoptionFees) {
     totalAdoptionFees += adoptionFees;
     console.log(totalAdoptionFees); 
 }
-}
+// }
 
-let totalAdoptionFees = 0;
+// let totalAdoptionFees = 0;
 
-dogOne = {
-    name: 'congot',
-    cost: 109,
-    breed: 'dam'
-}
-
-
-
+// dogOne = {
+//     name: 'congot',
+//     cost: 109,
+//     breed: 'dam'
+// }
 
