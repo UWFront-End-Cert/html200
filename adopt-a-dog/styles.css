@@ -503,7 +503,8 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
 
 /*Style for @media screens*/
 
-@media only screen and (min-width: 768px)and (max-width: 1024px) {
+@media only screen and (min-width: 768px)and (max-width: 1023px) {  
+  
   .grid-container {
     display: grid;
     grid-gap: 15px 15px;
@@ -512,10 +513,24 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
     background-color: white;
     padding: 10px;
     justify-content: space-evenly;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+  .right-section{
+    visibility: hidden;
+    width: 0;
   }
 
-  .right-section {
-    visibility: hidden;
+  /* .main1 {
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  } */
+
+  .main {
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
 }
