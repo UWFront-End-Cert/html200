@@ -482,3 +482,31 @@ footer ul {
 footer li {
   display: inline;
 }
+
+
+/*Have the grid layout change from 3 columns to 1 on mobile devices
+Have the grid layout change from 3 columns to 2 on tablet devices*/
+
+/*Style for @media screens*/
+
+@media screen and (max-width: 800px) {
+  .grid-container {
+    display: grid;
+    grid-gap: 15px 15px;
+    grid-template-columns: auto auto;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+
+  @media screen and (max-width: 425px) {
+    .grid-container {
+      display: grid;
+      grid-gap: 15px 15px;
+      grid-template-columns: auto;
+      width: 100%;
+      background-color: white;
+      padding: 10px;
+      justify-content: space-evenly;
+    }
