@@ -166,11 +166,21 @@ nav ul {
   }
 }
 
-@media (min-width:577px and max-width:1000px) {
+@media (max-width: 500px) {
   .left-section {
     width: 100%;
   }
   .right-section {
-    flex-wrap: wrap;
+    display: none;
+    width: 0;
+  }
+
+@media (max width: 500px) {
+  .dog-tile-container {
+    flex-direction: column;
+  }
+  .tile {
+    width:auto;
+    margin: 10px auto;
   }
 }
