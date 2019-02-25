@@ -57,20 +57,25 @@ width: 80%;
 width: 70%;
 }
 
-/* to make blog dissappear on ipad */
+/* to tranform into 2 column dog and make blog dissappear on ipad */
 @media (max-width: 900px) {
-.left-section {
-  width: 100%;
+  .left-section {
+    width: 100%;
+  }
+
+  .right-section {
+    display: none;
+    width: 0;  
+  }
+  .gallery-wrapper {
+    width: 50%;
+  }
 }
 
-.right-section {
-  display: none;
-  width: 0;  
-}
-}
-/* to transform to 1 column on 500px mobile */
+/* to transform to 1 column dog on 500px mobile */
+
 @media (max-width: 500px) {
-.gallery-wrapper {
+  .gallery-wrapper {
   flex-direction: column;
 }
 
@@ -81,8 +86,8 @@ width: 70%;
 }
 
 @media print {
-  p {
-    color: black;
+  body {
+    color:tomato;
   }
 }
 
