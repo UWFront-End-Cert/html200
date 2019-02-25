@@ -142,11 +142,11 @@ h1 {
 }
 
 .main-img {
-  padding: 10px;
-  width: 60%;
-  height: auto;
+  padding: 10px 10px 0 auto;
+  width: 100%;
+  /* height: auto; */
   margin: 5px;
-  float: left;
+  float: none;
   /* display: inline-block; */
   overflow: hidden;
   object-fit: cover;
@@ -166,11 +166,16 @@ h1 {
 
 .clearfix {
   overflow: auto;
+  text-align: left;
+  width: 100%;
+  height: auto;
 } 
 
 .main h3 {
   color: #004466;
   font-family: Neuton;
+  padding: 0 0 5px 0;
+  margin: 0;
 }
 
 /*Style Grid - old style grid*/
@@ -250,11 +255,16 @@ h1 {
   flex-direction: row;
 }
 
+a {
+  text-align: left;
+  font-size: .8rem;
+  margin: 4px 5px 5px 10px;
+}
+
 a:link {
   color: #008ECC;
   background-color: transparent;
   text-decoration: none;
-  font-size: .8rem;
 }
 a:visited {
   color: #008ECC;
@@ -291,7 +301,7 @@ a:visited {
   text-align: left;
   padding: 1px;
   margin: 4px 5px 5px 10px;
-  /* word-wrap: break-word; */
+  word-wrap: break-word;
   line-height: 1.6;
   font-family: sans-serif;
 }
@@ -489,7 +499,7 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
 
 /*Style for @media screens*/
 
-@media screen and (max-width: 800px) {
+@media only screen and (min-width: 768px)and (max-width: 1024px) {
   .grid-container {
     display: grid;
     grid-gap: 15px 15px;
@@ -500,7 +510,10 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
     justify-content: space-evenly;
   }
 
-  @media screen and (max-width: 425px) {
+
+  /*Phone - 1 column*/
+
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
     .grid-container {
       display: grid;
       grid-gap: 15px 15px;
