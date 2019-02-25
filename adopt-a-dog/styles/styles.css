@@ -166,7 +166,7 @@ nav ul {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   .left-section {
     width: 100%;
   }
@@ -175,12 +175,27 @@ nav ul {
     width: 0;
   }
 
-@media (max width: 500px) {
+@media (max width: 576px) {
   .dog-tile-container {
     flex-direction: column;
   }
   .tile {
     width:auto;
     margin: 10px auto;
+  }
+}
+@media (max width: 768px) {
+  .dog-tile-container {
+    flex-direction: column;
+  }
+  .tile {
+    width:auto;
+    margin: 10px auto;
+  }
+}
+
+@media print {
+  p {
+    color: black;
   }
 }
