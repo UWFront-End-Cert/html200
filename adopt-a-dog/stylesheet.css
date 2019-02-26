@@ -331,3 +331,9 @@ fieldset {
    display: none;
  }
 }
+
+@media print {
+  * {
+    color: black;
+  }
+}
