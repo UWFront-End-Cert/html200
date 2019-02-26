@@ -19,6 +19,11 @@ header {
   background-size: cover;
 }
 
+.for-print{
+  display: none;
+  background-color: black;
+}
+
 .flexbox {
   display: flex;
 }
@@ -145,38 +150,89 @@ main {
   display: flex;
   padding: 2% 2% 0 0;
   font-size: 1.4rem;
-  line-height: 2.2rem;
+  /* line-height: 2.2rem; */
 }
 
 .left-column {
-  flex: 30%;
+  flex: 65%;
   margin-left: 13%;
   padding-top: 1%;
 }
 
 .left-column > img {
+  /* margin-left: 13%; */
   height: auto;
   max-width: 100%;
-  min-width: 10%;
+  width: 100%;
+}
+
+.left-column > h1 {
+  font-family: 'Noto Serif SC', serif;
+  color: rgb(9,60,96);
+  /* font-size: 2.2rem;
+  margin-left: 13%; */
+}
+
+.left-column > p {
+  margin: 0 8% 0 0;
+  color: black;
+  line-height: 2.1rem;
+  /* margin-left: 13%;
+  font-size: 1.4rem; */
+}
+
+@media screen and (max-width: 1023px){
+  .right-column {
+    display: none;
+  }
+
+  .left-column {
+    margin-right: 13%;
+  }
 }
 
 .right-column {
-  flex: 70%;
+  flex: 35%;
   margin-right: 13%;
-  padding-left: 5%;
+  padding-left: 3%;
   max-width: 100%;
   min-width: 10%;
 }
 
-.right-column > h1 {
+.right-column > h2 {
+  margin: 0 0 6% 14%;
+  padding: 4% 0 4% 0;
+}
+
+.right-column > img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 0 5% 14%;
+}
+
+.right-column > h4 {
   font-family: 'Noto Serif SC', serif;
-  color: rgb(9,60,96);
-  font-size: 2.2rem;
+  /* font-size: 1.2rem; */
+  color: rgb(9, 60, 96);
+  margin: 0 0 0 14%;
+  padding: 2% 0 4% 0;
 }
 
 .right-column > p {
-  color: black;
-  margin-right: 2%;
+  margin: 0 0 3% 14%;
+  font-size: 1.1rem;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.right-column > a {
+  color: rgb(44,154,183);
+  text-decoration: none;
+  padding: 2% 0;
+  font-weight: bold;
+  margin: 0 0 0 14%;
+  font-size: 1.1rem;
 }
 
 button {
@@ -191,7 +247,7 @@ button {
   font-size: 1.1rem;
 }
 
-.see > button {
+.see > a > button {
   background-color: rgb(236, 236, 236);
   text-align: center;
   width: 15%;
@@ -201,25 +257,111 @@ button {
   font-size: 1.4rem;
   border: none;
   display: block;
-  margin: 2% auto 7% auto;
+  margin: 2% auto 7% 28.8%;
+}
+
+.see > a {
+  text-decoration: none;
 }
 
 /* Dog-Tile Code */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  margin-left: 13%;
-  margin-right: 13%;
-  max-width: 100%;
-  min-width: 10%;
-  height: 5%;
-  grid-column-gap: 5%;
+@media screen and (max-width: 500px){
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    /* margin-left: 13%;
+    margin-right: 40%; */
+    max-width: 100%;
+    min-width: 10%;
+    height: 5%;
+    grid-column-gap: 5%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* margin-left: 13%;
+    margin-right: 40%; */
+    max-width: 100%;
+    min-width: 10%;
+    height: 5%;
+    grid-column-gap: 5%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* margin-left: 13%;
+    margin-right: 40%; */
+    max-width: 100%;
+    min-width: 10%;
+    height: 5%;
+    grid-column-gap: 5%;
+  }
+}
+
+@media print {
+  header {
+    display: none;
+  }
+
+  .for-print {
+    display: block;
+    background-color: black;
+    margin-left: 13%;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 100%;
+    min-width: 10%;
+    height: 5%;
+    grid-column-gap: 5%;
+    /* margin-right: 13%; */
+    margin-top: 5%;
+  }
+
+  .left-column {
+    margin: 0 13%;
+  }
+
+  .left-column > p {
+    font-size: 1.2rem;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .left-column > h1 {
+    font-family: 'Noto Serif SC', serif;
+    color: rgb(9,60,96);
+    font-size: 2rem;
+  }
+
+  .see {
+    display: none;
+  }
+
+  .footer-container {
+    color: black;
+  }
+
+  .footer-container > a {
+    color: black;
+    font-weight: normal;
+  }
 }
 
 .dog-tile {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  margin: 15% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 
 .dog-tile > img {
@@ -242,6 +384,18 @@ button {
 }
 
 /* Dogs page Code */
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  margin-left: 13%;
+  margin-right: 13%;
+  max-width: 100%;
+  min-width: 10%;
+  height: 5%;
+  grid-column-gap: 5%;
+}
+
 
 h2 {
   font-family: 'Noto Serif SC', serif;

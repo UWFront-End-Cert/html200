@@ -8,19 +8,7 @@
   <title>Dogs</title>
 </head>
 <body>
-  <script>
-      function dogInfo(name, breed, adoptFees) {
-        alert("Dog Name: " + name + "\nBreed: " + breed + "\nAdoption Fees: " + adoptFees);
-      }
-
-      function calculateTotal() {
-        let fees = 123.45;
-        let prevValue = document.getElementById("total-cost").innerHTML;
-        cartTotal =  parseInt(prevValue, 10) + fees;
-        alert("Total: " + cartTotal);
-        document.getElementById("total-cost").innerHTML = cartTotal;
-      }
-  </script>
+  <script src="script/dogs.js"> </script>
   <header>
     <div class="flexbox">
       <div class="left-side">
@@ -48,9 +36,9 @@
     </nav>
   </div>
   <h2> Here are all of our Dogs! </h2>
-  <div class="grid-container">
+  <div class="grid-container2">
     <div class="dog-tile">
-      <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Murphy','Beagle','$123.45')">
+      <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog1)">
       <p id = "output"> </p>
       <h3>Murphy</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
@@ -62,7 +50,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Poppy','Shih Tzu','$123.45')">
+      <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog2)">
       <h3>Poppy</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -73,7 +61,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/marcus-wallis-471438-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Jack','Beagle','$123.45')">
+      <img src="images/marcus-wallis-471438-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog3)">
       <h3>Jack</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -84,7 +72,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/duffy-brook-350225-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Duffy','Pit Bull Terrier','$123.45')">
+      <img src="images/duffy-brook-350225-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog4)">
       <h3>Duffy</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -95,7 +83,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/tucker-good-589776-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Lucas','Beauceron','$123.45')">
+      <img src="images/tucker-good-589776-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog5)">
       <h3>Lucas</h3>
       <p>Cost to Adopt: $123.45 </p>
       <p>Corrum volorit iandae
@@ -106,7 +94,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/mitchell-orr-237216-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Jake','Labrador Retriever','$123.45')">
+      <img src="images/mitchell-orr-237216-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog6)">
       <h3>Jake</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -117,7 +105,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/anita-peeples-35219-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Angus','Boxer','$123.45')">
+      <img src="images/anita-peeples-35219-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog7)">
       <h3>Angus</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -128,7 +116,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/jairo-alzate-45522-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Violet','Labrador Retriever','$123.45')">
+      <img src="images/jairo-alzate-45522-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog8)">
       <h3>Violet</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -139,7 +127,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/jamie-street-562280-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Piper','Nova Scotia Duck Tolling Retriever','$123.45')">
+      <img src="images/jamie-street-562280-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog9)">
       <h3>Piper</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -150,7 +138,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/jisu-lee-55400-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Maximus',' schnauzer','$123.45')">
+      <img src="images/jisu-lee-55400-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog10)">
       <h3>Maximus</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -161,7 +149,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/jonathan-daniels-416786-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Luna','Labrador Retriever','$123.45')">
+      <img src="images/jonathan-daniels-416786-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog11)">
       <h3>Luna</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
@@ -172,7 +160,7 @@
       <button type="button" onclick="calculateTotal()">Adopt</button>
     </div>
     <div class="dog-tile">
-      <img src="images/alicia-gauthier-253619-unsplash.jpg" alt="Image of a dog" onclick="dogInfo('Stella','Chihuahua','$123.45')">
+      <img src="images/alicia-gauthier-253619-unsplash.jpg" alt="Image of a dog" onclick="dogInfo(dog12)">
       <h3>Stella</h3>
       <p><strong>Cost to Adopt:</strong> $123.45 </p>
       <p>Corrum volorit iandae
