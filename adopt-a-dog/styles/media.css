@@ -1,0 +1,42 @@
+Navigation * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#content .container {
+  grid-template-columns: 1fr 1fr;
+}
+
+aside {
+  display: none;
+}
+
+article .dog {
+  width: 47%;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 600px) {
+  #showcase .showcase-container {
+    grid-template-columns: 1fr;
+  }
+
+  #content .man-dog-image img {
+    width: 100%;
+    height: 25%;
+  }
+
+  #content .list-of-dogs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #content .list-of-dogs img {
+    width: 100%;
+  }
+
+  article .dog {
+    width: 100%;
+  }
+}

@@ -4,7 +4,7 @@ function dog1(){
   alert("Adoption Fee is $123.45")
 }
 
-function changePrice() {
-  let x = 123.45;
-  console.log(x);
+function changePrice(adoptionFees) {
+  totalAdoptionFees += adoptionFees;
+  console.log(totalAdoptionFees);
 }

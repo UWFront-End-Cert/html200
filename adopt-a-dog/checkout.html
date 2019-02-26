@@ -8,66 +8,64 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <title>Adopt A Dog</title>
+  <title>Checkout Page</title>
 </head>
 
 <body>
   <!-- hero image -->
-  <section class="hero">
-    <div id="hero-inner">
-      <div class="logo">
-        <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+  <div id="hero-container">
+    <section class="showcase-container">
+      <div class="logo-con1">
+        <img src="images/adoptadog-logo.svg" alt="adopt a dog logo" 1>
       </div>
-      <h1>Seattle's premiere dog adoption agency</h1>
-    </div>
-  </section>
+      <div class="h1-con2">
+        <h1>Seattle's premiere dog adoption agency</h1>
+      </div>
+      <div class="shoppingc-con3">
+        <img class="shopping-cart" src="images/cart-icon.svg" alt="adopt a dog shopping cart">
+        <span id="count" class="dogPrice">$0.00</span>
+        <button aria-label="Checkout" type="Submit" class="checkout-btn">Checkout</button>
+      </div>
+      <!-- <div class="checkout-con5">
+        <button aria-label="Checkout" type="Submit" class="checkout-btn">Checkout</button>
+      </div> -->
+    </section>
+  </div>
 
-
-  <header class="menu-section">
-    <nav class="single-nav-menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Dogs</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-    </nav>
-  </header>
-
-
-
-
-  <section class="checkout-container">
-    <h2>Checkout</h2>
-    <div class="checkout">
-      <form action="#" method="post">
+      <form class="checkout-form" action="#" method="post">
+        <section class="form-content">
+        <h2>Checkout</h2>
         <label for="fname">Full Name</label>
         <input type="text" id="fname" name="first_name" autofocus>
         <label for="email">Email Address</label>
         <input type="email" id="email" value="Email">
         <label for="adr">Street Address</label>
         <input type="text" id="adr" name="address">
+        <div class="form-content2">
         <label for="city">City</label>
         <input type="text" id="city" name="city">
         <label for="state">State</label>
         <input type="text" id="state" name="state">
         <label for="zip">Zipcode</label>
         <input type="text" id="zip" name="zip">
-
+      </div class="">
         <p>First Time Adopter?</p>
-        <input type="radio" name="yes_no">Yes
-        <input type="radio" name="yes_no">No
+        <p>Yes</p>
+        <input type="radio" name="yes_no">
+        <p>No</p>
+        <input type="radio" name="yes_no">
         <p>Pickup Location</p>
         <select name="pickup-location">
-          <option value="Location">Location</option>
-          <option value="Location">Location</option>
-          <option value="Location">Location</option>
-          <option value="Location">Location</option>
+          <option value="Location">Location 1</option>
+          <option value="Location">Location 2</option>
+          <option value="Location">Location 3</option>
+          <option value="Location">Location 4</option>
         </select>
-        <input type="submit" value="Submit">
+        <div class="form-button">
+        <button aria-label="Submit" type="Submit" class="submit-btn">Submit</button>
+      </div>
+      </section>
       </form>
-    </div>
-  </section>
-
   <footer class="footer-container">
     <div class="footer-container-inner">
       <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">

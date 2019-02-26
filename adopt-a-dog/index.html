@@ -8,167 +8,201 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="styles/media.css">
   <title>Adopt A Dog</title>
 </head>
 
 <body>
-  <!-- hero image -->
-  <header class="">
-    <section class="header-content">
-      <div id="hero-inner">
-        <h1>Seattle's premiere dog adoption agency</h1>
+
+  <header id="showcase">
+    <div class="container">
+      <div class="showcase-container">
+        <div class="category">
+          <img class="logo" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
+          <h1>Seattle's premiere dog adoption agency</h1>
+        </div>
+        <div class="category-2">
+          <img class="shopping-cart" src="images/cart-icon.svg" alt="adopt a dog shopping cart">
+          <span id="count" class="dogPrice">$0.00</span>
+          <a href="checkout.html" class="btnc btn-primary">Checkout</a>
+        </div>
       </div>
-      <div class="shopping-cart">
-        <img src="images/cart-icon.svg" alt="adopt a dog shopping cart">
-      </div>
-      <button aria-label="Checkout" type="Submit" class="checkout-btn">Checkout</button>
-      <span id="count" class="dogPrice">$0.00</span>
-    </section>
+    </div>
   </header>
 
-  <section class="menu-section">
-    <nav class="single-nav-menu">
+
+  <nav id="main-nav">
+    <div class="container">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="#">Dogs</a></li>
         <li><a href="blog.html">Blog</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
+
+  <section id="content">
+    <div class="container">
+      <div class="page-container">
+        <article class="dog-display">
+          <div class="man-dog-image">
+            <img src="images/eric-ward-610868-unsplash.jpg" alt="eric ward hugging a dog">
+          </div>
+          <div class="adopt-a-dog-text">
+            <h2>Adopt A Dog</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="list-of-dogs">
+            <div class="dog">
+              <img onclick="dog1()" class="dog-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="eric ward hugging a dog">
+              <h3>Murphy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" onclick="changePrice(123.45)" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="A dog named Nikolay">
+              <h3>Poppy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="A dog named Marcus">
+              <h3>Jack</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/duffy-brook-350225-unsplash.jpg" alt="A dog named Duffy">
+              <h3>Duffy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="eric ward hugging a dog">
+              <h3>Mruphy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="A dog named Nikolay">
+              <h3>Poppy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="A dog named Marcus">
+              <h3>Jack</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/duffy-brook-350225-unsplash.jpg" alt="A dog named Duffy">
+              <h3>Duffy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="eric ward hugging a dog">
+              <h3>Mruphy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" onclick="dog" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="A dog named Nikolay">
+              <h3>Poppy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="A dog named Marcus">
+              <h3>Jack</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+
+            <div class="dog">
+              <img class="dog-image" src="images/duffy-brook-350225-unsplash.jpg" alt="A dog named Duffy">
+              <h3>Duffy</h3>
+              <h4>Cost to Adopt: $123.45</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt</p>
+              <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
+            </div>
+          </div>
+        </article>
+      </div>
+      <aside class="aside-blog">
+        <h2>From Our Blog</h2>
+        <img src="images/patrick-hendry-221863-unsplash.jpg" alt="">
+        <div class="side-blog1">
+          <h3>Traveling With Your Dog</h3>
+          <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas
+            doluptios dolupta tiandebis nem ut.</p>
+          <a href="#">Read more</a>
+        </div>
+
+        <div class="side-blog2">
+          <img src="images/matt-nelson-259365-unsplash.jpg" alt="">
+          <h3>Traveling With Your Dog</h3>
+          <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas
+            doluptios dolupta tiandebis nem ut.</p>
+          <a href="#">Read more</a>
+        </div>
+
+        <div class="side-blog3">
+          <img src="images/wyatt-ryan-367017-unsplash.jpg" alt="">
+          <h3>Traveling With Your Dog</h3>
+          <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas
+            doluptios dolupta tiandebis nem ut.</p>
+          <a href="#">Read more</a>
+        </div>
+      </aside>
+    </div>
   </section>
 
-  <main class="main-container">
-    <section class="container">
-      <div class="man-dog-image">
-        <img src="images/eric-ward-610868-unsplash.jpg" alt="eric ward hugging a dog">
-      </div>
-      <div class="adopt-a-dog-text">
-        <h2>Adopt A Dog</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </div>
-    </section>
-
-    <section id="content" class="main-content">
-      <div id="dog-image" class="dog">
-        <img onclick="dog1()" class="dog-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="eric ward hugging a dog">
-        <h3>Murphy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" onclick="changePrice(123.45)" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="A dog named Nikolay">
-        <h3>Poppy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="A dog named Marcus">
-        <h3>Jack</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/duffy-brook-350225-unsplash.jpg" alt="A dog named Duffy">
-        <h3>Duffy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="eric ward hugging a dog">
-        <h3>Mruphy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="A dog named Nikolay">
-        <h3>Poppy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="A dog named Marcus">
-        <h3>Jack</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/duffy-brook-350225-unsplash.jpg" alt="A dog named Duffy">
-        <h3>Duffy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="eric ward hugging a dog">
-        <h3>Mruphy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" onclick="dog" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="A dog named Nikolay">
-        <h3>Poppy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="A dog named Marcus">
-        <h3>Jack</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-      <div class="dog">
-        <img id="dog-image" class="dog-image" src="images/duffy-brook-350225-unsplash.jpg" alt="A dog named Duffy">
-        <h3>Duffy</h3>
-        <h4>Cost to Adopt: $123.45</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt</p>
-        <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
-      </div>
-
-    </section>
-    <div class="see-more-button">
-      <button onclick="myFunction()" id="show-more">See More Dogs</button>
-    </div>
-  </main>
+  <div class="see-more-button">
+    <button onclick="myFunction()" id="show-more">See More Dogs</button>
+  </div>
 
   <footer class="footer-container">
     <div class="footer-container-inner">
