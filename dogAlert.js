@@ -1,28 +1,23 @@
-function myProfile(name, breed, costs) {
-    alert('My Name is ' + name + '. I am a ' + breed + '. My adoption cost is ' + costs + '. Can not wait to have fun with you! Please adopt me');
-}
-
-// function showMessage() {
-//     alert('Welcome to adopt a dog!');
-// }
-// showMessage();
-
-//to display greetings. Replaced by onMouseOver (header adop a dog) instead.
-
-
 let totalAdoptionFees =0;
+const dog1 = 'Name: Murphy, cost: 123, breed: lab';
+const dog2 = 'Name: Poppy, cost: 123, breed: collie';
+const dog3 = 'Name: Jack, cost: 123, breed: terrier';
+const dog4 = 'Name: Duffy, cost: 123, breed: lab';
+const dog5 = 'Name: Lucas, cost: 123, breed: collie';
+const dog6 = 'Name: Jake, cost: 123, breed: terrier';
+const dog7 = 'Name: Angus, cost: 123, breed: lab';
+const dog8 = 'Name: Violet, cost: 123, breed: collie';
+const dog9 = 'Name: Piper, cost: 123, breed: terrier';
+const dog10 = 'Name: Poppy, cost: 123, breed: lab';
+const dog11 = 'Name: Jake, cost: 123, breed: collie';
+const dog12 = 'Name: Duffy, cost: 123, breed: terrier';
 
 function adoptThisDog(adoptionFees) {
     totalAdoptionFees += adoptionFees;
     console.log(totalAdoptionFees); 
 }
-// }
 
-// let totalAdoptionFees = 0;
-
-// dogOne = {
-//     name: 'congot',
-//     cost: 109,
-//     breed: 'dam'
-// }
-
+function showDogInfo(dog) {
+    console.log(dog);
+    alert(dog);
+}
