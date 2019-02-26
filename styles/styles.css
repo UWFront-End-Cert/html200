@@ -198,3 +198,10 @@ footer nav ul li a {
     width: 100%;
   }
 }
+
+@media print {
+  header {
+    visibility: hidden;
+    height: 0;
+  }
+  }
