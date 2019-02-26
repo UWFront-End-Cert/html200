@@ -39,7 +39,6 @@ width: 30%;
 margin: 1.5%;
 height: auto;
 border: 1px solid whitesmoke;
-text-align: center;
 }
 
 .dog-gallery img {
@@ -63,15 +62,14 @@ width: 70%;
   .left-section {
     width: 100%;
   }
-  .gallery-wrapper {
-    width: 80%;
-  }
 
   .right-section {
     display: none;
     width: 0;  
   }
-
+  .gallery-wrapper {
+    width: 79%;
+  }
 }
 
 /* to transform to 1 column dog on 500px mobile */
@@ -82,7 +80,7 @@ width: 70%;
 }
 
 .dog-gallery {
-  width: 80%;
+  width: 100%;
   margin: 10px auto;
 }
 }
