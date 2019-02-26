@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Adopt A Dog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./styling/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+    <script src="./script/javascript.js"> </script>
+  </head>
+  <body onload = " webpageOnLoad() ">
+    <header>
+        <div class="page-banner">
+           <div class="page-banner-title">
+               <img src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo" class="logo-top">
+               <h1>Seattle's premiere dog adoption agency</h1>
+           </div>
+           <div class="page-banner-Link">
+              <img src="images/cart-icon.svg" alt="Shopping icon" class="shopping-icon">
+              <div class="banner-price">
+                <p id = "cartAmount"> $0.00 </p>
+              </div>
+              <form  action="check-out.html">
+              <input type="submit" class="checkout-button-top" value="Checkout">
+              </form>
+           </div>
+        </div>
+        <nav class="nav-bar-container">
+          <ul class="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <article class="intro">
+            <img src="images/eric-ward-610868-unsplash.jpg" alt="A man hugging his dog" class="hugging-img">
+            <div class="intro-content">
+              <h2 class = "page-title" >Adopt A Dog</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia  deserunt mollit anim id est laborum.
+              </p>
+            </div>
+        </article>
+        <div class="picture-flex">
+            <section class="dog-info">
+                <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Murphy Dog Picture" class="dog-img" onclick = " displayInfo('Murphy','Great Dane','2','123.45') ">
+                <h3>Murphy</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick = "checkoutCalculation('123.45')">Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Poppy Dog Picture" class="dog-img"   onclick = " displayInfo('Poppy','Samoyed','1','123.45') ">
+                <h3>Poppy</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/marcus-wallis-471438-unsplash.jpg" alt="Jack Dog Picture" class="dog-img" onclick = " displayInfo('Jack','Pug','3','123.45') ">
+                <h3>Jack</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/duffy-brook-350225-unsplash.jpg" alt="Duffy Dog Picture" class="dog-img" onclick = " displayInfo('Duffy','Husky','2.5','123.45') ">
+                <h3>Duffy</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/tucker-good-589776-unsplash.jpg" alt="Lucas Dog Picture" class="dog-img" onclick = " displayInfo('Lucas','Labrador','6','123.45') ">
+                <h3>Lucas</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/mitchell-orr-237216-unsplash.jpg" alt="Jake Dog Picture" class="dog-img" onclick = " displayInfo('Jake','Tosa','5','123.45') ">
+                <h3>Jake</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/jonathan-daniels-416786-unsplash.jpg" alt="Angus Dog Picture" class="dog-img" onclick = " displayInfo('Angus','Beagle','1.2','123.45') ">
+                <h3>Angus</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+            <section class="dog-info">
+                <img src="images/kenan-kitchen-1136827-unsplash.jpg" alt="Violet Dog Picture" class="dog-img" onclick = " displayInfo('Violet','Poodle','4','123.45') ">
+                <h3>Violet</h3>
+                <h5><b>Cost to Adopt:</b> $123.45</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
+            </section>
+        </div>
+        <form  action="dogs.html">
+          <input type="submit" class="grey-button" value="See More Dogs">
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+          <img src="images/adoptadog-logo.svg" alt="Adopt a Dog Logo" class="logo-bottom">
+          <div class="footer-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </div>
+          <nav class = "nav-footer-container">
+            <ul class="nav-footer">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="dogs.html">Dogs</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </nav>
+          <p>2018 Adoptadog, LLC | Seattle, WA</p>
+      </div>
+    </footer>
+  </body>
+</html>

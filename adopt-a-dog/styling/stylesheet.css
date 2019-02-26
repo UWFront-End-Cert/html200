@@ -5,13 +5,13 @@
  }
 
 body {
-  background-color: #e6e6e6;
+/*  background-color: #e6e6e6;*/
   width : 100%;
 }
 
 /****** Header ******/
 .page-banner {
-  background-image: url("../images/christopher-harris-57366-unsplash.jpg");
+  background-image: url("../images/christopher-harris-57366-unsplash.jpg") !important ;
   background-color:  #0d0d0d;
   background-size: 91% 180%;
   background-position: right top;
@@ -91,6 +91,7 @@ body {
   width : 100%;
   padding-left: 15%;
   padding-top: 15px;
+  background-color: #e6e6e6;
 }
 
 .nav-bar {
@@ -120,67 +121,77 @@ body {
   font-weight: bold;
 }
 
-.wrapper {
-  background-color: white;
-  width: 100%;
-  max-width: 1450px;
-  min-width: 500px;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .page-title {
   font-size : 2rem;
   color : #003366;
 }
 
-/************ article = Introduction*************/
+/************ Main *************/
+.index-main {
+  display: grid;
+  grid-template-columns: 2fr 1.25fr;
+  grid-column-gap: 20px;
+}
+
+.wrapper-main {
+  background-color: white;
+  width: 100%;
+  max-width: 1450px;
+  padding-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.wrapper {
+  background-color: white;
+  width: 100%;
+  padding-left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
 
 .intro {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
   margin: auto 0;
+  grid-column: 1 / span 3;
+  grid-row-start: 1;
 }
 
+
 .hugging-img {
-  min-width: 10rem;
-  width : 30%;
-  height : 18rem;
+  padding-left: 3%;
+  width : 97%;
+  height : 21rem;
 }
 
 .intro-content {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   padding-left: 20px;
 }
 
-.intro-content p {
-  font-size: 1.3rem;
-  align-self: center;
+.intro-content > p {
+  font-size: 1rem;
   font-family: 'Noto Sans SC', sans-serif;
+  margin-top: 10px;
+  color: #808080;
 }
 
-/* picture flex ----Dogs HTML*/
-
-.picture-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-  width: 100%;
-  min-width: 400px;
-  margin: auto 0;
-  margin-top: 15px;
+.intro-content > h2 {
+  margin-top: 10px;
+  color: #003366;
 }
 
 .dog-info {
-  width: 20%;
-  min-width: 200px;
+  width: 100%;
   margin-right: 1%;
   margin-left: 1%;
   margin-bottom: 1.8rem;
@@ -190,27 +201,26 @@ body {
 
 .dog-img {
   width: 100%;
-  min-width: 200px;
   height: 7.5rem;
 }
 
 .dog-info > h3 {
   color: #003366;
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   padding-left: 10px;
 }
 
 .dog-info > h5 {
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   padding-left: 10px;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: 'Noto Sans SC', sans-serif;
 }
 
 .dog-info > p {
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   padding-left: 10px;
-  font-size: 0.65rem;
+  font-size: 0.80rem;
   font-family: 'Noto Sans SC', sans-serif;
 }
 
@@ -235,17 +245,62 @@ body {
 .grey-button {
   background-color: grey;
   color: white;
-  width:10rem;
+  width: 10rem;
   padding: 5px;
   border: none;
   outline: none;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  grid-column : 1 / span 4;
 }
 
 .grey-button:hover {
   background-color: black;
+}
+
+.button-article {
+  grid-column: 1 / span 3;
+  align-self: center;
+}
+/*********Main Page Aside*************/
+.aside-wrapper {
+  width: 100%;
+  margin-top: 20px;
+  padding-right: 50%;
+  background-color: white;
+}
+
+.aside-article {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.blog-small-img {
+  width: 100%;
+  height: 10rem;
+  padding: 10px;
+}
+
+.aside-link {
+  color: #2eb8b8;
+  font-size: .95rem;
+  text-decoration: none;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+
+.aside-article > h3 {
+  color: #003366;
+  margin-top: 0.2rem;
+  padding: 5px;
+  font-size: 1.25rem;
+}
+
+.aside-article > p {
+  margin-top: 0.2rem;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 /****** footer *******/
@@ -279,7 +334,7 @@ footer {
  }
 
 .nav-footer-container {
-  width : 100%;
+  width: 100%;
 }
 
 .nav-footer {
@@ -301,19 +356,36 @@ footer {
   content: "";
 }
 
-.nav-footer li a {
+.nav-footer > li > a {
   text-decoration : none;
   color: white;
   font-size: 1rem;
 }
 
-.footer-text {
+.footer-text > p {
   height: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
+
+/************Dogs Web - Page*****************/
+
+.wrapper-dogs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+}
+
+.wrapper-dogs > h1 {
+  grid-column: 1 / span 4;
+}
+
 
 /******** blog Web-pages ************/
 
@@ -327,7 +399,6 @@ footer {
   flex-wrap: wrap;
   justify-content: space-around;
   width: 100%;
-  margin: 0;
   margin-top: 40px;
   margin-bottom: 60px;
 }
@@ -339,19 +410,19 @@ footer {
   padding-left: 30px;
 }
 
-.blog-content p {
+.blog-content > p {
   font-size: 1rem;
   align-self: center;
   font-family: 'Noto Sans SC', sans-serif;
 }
 
-.blog-content h3 {
+.blog-content > h3 {
   font-size: 1.6rem;
   color: #003366;
   margin-bottom: 20px;
 }
 
-/********** Checkout Form *************/
+/********** Checkout Web - Page *************/
 .checkout-form {
   width: 80%;
   padding: 20px;
@@ -362,7 +433,6 @@ label {
   display: block;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-  min-width: 100px;
   max-width: 1500px;
   font-size: 1.2rem;
   color: #003366;
@@ -374,7 +444,6 @@ input {
   display: block;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
-  min-width: 100px;
   max-width: 1500px;
   border: 1px black solid;
   font-size: 1.2rem;
@@ -417,7 +486,7 @@ select {
 .input-inline-small {
   display: inline-block;
   min-width: 40px;
-  width : 15%;
+  width: 15%;
   max-width: 100px;
   width: 5%;
 }
@@ -428,7 +497,6 @@ select {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   height: 4.5rem;
-  min-width: 4.5rem;
   max-width: 15rem;
 }
 
@@ -445,7 +513,7 @@ select {
   display: inline-block;
   width: 40%;
   margin-top: 1rem;
-  color:  #666666;
+  color: #666666;
   font-size: 0.8rem;
   margin-left: 20px;
 }
@@ -466,4 +534,211 @@ select {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
   font-size: 1.5rem;
+}
+
+
+/********@Media **************/
+
+
+/****** For Ipad ******/
+@media (max-width : 800px) {
+  .aside-wrapper {
+    display : none;
+  }
+  .index-main {
+    grid-template-columns: 1fr;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .wrapper-main {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0%;
+  }
+  .wrapper-dogs {
+    grid-template-columns: 1fr 1fr ;
+    padding-left: 15%;
+    padding-right: 10%;
+  }
+  .wrapper-dogs > h1 {
+    grid-column: 1 / span 2;
+  }
+  .wrapper {
+    padding-left: 10%;
+  }
+  .intro {
+    grid-column: 1 / span 2;
+  }
+  .button-article {
+    grid-column: 1 / span 2;
+  }
+  .page-banner-title h1 {
+    top: 200px;
+  }
+  .logo-top {
+    left: 8%;
+     top: 50px;
+  }
+  .checkout-form{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blog-topic {
+    flex-direction: row;
+    padding-right: 15%;
+  }
+  .blog-content{
+    padding: 10%;
+    width: 100%;
+  }
+  .blog-img {
+    width: 80%;
+  }
+}
+
+
+/************* For Pixel 2 XL *********/
+
+@media (max-width : 420px) {
+  .aside-wrapper {
+    display : none;
+  }
+  .index-main {
+    grid-template-columns: 1fr;
+    padding-left: 15%;
+    padding-right: 10%;
+  }
+  .wrapper-main {
+    grid-template-columns: 1fr ;
+    padding-left: 0%;
+  }
+  .wrapper-dogs {
+    grid-template-columns: 1fr ;
+    padding-left: 15%;
+    padding-right: 10%;
+  }
+  .wrapper {
+    padding-left: 10%;
+  }
+  .wrapper-dogs > h1 {
+    grid-column: 1 / span 1;
+  }
+  .intro {
+    grid-column: 1 ;
+  }
+  .button-article {
+    grid-column: 1 ;
+  }
+  .page-banner-title h1 {
+    top: 200px;
+  }
+  .logo-top {
+    left: 8%;
+    top: 50px;
+  }
+  .footer-text > p{
+    font-size: 0.9rem;
+  }
+  .checkout-form{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blog-topic {
+    flex-direction: row;
+    padding-right: 15%;
+  }
+  .blog-content{
+    padding: 10%;
+    width: 100%;
+  }
+}
+
+/************** For Print ************/
+@media print {
+  body {
+    width: 100%;
+  }
+  main {
+    width : 100%;
+  }
+  .page-banner {
+    height: 275px;
+  }
+  .index-main {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+  }
+  .wrapper-main {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper-dogs {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+  }
+  .wrapper {
+    margin: 0;
+    padding: 0;
+  }
+  .blog-topic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;;
+  }
+  .blog-img {
+    width: 30%;
+    padding: 0;
+  }
+  .blog-content {
+    width: 70%;
+    padding: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-content > p {
+    font-size: 0.8rem;
+  }
+  .wrapper-dogs > .dog-info {
+    margin-top: 10px;
+  }
+  .dog-info > .checkout-button {
+    display: none;
+  }
+  .wrapper-dogs > h1 {
+    grid-column: 1 / span 4;
+  }
+  .intro{
+    display: flex;
+    flex-direction: row;
+    grid-column: 1 / span 3;
+  }
+  .button-article {
+    display: none;
+  }
+  .hugging-img {
+    width: 40%;
+    height: 300px;
+  }
+  .intro-content {
+    width: 60%;
+  }
+  .page-banner-Link {
+    display: none;
+  }
+  .aside-wrapper {
+    display : none;
+  }
+  .nav-bar-container {
+    display: none;
+  }
+  .nav-footer-container{
+    display: none;
+  }
+  footer {
+    height : 200px;
+  }
 }

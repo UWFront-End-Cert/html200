@@ -1,4 +1,4 @@
-let balance = 10000;
+let balance = 1000;
 
 function displayName() {
     let name = document.getElementById("userName").value
@@ -16,12 +16,13 @@ function hidelabel() {
      document.getElementById("nameLable").style.visibility = "hidden";
      document.getElementById("balanceLable").style.visibility = "hidden";
 }
-
+// write function for individual calculation deposit, withdrawal;
 function displaymenu() {
       let amount;
       let option = prompt ("ONLINE Service \n Please select any one option \n Q  to Quit \n W to Withdraw \n D to Deposit \n B to View Bank-balance");
-
+      // let option = '';
       while (option.toUpperCase() !== 'Q'  ) {
+          // option = prompt ("ONLINE Service \n Please select any one option \n Q  to Quit \n W to Withdraw \n D to Deposit \n B to View Bank-balance");
           switch (option.toUpperCase()) {
             case 'W' :
               amount = prompt ("Enter Amount to Withdraw :");
