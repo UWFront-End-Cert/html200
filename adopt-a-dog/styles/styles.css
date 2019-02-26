@@ -60,7 +60,7 @@ h4 {
   font-weight: bold;
 }
 
-.flex-container {
+.dog-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
