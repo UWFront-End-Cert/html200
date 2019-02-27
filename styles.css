@@ -63,13 +63,17 @@ width: 70%;
     width: 100%;
   }
 
+  .dog-gallery {
+    width: 40%;
+  }
+
   .right-section {
     display: none;
     width: 0;  
   }
-  .gallery-wrapper {
+  /* .gallery-wrapper {
     width: 79%;
-  }
+  } */
 }
 
 /* to transform to 1 column dog on 500px mobile */
@@ -121,7 +125,7 @@ width: 70%;
   }
 }
 
-/* nav to shorten?=========================================================  */
+/* nav top and bottom=========================================================  */
 
 .nav-bar {
   display: flex;
@@ -137,10 +141,6 @@ width: 70%;
   font-size: 1rem;
   padding: 14px 20px;
   text-align: center;
-}
-
-.site-nav a:hover {
-  color: darkgray;
 }
 
 .nav-bottom {
@@ -166,7 +166,6 @@ width: 70%;
   box-sizing: content-box;
   font-size: .8rem;
   padding: 20px;
-  /* background-image: images/christopher-harris-57366-unsplash.jpg; */
 }
 
 .header img {
@@ -239,7 +238,6 @@ h2 {
     width: 0;
   }
 } 
-
 
 .banner {
   height: 4rem;
