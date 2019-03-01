@@ -1,0 +1,19 @@
+
+header {
+  background-color: red;
+  background-image: url("cat.jpg");
+  background-repeat: no-repeat;
+  background-position: 75% 25%;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.my-background {
+background: linear-gradient(red, blue);
+// changing direction of the gradient
+background: linear-gradient(60deg, red, blue);
+background: radial-gradient(red, blue);
+}
