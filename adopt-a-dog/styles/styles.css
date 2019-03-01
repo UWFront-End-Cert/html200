@@ -65,12 +65,16 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
+
+
 .header{
   height: 300px;
   box-sizing: border-box;
   width: auto;
   background-color: darkblue;
-  background-size: auto;
+  background-image: url('../images/christopher-harris-57366-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   align-content: center;
 }
@@ -79,7 +83,7 @@ nav ul {
   display: inline-block;
   float: right;
 }
-.footer{
+.footer {
   height: 300px;
   width: auto;
   background-color: darkblue;
@@ -146,7 +150,7 @@ nav ul {
 
 .blog img {
   float:left;
-  width: auto;
+  width: 200px;
 }
 
 @media (max-width:576px) {
