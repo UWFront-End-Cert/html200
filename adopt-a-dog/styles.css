@@ -14,13 +14,14 @@ body {
 /*Style Header*/
 
 header {
-  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html200/master/adopt-a-dog/images/header-images/header-large.jpg");
+  /* background-image: url('../christopher-harris-57366-unsplash.jpg'); */
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html200/master/adopt-a-dog/images/header-images/header-large.jpg"); 
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
   overflow: hidden;
-  object-fit: cover;
+  /* object-fit: cover; */
   height: 400px;
   /* width: 100%; */
 }
