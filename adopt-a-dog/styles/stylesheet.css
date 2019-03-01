@@ -31,7 +31,7 @@ a:active {
 /*---------------------------Header, Main Nav and Footer------------------------------ */
 header {
   background-image: url("../images/christopher-harris-57366-unsplash.jpg");
-  background-color: white;
+  background-color: grey;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -462,6 +462,10 @@ input.zip {
 
   .home-grid-container article:nth-of-type(1) {
     grid-column: 1 / 1;
+  }
+
+  h1.home-intro, p.home-intro {
+    padding: 10px;
   }
 
   .dogs-grid-container {
