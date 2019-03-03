@@ -1,14 +1,16 @@
 header {
   background-color: black;
-  overflow: hidden;
+  /*overflow: hidden;*/
+  background-image: url("images/christopher-harris-57366-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: 85% 15%;
+  background-size: cover;
+  height: 350px;
   width: 100%;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
-img {
-  width: 10%;
-  overflow: hidden;
-}
+
 h1 {
     color: #009933;
     font-size: 1.75em;
@@ -16,6 +18,20 @@ h1 {
     font-family: Arial;
     font-style: italic;
     padding-left: .5em;
+}
+.menu {
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
+}
+.footer-menu {
+    padding: .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
 }
 a:link {
   color: #003399;
@@ -29,17 +45,9 @@ a:visited {
   font-size: 17px;
   text-decoration: none;
 }
-/*.grid-container {
-  padding: 3em 3em 3em 3em;
-  display: grid;
-  grid-column-gap: 5em;
-  grid-row-gap: 5em;
-}*/
-/*.grid-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}*/
+li {
+  margin-left: 3%;
+}
 @media (max-width: 415px) {
   .grid-container {
   width: 100%;
@@ -52,71 +60,38 @@ a:visited {
   width: 30%;
   }
 }
+
 .grid-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+}
+.index-article {
+  width: 100%;
+  display: grid;
+}
+.hug-pic {
+  width: 90%;
+  grid-column: 1;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+.adopt-a-dog {
+  width: 90%;
+  grid-column: 2;
+  margin-left: 5%;
 }
 .dog {
   outline: 2px solid lightgray;
   width: 20%;
   margin: 15px;
 }
-/*.Poppy {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
+
+.logo {
+  width: 20%;
+  margin: 2% 2% 0 2%;
 }
-.Jack {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Duffy {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Lucas {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Jake {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Angus {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Violet {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Piper {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Maximus {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Luna {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}
-.Stella {
-  outline: 2px solid lightgray;
-  width: 25%;
-  margin: 15px;
-}*/
+
 p {
   font-family: Arial;
 }
