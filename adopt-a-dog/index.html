@@ -8,7 +8,7 @@
 <body>
   <header>
     <div>
-      <img src="adoptadog-logo.svg" alt="Adopt A Dog logo">
+      <img class=logo src="adoptadog-logo.svg" alt="Adopt A Dog logo">
       <h1>Seattle's premiere dog adoption agency</h1>
     </div>
   </header>
@@ -23,9 +23,16 @@
         </ul>
       </nav>
     </div>
-    <div>
-      <article>
-        <img src="images/eric-ward-610868-unsplash.jpg" alt="Photo of a man hugging a dog">
+    <div class=index-article>
+      <img class=hug-pic srcset="images/header-small.jpg 500w,
+                                 images/header-medium.jpg 1000w,
+                                 images/header-large.jpg 2000w"
+                          sizes="(max-width: 320px) 280px,
+                                 (max-width: 768px) 808px,
+                                 1000px"
+                          src="images/header-large.jpg" alt="A brown dog's head">
+      <article class=adopt-a-dog>
+
         <h2>Adopt A Dog</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -42,7 +49,7 @@
     </div>
     <div class="grid-container">
       <script src="checkout.js" charset="utf-8"></script>
-      <article class=Murphy>
+      <article class=dog>
         <img class=profile src="images/alex-lacayo-756508-unsplash.jpg" alt="Photo of a brown dog" onclick="alert(dog1)">
         <h3>Murphy</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -51,7 +58,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Poppy>
+      <article class=dog>
         <img class=profile src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Photo of a small, white, shaggy dog" onclick="alert(dog2)">
         <h3>Poppy</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -60,7 +67,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Jack>
+      <article class=dog>
         <img class=profile src="images/marcus-wallis-471438-unsplash.jpg" alt="Photo of a brown and white dog looking up" onclick="alert(dog3)">
         <h3>Jack</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -69,7 +76,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Duffy>
+      <article class=dog>
         <img class=profile src="images/duffy-brook-350225-unsplash.jpg" alt="Photo of a brown and white dog with blue eyes" onclick="alert(dog4)">
         <h3>Duffy</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -78,7 +85,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Lucas>
+      <article class=dog>
         <img class=profile src="images/tucker-good-589776-unsplash.jpg" alt="Photo of a black dog" onclick="alert(dog5)">
         <h3>Lucas</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -87,7 +94,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Jake>
+      <article class=dog>
         <img class=profile src="images/mitchell-orr-237216-unsplash.jpg" alt="Photo of a yellow lab" onclick="alert(dog6)">
         <h3>Jake</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -96,7 +103,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Angus>
+      <article class=dog>
         <img class=profile src="images/jamie-street-562280-unsplash.jpg" alt="Photo of a brown dog with it's tongue sticking out" onclick="alert(dog7)">
         <h3>Angus</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -105,7 +112,7 @@
           quis nostrud exercitation ullamco laboris.</p>
           <input type="button" onclick="adoptThisDog()" value="Adopt">
       </article>
-      <article class=Violet>
+      <article class=dog>
         <img class=profile src="images/alicia-gauthier-253619-unsplash.jpg" alt="Photo of a small dog" onclick="alert(dog8)">
         <h3>Violet</h3>
         <h4>Cost to adopt: $123.45</h4>
@@ -118,13 +125,13 @@
   </main>
   <footer>
     <div>
-      <img src="adoptadog-logo.svg" alt="Adopt A Dog logo">
+      <img class=logo src="adoptadog-logo.svg" alt="Adopt A Dog logo">
       <p>Sed do eiusmod tempor incididunt ut labore
         et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris.</p>
         <div>
           <nav>
-            <ul>
+            <ul class=footer-menu>
               <li><a href="index.html">Home</a></li>
               <li><a href="dogs.html">Dogs</a></li>
               <li><a href="blog.html">Blog</a></li>
