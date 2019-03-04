@@ -4,11 +4,16 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; 
+  /* flex-wrap: nowrap;  */
 }
 
 .left-section {
-width: 80%;
+width: 70%;
+}
+
+.right-section {
+  width: 30%;
+  padding: 0 5rem;
 }
 
 .left-section img {
@@ -32,21 +37,19 @@ width: 100%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
 .dog-gallery {
 width: 30%;
-margin: 1.5%;
+max-width: 400px;
+margin: 2rem 0;
 height: auto;
-border: 1px solid whitesmoke;
+border: 1px solid grey;
 }
 
 .dog-gallery img {
 width: 100%;
-}
-
-.right-section {
-width: 20%;
 }
 
 .blog {
@@ -58,11 +61,8 @@ width: 70%;
 }
 
 /* to tranform into 2 column dog and make blog dissappear on ipad */
-@media (max-width: 900px) {
-  .left-section {
-    width: 100%;
-  }
 
+@media (max-width: 1042px) {
   .dog-gallery {
     width: 40%;
   }
@@ -71,27 +71,26 @@ width: 70%;
     display: none;
     width: 0;  
   }
-  /* .gallery-wrapper {
-    width: 79%;
-  } */
 }
 
 /* to transform to 1 column dog on 500px mobile */
 
-@media (max-width: 500px) {
+@media (max-width: 415px) {
   .gallery-wrapper {
   flex-direction: column;
 }
 
 .dog-gallery {
-  width: 100%;
+  width: 90%;
   margin: 10px auto;
 }
 }
 
+/* TO PRINT BLACK ==================================================== */
+
 @media print {
   body {
-    color:tomato;
+    color: black;
   }
 }
 
