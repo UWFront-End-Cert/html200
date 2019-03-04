@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Adopt A Dog</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     
@@ -28,7 +29,15 @@
     <main>
       <article class="dogsleft">
         <div class="main">
-          <img class="mainpic" src="adopt-a-dog/images/eric-ward-610868-unsplash.jpg" alt="Eric Ward With Dog">
+          <img class="mainpic" 
+          srcset="./adopt-a-dog/images/header-images/header-small.jpg 500w, 
+                  ./adopt-a-dog/images/header-images/header-medium.jpg 1000w,
+                  ./adopt-a-dog/images/header-images/header-large.jpg 2000w"
+          sizes="(max-width: 480px) 300px,
+                 (max-width: 767px) 400px,
+                 500px"
+          src="./adopt-a-dog/images/header-images/header-large.jpg" alt="Eric Ward With Dog">
+          <!-- <img class="mainpic" src="adopt-a-dog/images/eric-ward-610868-unsplash.jpg" alt="Eric Ward With Dog"> -->
           <div class="mainwords">
             <h2>Adopt A Dog</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero omnis ad sit a temporibus ipsum beatae eius dicta eaque aliquid officia consequatur sint illo placeat, perferendis quisquam ducimus nisi fuga!</p>
