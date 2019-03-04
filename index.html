@@ -27,9 +27,16 @@
     <section class="whole-section">
         <section class="left-section">
             <div class="top-left-section">
-                <img srcset="images/header-small.jpg 250w, images/header-medium.jpg" 500w"
+ <!-- Image responsive feature using 3 difference image size ie the smallest size file of header-small of 30kb, lucasxx of 820kb and ericxx of 1.8MB; for mobile, ipad and bigger screen -->
+            <picture>
+                    <source media="(min-width: 1024px)" srcset="images/eric-ward-610868-unsplash.jpg">
+                    <source media="(min-width: 415px" srcset="images/lucas-ludwig-580293-unsplash.jpg">
+                    <img src="images/header-small.jpg" alt="pic dog and me";>
+            </picture>
+                <!-- <img srcset="images/header-small.jpg 250w, images/header-medium.jpg 500w",
                     sizes="(max-width: 350px) 300px, 500px"
-                    src="images/header-large.jpg" alt="pic dog and me"/>
+                    src="images/header-large.jpg" alt="pic dog and me"/> -->
+                    <!-- <img src="images/eric-ward-610868-unsplash.jpg" alt="Me and my dog picture"/> -->
                 <h2>Adopt A Dog</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum repellendus voluptates distinctio quam veritatis vitae! Unde distinctio est, quidem consectetur illum dolorum odio atque aliquam repellendus cum natus! Molestiae, voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nobis molestias itaque tempora magni quasi esse culpa dolore ab ex mollitia nostrum, ullam provident, obcaecati est quidem doloribus corporis. Quibusdam.</p>
                 </div>
