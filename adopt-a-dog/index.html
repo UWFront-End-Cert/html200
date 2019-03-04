@@ -3,7 +3,6 @@
     <head>
       <meta charset="utf-8" dir="ltr">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <script src="" charset="utf-8"></script>
       <link rel="stylesheet" type="text/css" href="styles/styles.css">
       <title>Adoptadog Homepage</title>
     </head>
@@ -29,7 +28,13 @@
         </header>
       <main>
         <section class="hp-blog-style">
-          <img src="images/eric-ward-610868-unsplash.jpg" alt="a man hugs his dog">
+          <img src="header-medium.jpg"
+              srcset="images/header-small.jpg 500w, images/header-medium.jpg 1000w, images/header-large.jpg 2000w"
+              sizes="(max-width: 350px) 300px,
+                    (max-width: 1000px) and (min-width: 350px) 700px,
+                    (min-width: 1000px) 1200px,
+                    500px"
+              alt="a man hugs his dog">
           <h1>Adopt A Dog</h1>
           <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
             dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore,
@@ -39,8 +44,8 @@
             volorent fugia nonsedi gendand itatquos as magnimpor aut molor autatia
             ad est officimus accae et omnia cus, od qui ate.</p>
         </section>
-        <section class="boxes">
-          <article class="dog-box">
+        <section class="hp-boxes">
+          <article class="hp-dog-box">
             <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Murphy the dog" onclick="alert('Name: Murphy, Breed: Boxer, Cost: $123.45')">
             <div class="box-text">
               <h3>Murphy</h3>
@@ -50,7 +55,7 @@
           </div>
             <button onClick="calcTotal()">Adopt</button>
           </article>
-          <article class="dog-box">
+          <article class="hp-dog-box">
             <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="Poppy the dog" onclick="alert('Name: Poppy, Breed: Terrier, Cost: $123.45')">
             <div class="box-text">
               <h3>Poppy</h3>
@@ -60,7 +65,7 @@
             </div>
             <button onClick = "calcTotal()">Adopt</button>
           </article>
-          <article class="dog-box">
+          <article class="hp-dog-box">
             <img src="images/marcus-wallis-471438-unsplash.jpg" alt="Jack the dog" onclick="alert('Name: Jack, Breed: Beagle, Cost: $123.45')">
             <div class="box-text">
               <h3>Jack</h3>
@@ -70,7 +75,7 @@
             </div>
             <button onClick = "calcTotal()">Adopt</button>
           </article>
-          <article class="dog-box">
+          <article class="hp-dog-box">
             <img src="images/duffy-brook-350225-unsplash.jpg" alt="Duffy the dog" onclick="alert('Name: Duffy, Breed: Pit Bull, Cost: $123.45')">
             <div class="box-text">
               <h3>Duffy</h3>
@@ -80,7 +85,7 @@
             </div>
             <button onClick = "calcTotal()">Adopt</button>
           </article>
-          <article class="dog-box">
+          <article class="hp-dog-box">
             <img src="images/tucker-good-589776-unsplash.jpg" alt="Lucas the dog" onclick="alert('Name: Lucas, Breed: Labrador, Cost: $123.45')">
             <div class="box-text">
               <h3>Lucas</h3>
@@ -90,7 +95,7 @@
             </div>
             <button onClick = "calcTotal()">Adopt</button>
           </article>
-          <article class="dog-box">
+          <article class="hp-dog-box">
             <img src="images/mitchell-orr-237216-unsplash.jpg" alt="Jake the dog" onclick="alert('Name: Jake, Breed: Labrador, Cost: $123.45')">
             <div class="box-text">
               <h3>Jake</h3>
@@ -100,26 +105,6 @@
             </div>
             <button onClick = "calcTotal()">Adopt</button>
           </article>
-          <article class="dog-box">
-            <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Angus the dog" onclick="alert('Name: Angus, Breed: Boxer, Cost: $123.45')">
-            <div class="box-text">
-              <h3>Angus</h3>
-              <p><strong>Cost to Adopt:</strong> $123.45</p>
-              <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
-              sunt arum rendae pla endis re ea erum, qui doluptae</p>
-            </div>
-            <button onClick="calcTotal()">Adopt</button>
-          </article>
-          <article class="dog-box">
-            <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Violet the dog" onclick="alert('Name: Violet, Breed: Labrador, Cost: $123.45')">
-            <div class="box-text">
-              <h3>Violet</h3>
-              <p><strong>Cost to Adopt:</strong> $123.45</p>
-              <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur
-              sunt arum rendae pla endis re ea erum, qui doluptae</p>
-            </div>
-            <button>Adopt</button>
-          </article>
         </section>
       <div class="button">
         <article class="white-cta">
@@ -127,30 +112,30 @@
         </article>
       </div>
       <section class="hp-blog">
-        <h1>From Our Blog</h1>
-        <article>
+        <h2>From Our Blog</h2>
+        <article class="blog-right">
           <img src="images/patrick-hendry-221863-unsplash.jpg" alt="a woman and her dog enjoy the view">
           <h2>Traveling With Your Dog</h2>
           <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet
             adis dolenem quidustrum fuga.</p>
           <a href="blog.html" class="hp-blog-link">Read More >></a></li>
         </article>
-        <article>
+        <article class="blog-right">
           <img src="images/matt-nelson-259365-unsplash.jpg" alt="four dogs on leashes being walked">
           <h2>How To Walk Multiple Dogs</h2>
           <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet
             adis dolenem quidustrum fuga.</p>
-          </article>
           <a href="blog.html" class="hp-blog-link">Read More >></a></li>
-        <article>
+        </article>
+        <article class="blog-right">
           <img src="images/wyatt-ryan-367017-unsplash.jpg" alt="a dog waits patiently for a ball">
           <h2>Teaching Your Dog To Fetch!</h2>
           <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis
             dolenem quidustrum fuga.</p>
           <a href="blog.html" class="hp-blog-link">Read More >></a></li>
-          </article>
-        </section>
-      </main>
+        </article>
+      </section>
+    </main>
       <footer class="footer">
         <img src="images/adoptadog-logo.png" alt="Adoptadog Seattle's premiere dog adoption agency" class="footer-logo">
         <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque
@@ -163,6 +148,6 @@
           <p>&#9400; 2018 Adoptadog, LLC  |  Seattle, WA</p>
       </footer>
       </div>
-      <script src="java/dogs.js" charset="utf-8"></script>
+      <script src="java/dogs.js></script>
     </body>
   </html>
