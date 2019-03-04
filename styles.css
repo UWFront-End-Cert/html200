@@ -62,7 +62,7 @@ width: 70%;
 
 /* to tranform into 2 column dog and make blog dissappear on ipad */
 
-@media (max-width: 1042px) {
+@media (max-width: 1024px) {
   .dog-gallery {
     width: 40%;
   }
@@ -115,7 +115,7 @@ width: 70%;
   border: 1px solid whitesmoke;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 415px) {
   .gallery {
     flex-direction: column;
   }
@@ -231,7 +231,7 @@ h2 {
   margin-right: 50px;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 415px) {
   .blog-picture {
     width: 100%;
   }
@@ -317,5 +317,3 @@ input[type=submit] {
 input[type=submit] hover {
   background-color: #45a049;
 }
-
-
