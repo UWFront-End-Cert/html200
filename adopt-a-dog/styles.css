@@ -129,13 +129,13 @@ h1 {
 }
  */
 .main1 {
-  width: 70%; 
+  width: 69%; 
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: center;
 }
 .main {
-  /* border: 3px solid white; */
   padding: 10px;
   margin-bottom: 0;
   padding-right: 0; 
@@ -168,7 +168,7 @@ h1 {
 }
 
 .clearfix {
-  overflow: auto;
+  overflow: wrap;
   text-align: left;
   width: 100%;
   height: auto;
@@ -227,7 +227,7 @@ h1 {
 
 .main-side {
   display: flex;
-  width: 70%;
+  width: 29%;
   text-align: center;
   flex-direction: column;
   height: auto;
@@ -522,23 +522,30 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
     width: 0;
   }
 
-  /* .main1 {
+  .main1 {
     width: 100%;
+    height: auto;
     padding-bottom: 0;
     margin-bottom: 0;
-  } */
+    align-content: flex-start;
+  } 
 
   .main {
     width: 100%;
     padding-bottom: 0;
     margin-bottom: 0;
+  } 
+
+  header, footer, article {
+    overflow: auto;
+    padding: 0;
   }
 
 }
 
   /*Phone - 1 column*/
 
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
     .grid-container {
       display: grid;
       grid-gap: 15px 15px;
