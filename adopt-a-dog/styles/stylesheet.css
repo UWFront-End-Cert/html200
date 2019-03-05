@@ -27,6 +27,9 @@ body {
   font-size: 100%;
   }
 .main{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   background-color: white;
   margin-top: 20px;
 }
@@ -36,14 +39,15 @@ body {
   font-size: 2.5em;
 }
 .container {
-  width: 100%;
+  width: 70%;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content:space-around;
 }
 .dog-and-man {
   float: left;
-  height: 30%;
+  height: 70%;
   width: 30%;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -59,16 +63,27 @@ body {
   width: 2%;
 }
 .dog-card {
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
+  flex-direction:column;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
   box-sizing:content-box;
-  height: 20%;
-  width: 20%;
+  height: 30%;
+  width: 22%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   padding: 10px;
   box-shadow: 15px;
+}
+.side-blog {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 0 5rem;
+}
+.side-blog img {
+  width: 90%;
+  height: 10%;
 }
 .dog-card img {
   height: 30%;
@@ -106,3 +121,29 @@ footer {
   color: white;
   text-align: center;
 }
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    display: grid;
+    grid-gap: 15px 15px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .side-blog {
+    visibility: hidden;
+    width: 0%;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  .container {
+    display: grid;
+    grid-gap: 15px 15px;
+    grid-template-columns: initial;
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+  .side-blog {
+    visibility: hidden;
+    width: 0%;
+  }
