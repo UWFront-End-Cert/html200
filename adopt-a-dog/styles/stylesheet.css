@@ -14,8 +14,11 @@ p {
   font-size: 0.875em;
 }
 header {
-  background-image:url('images/christopher-harris-57366-unsplash.JPG');
-  background-color: black;
+  background-image:url('../images/header-large.JPG');
+  background-position:top;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
   overflow: auto;
 }
 body {
