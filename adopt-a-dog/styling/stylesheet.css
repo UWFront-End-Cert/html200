@@ -11,7 +11,7 @@ body {
 
 /****** Header ******/
 .page-banner {
-  background-image: url("../images/christopher-harris-57366-unsplash.jpg") !important ;
+  background-image: url("../images/header-img/header-large.jpg") ;
   background-color:  #0d0d0d;
   background-size: 91% 180%;
   background-position: right top;
@@ -20,7 +20,6 @@ body {
   height: 400px;
   width: 100%;
   color: white;
-  min-width: 200px;
   padding: 10px;
   display : flex;
   align-items :center;
@@ -67,7 +66,7 @@ body {
 }
 
 .checkout-button-top {
-   background-color: #66cc00;
+   /*background-color: #66cc00;*/
    outline: none;
    border: none;
    color: white;
@@ -79,10 +78,11 @@ body {
    position: absolute;
    top: 55px;
    right: 80px;
+   background-image: linear-gradient(to right, #1D976C 0%, #93F9B9 51%, #1D976C 100%);
 }
 
 .checkout-button-top:hover {
-  background-color: grey;
+   background-position: right center;
 }
 
 /************** Banner Navigation************/
@@ -225,7 +225,6 @@ body {
 }
 
 .checkout-button {
-  background-color: #66cc00;
   color: white;
   width: 60%;
   height: 1.5rem;
@@ -236,14 +235,14 @@ body {
   border: none;
   padding: 3px;
   font-size: 1rem;
+  background-image: linear-gradient(to right, green, aqua );
 }
 
 .checkout-button:hover {
-  background-color: #408000;
+  background-image: linear-gradient(to left, green, lightblue);
 }
 
 .grey-button {
-  background-color: grey;
   color: white;
   width: 10rem;
   padding: 5px;
@@ -253,10 +252,12 @@ body {
   margin-right: auto;
   display: block;
   grid-column : 1 / span 4;
+  background-image: linear-gradient(to right, black , grey );
 }
 
 .grey-button:hover {
-  background-color: black;
+  background-image: linear-gradient(to right, grey 70%, white);
+  color : black;
 }
 
 .button-article {
@@ -545,6 +546,9 @@ select {
   .aside-wrapper {
     display : none;
   }
+  .page-banner {
+    background-image: url("../images/header-img/header-medium.jpg") ;
+  }
   .index-main {
     grid-template-columns: 1fr;
     padding-left: 15%;
@@ -601,6 +605,10 @@ select {
 @media (max-width : 420px) {
   .aside-wrapper {
     display : none;
+  }
+  .page-banner {
+    background-image: url("../images/header-img/header-small.jpg") ;
+    height: 300px;
   }
   .index-main {
     grid-template-columns: 1fr;

@@ -38,12 +38,19 @@
     <main class = "index-main" >
       <div class="wrapper-main">
         <article class="intro">
-            <img src = "images/eric-ward-610868-unsplash.jpg" alt="A man hugging his dog" class = "hugging-img">
-            <div class = "intro-content">
+          <img src = "./images/content-img/content-img-small.jpg" alt="A woman sitting next to her dog" class = "hugging-img"
+            srcset = "./images/content-img/content-img-small.jpg 332w,
+                      ./images/content-img/content-img-medium.jpg 885w,
+                      ./images/content-img/content-img-large.jpg 1920w "
+             sizes = "(max-width: 332px) 250px,
+                      (min-width:332px) and (max-width: 885px) 500px,
+                      (max-width:1920px) 700px"
+          >
+          <div class = "intro-content">
               <h2 class = "page-title" >Adopt A Dog</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia  deserunt mollit anim id est laborum.
               </p>
-            </div>
+          </div>
         </article>
         <article class="dog-info">
                 <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Murphy Dog Picture" class="dog-img" onclick = " displayInfo(0) ">
