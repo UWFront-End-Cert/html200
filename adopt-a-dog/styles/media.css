@@ -8,6 +8,20 @@ Navigation * {
   grid-template-columns: 1fr 1fr;
 }
 
+#showcase:before {
+  background-color: black;
+  content: '';
+  /* background: url('../images/hero-image.jpg') no-repeat center top/cover; */
+  background: url('../images/header-medium.jpg') no-repeat center top/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 700px;
+  /*   height: 70vh; */
+  width: 100%;
+  z-index: -1;
+}
+
 aside {
   display: none;
 }
@@ -20,6 +34,20 @@ article .dog {
 @media (max-width: 600px) {
   #showcase .showcase-container {
     grid-template-columns: 1fr;
+  }
+
+  #showcase:before {
+    background-color: black;
+    content: '';
+    /* background: url('../images/hero-image.jpg') no-repeat center top/cover; */
+    background: url('../images/header-small.jpg') no-repeat center top/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 700px;
+    /* height: 70vh; */
+    width: 100%;
+    /*   z-index: -1; */
   }
 
   #content .man-dog-image img {
@@ -39,4 +67,15 @@ article .dog {
   article .dog {
     width: 100%;
   }
+
+  .blog-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .footer-text p {
+    width: 90%;
 }
