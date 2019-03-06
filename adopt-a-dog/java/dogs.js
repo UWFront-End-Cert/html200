@@ -6,3 +6,12 @@ function calcTotal() {
   total = total + buttonValue;
   alert("Total: " + '$' + total);
 }
+
+function navMenu() {
+  var x = document.getElementById("MyNav");
+  if (x.className === "Nav") {
+    x.className += "responsive";
+  } else {
+    x.className = "topnav";
+  }
+}

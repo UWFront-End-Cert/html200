@@ -21,8 +21,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  overflow: hidden;
 }
 
 .tag-line {
@@ -49,6 +48,11 @@ body {
   padding-left: 2rem;
 }
 
+.cart {
+  height: auto;
+  width: 3%;
+}
+
 .nav {
   background-color: #f0f0f0;
   padding: .50rem;
@@ -59,6 +63,10 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: #2F425F;
+}
+
+.nav .hamburger {
+  display: none;
 }
 
 h2, h3, h4, h5 {
@@ -164,7 +172,7 @@ li:last-child:after {
   object-fit: cover;
   width: 100%;
 	height: auto;
-  max-height: 150px;
+  max-height: 14em;
   padding: 0;
 }
 
@@ -228,7 +236,7 @@ li:last-child:after {
   font-weight: bold;
   font-size: 0.875em;
   font-family: serif;
-  width: 20%;
+  width: 25%;
   margin: 1rem;
  }
 
@@ -341,13 +349,36 @@ and (max-width: 1024px) and (orientation: landscape) {
 }
 
 /* MOBILE */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .boxes {
     flex-direction: column;
   }
 
   .dog-box {
-    width: 80%;
+    width: 90%;
+  }
+
+  .hp-dog-box {
+    width: 90%;
+  }
+
+  .blog-img {
+    float: none;
+    width: 90%;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .nav a.hamburger {
+    display: block;
+    padding: 1rem;
+    color: #2F425F;
+    }
+
+  .footer p {
+    display: none;
   }
 }
 
@@ -355,6 +386,8 @@ and (max-width: 1024px) and (orientation: landscape) {
 @media (min-width: 768px) and (max-width: 991px) {
   .boxes {
     flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
   }
 
   .dog-box {
