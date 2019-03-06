@@ -37,4 +37,10 @@ She most commonly uses Chrome on her laptops and either iOS Safari or Chrome on 
 Testing for Adopt-A-Dog
 For initial responsiveness tests, I used Chrome DevTools to view my web site on iphone and across other common devices. I then reviewed my site using Window Resizer Chrome extension.
 
-I then reviewed my site in these browsers on my Mac laptop: Chrome, Firefox, and Safari . On my android phone, I reviewed the site in Chrome. On my home desktop (PC), I reviewed it in Internet Explorer. I also had a friend take screenshots of my site using her iPhone  and within the Safari browser.
+I then reviewed my site in these browsers on my Mac laptop: Chrome and Safari . On my android phone, I reviewed the site in Chrome. On my home desktop (PC), I reviewed it in Internet Explorer. I also had a friend take screenshots of my site using her iPhone  and within the Safari browser.
+
+Change I made during the testing process:
+-I changed the footer on mobile to streamline and simplify and make it easier to use the links.
+-I continued to refine and edit the images, including the blog images (removing the float and increasing width on mobile) as well as refining the boxes and background image to make it look better on different devices. The images still look a bit funny on IE (blurry and the background image shows a gap between header and nav) but the site is much improved on other browsers.
+-I started a hamburger menu but unfortunately, couldn't get it to completely work properly (so disregard for now).
+-I swapped in the svg files for logo/cart icon and played with the sizes to help with their appearance on different screen sizes. 
