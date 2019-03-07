@@ -223,7 +223,8 @@ h2 {
 }
 
 .blog-picture img {
-  width: 50%;
+  width: 80%;
+  height: 220px;
 }
 
 .blog-article {
