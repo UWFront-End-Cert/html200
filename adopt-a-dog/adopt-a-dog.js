@@ -28,16 +28,10 @@
 // }
 
 
-
-
-
-// my side note/idea: later on change the totals of each dog so they are all different $$ 
-
 //'Name: ' + dogName + ' is ' + dogDescr + ' and ' + dogBreed + ' $ ' + dogPrice
 
 
-
-let checkoutTotal = 0;
+let checkoutTotal =0;
 const dog1 = 'Name: Murphy, Cost: $123.45, Breed: Lab';
 const dog2 = 'Name: Poppy, Cost: $123.45, Breed: Havanese';
 const dog3 = 'Name: Jack, Cost: $123.45, Breed: Lab';
@@ -51,12 +45,15 @@ const dog10 = 'Name: Maximus, Cost: $123.45, Breed: Lab';
 const dog11 = 'Name: Luna, Cost: $123.45, Breed: Pitbull';
 const dog12 = 'Name: Stella, Cost: $123.45 Breed: Beagle?';
 
+
+// button click alert 
+
 function dogAdd(click_id) {
   checkoutTotal = dogPrice + checkoutTotal;
   alert('Your total cost is' + '$' + checkoutTotal);
 }
 
-//Alert - dog info hmmmmmmmmmmm :/
+//Alert - dog info
 
 function dogInfo(dog) {
   console.log(dog)
