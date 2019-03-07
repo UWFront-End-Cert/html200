@@ -21,9 +21,10 @@ function dogAdd(click_id) {
 
 //Alert - dog info hmmmmmmmmmmm :/
 
-function dogInfo(click.img) {
-  alt = dogInfo;
- alert('Information ' + alt);
+function dogInfo(dog) {
+  console.log(dog)
+  // alt = dogInfo;
+ alert(dogInfo);
 }
 
 
@@ -35,6 +36,8 @@ function dogInfo(click.img) {
 //'Name: ' + dogName + ' is ' + dogDescr + ' and ' + dogBreed + ' $ ' + dogPrice
 
 
+
+let checkoutTotal = 0;
 const dog1 = 'Name: Murphy, Cost: $123.45, Breed: Lab';
 const dog2 = 'Name: Poppy, Cost: $123.45, Breed: Havanese';
 const dog3 = 'Name: Jack, Cost: $123.45, Breed: Lab';
