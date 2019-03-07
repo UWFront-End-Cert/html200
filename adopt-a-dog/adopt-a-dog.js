@@ -9,23 +9,23 @@
 // let dogName;
 // let dogBreed;
 // let dogDescr;
-let dogPrice = 123.45;
-let checkoutTotal = 0;
+// let dogPrice = 123.45;
+// let checkoutTotal = 0;
 
-// Checkout Total: adding the totals of each dog when button is clicked
+// // Checkout Total: adding the totals of each dog when button is clicked
 
-function dogAdd(click_id) {
-  checkoutTotal = dogPrice + checkoutTotal;
-  alert('Your total cost is' + '$' + checkoutTotal);
-}
+// function dogAdd(click_id) {
+//   checkoutTotal = dogPrice + checkoutTotal;
+//   alert('Your total cost is' + '$' + checkoutTotal);
+// }
 
 //Alert - dog info hmmmmmmmmmmm :/
 
-function dogInfo(dog) {
-  console.log(dog)
-  // alt = dogInfo;
- alert(dogInfo);
-}
+// function dogInfo() {
+//   console.log()
+//   alt = dogInfo;
+//  alert(dogInfo);
+// }
 
 
 
@@ -50,3 +50,17 @@ const dog9 = 'Name: Piper, Cost: $123.45, Breed: Terrier';
 const dog10 = 'Name: Maximus, Cost: $123.45, Breed: Lab';
 const dog11 = 'Name: Luna, Cost: $123.45, Breed: Pitbull';
 const dog12 = 'Name: Stella, Cost: $123.45 Breed: Beagle?';
+
+function dogAdd(click_id) {
+  checkoutTotal = dogPrice + checkoutTotal;
+  alert('Your total cost is' + '$' + checkoutTotal);
+}
+
+//Alert - dog info hmmmmmmmmmmm :/
+
+function dogInfo(dog) {
+  console.log(dog)
+  // alt = dogInfo;
+ alert(dog);
+}
+
