@@ -16,7 +16,7 @@ Frank is 67 and recently retired. He lives with this wife in the suburbs. He is 
 
 ## Persona 3: Judith
 
-Judith loves dogs and already owns two of them. She has no immediate plans to adopt another dog, but she enjoys passing time by browsing available dogs and reading about being a dog owner. Her goal is not to adopt a new do but to be a part of the dog-lover community. She wants to help others adopt dogs. She would consider temporarily fostering a dog if needed. She primarily uses her phone to view the site.
+Judith loves dogs and already owns two of them. She has no immediate plans to adopt another dog, but she enjoys passing time by browsing available dogs and reading about being a dog owner. Her goal is not to adopt a new dog but to be a part of the dog-lover community. She wants to help others adopt dogs. She would consider temporarily fostering a dog if needed. She primarily uses her phone to view the site.
 
 # Testing
 
