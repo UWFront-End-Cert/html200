@@ -189,6 +189,12 @@ img.home-intro {
 .dog-bio {
   background-color: white;
   border: 1px solid #ececec;
+  transition: border 0.5s ease;
+  -webkit-transition: border 0.5s ease; /* For Safari 3.1 to 6.0 */
+}
+
+.dog-bio:hover {
+  border: 1px solid gray;
 }
 
 .dog-bio img {
@@ -214,6 +220,13 @@ img.home-intro {
   width: 90%;
   height: 40px;
   font-size: 1.1rem;
+  opacity: 1;
+}
+
+.dog-bio button:hover {
+  opacity: 0.7;
+  /* background-color: white;
+  color: #8db553; */
 }
 
 .dog-bio-container {
@@ -267,7 +280,7 @@ button.more-dogs {
 }
 
 .blog-grid-container {
-  margin: 0 auto;
+  margin: 0 auto 30px;
   max-width: 1000px;
   display: grid;
   grid-template-columns: 1fr;
