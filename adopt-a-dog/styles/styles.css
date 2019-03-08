@@ -119,6 +119,15 @@ nav ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.dog-blog-entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  float: right;
+  width: 50%;
 }
 
 .tile {
@@ -132,6 +141,11 @@ nav ul {
 .tile img {
   width: 100%;
   justify-content: center;
+}
+
+.tile-body {
+ margin-left: 10px;
+ margin-right: 10px;
 }
 
 .right-section img {
@@ -151,6 +165,16 @@ nav ul {
 .blog img {
   float:left;
   width: 200px;
+}
+
+.container-main {
+  box-sizing: border-box;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  text-wrap: wrap;
 }
 
 @media (max-width:576px) {
