@@ -3,7 +3,6 @@ She is 18 and a recent high school graduate. She is single and has moved out of 
 
 Sally sharply represents the demographic of the younger generation; she specifically represents recent graduates of high school or college. She is decently tech savvy and will often be using her phone in her free time. She just started a full time job and uses a computer, but as a new hire may not have the time to browse while on the clock. She has a laptop that she rarely uses at home, as most things that she needs to do will be available on her phone. When browsing sites she uses Google Chrome on both her computers and smart phone. Her goal of using this site will be to find a companion as she is moving out on her own for the first time. She has roommates in her new apartment and will have to keep that in mind when making decisions.
 
-demographic
-job title
-goals an d preferences
-environment
+Testing
+Site was tested on browsers: Google Chrome, Microsoft Edge, and Safari. The site was tested using Chrome when coded.
+There were not many noticeable differences between Chrome and Edge displays of the website. The footer has different heights. The responsiveness of the site on both browsers also seem nearly identical when going through browser size changes. When opened using Safari on a Mac the website seemed normal although there were slight discrepancies in the header width and footer height. When opened using Chrome on a Galaxy S8 phone the list of dogs properly shrank to 1 column, but the header and footer do not cover the entire width of the screen.
