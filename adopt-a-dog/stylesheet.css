@@ -158,9 +158,9 @@ float: right;
 
 .dog-tile {
   display: inline-block;
-  /* width: 30%; */
-  min-width: 200px;
-  max-width: 300px;
+  width: 30%;
+  /* min-width: 300px;
+  max-width: 500px; */
   display: flex;
   flex-direction: column;
   border: solid 1px lightgrey;
