@@ -8,7 +8,8 @@ Testing has been done with 3 different browsers and 2 different platforms to ens
 Browsers tested: Chrome, Safari and Edge.
 Operating systems: Mac and PC.
 
-Different viewing modes have been taken into consideration when designing the website:
+Different viewing modes have been taken into consideration when designing the website to meet the device preferences of the different user personas:
 1. mobile
 2. tablet and 
 3. desktop.
+Developer's inspect element is also used throughout the process. A 2-dog-tile layout is displayed on a tablet-mode for best, optimum viewing while a 1-dog-tile layout for mobile-mode viewing.
