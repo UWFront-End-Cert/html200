@@ -151,7 +151,9 @@ float: right;
 
 .dog-tile {
   display: inline-block;
-  width: 350px;
+  width: 30%;
+  min-width: 200px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   border: solid 1px lightgrey;
@@ -279,6 +281,7 @@ fieldset {
 @media all and (min-width: 412px) and (max-width: 1024px) {
   .right-blog-container{
     display:none;
+    width: 0%;
   }
   .left-side-container{
     width: 100%;
@@ -296,6 +299,10 @@ fieldset {
     color: white;
     font-weight: bold;
     text-align: center;
+  }
+
+  .dog-tile{
+    width: 40%;
   }
 
 
@@ -305,6 +312,7 @@ fieldset {
 @media all and (max-width: 411px) {
   .right-blog-container{
     display:none;
+    width: 0%;
   }
   .left-side-container{
     width: 100%;
@@ -322,6 +330,9 @@ fieldset {
     color: white;
     font-weight: bold;
     text-align: center;
+  }
+  .dog-tile{
+    width: 51%;
   }
 
 }

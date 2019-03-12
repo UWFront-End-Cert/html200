@@ -1,0 +1,15 @@
+.box{
+  display: block;
+  height: 200px;
+  width: 800px;
+  background: linear-gradient(black,blue);
+}
+
+p{
+  color: white;
+}
+
+body{
+  background-image: url('./pic.jpg');
+
+}
