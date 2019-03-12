@@ -14,7 +14,7 @@ p {
   font-size: 0.875em;
 }
 header {
-  background-image:url('../images/header-large.JPG');
+  background-image:url('../images/header-large.jpg');
   background-position:top;
   background-size: cover;
   height: 250px;
@@ -37,7 +37,7 @@ body {
   margin-top: 20px;
 }
 .summary {
-  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   font-size: 2.5em;
 }
@@ -125,8 +125,13 @@ footer {
   text-align: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .dog-card {
+    flex-direction:row;
+  }
+  .summary {
+    flex-direction: row;
+  }
   .container {
-    display: grid;
     grid-gap: 15px 15px;
     grid-template-columns: auto auto;
     padding: 10px;
@@ -139,6 +144,10 @@ footer {
 }
 
 @media only screen and (min-width: 375px) and (max-width: 812px) {
+
+  .summary {
+    flex-direction: row;
+  }
   .container {
     display: grid;
     grid-gap: 15px 15px;
