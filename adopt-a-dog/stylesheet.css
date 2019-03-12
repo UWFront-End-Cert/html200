@@ -158,8 +158,8 @@ float: right;
 .dog-tile {
   display: inline-block;
   width: 30%;
-  /* min-width: 300px;
-  max-width: 500px; */
+  min-width: 300px;
+  /* max-width: 500px; */
   display: flex;
   flex-direction: column;
   border: solid 1px lightgrey;
@@ -290,12 +290,12 @@ fieldset {
     width: 100%;
   }
   .dog-tile{
-    width: 100%;
+    width: 70%;
   }
  }
 
 /* ipad device */
-/* @media all and (min-width: 412px) and (max-width: 1024px) {
+@media all and (min-width: 412px) and (max-width: 1024px) {
   .right-blog-container{
     display:none;
     width: 0%;
@@ -323,10 +323,10 @@ fieldset {
   }
 
 
-} */
+}
 
 /* small devices */
-/* @media all and (max-width: 411px) {
+@media all and (max-width: 411px) {
   .right-blog-container{
     display:none;
     width: 0%;
@@ -334,31 +334,17 @@ fieldset {
   .left-side-container{
     width: 100%;
   }
-  .hidden-blog {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:  15px;
-    margin-bottom: 15px;
-    background-color: lightgrey;
-    font-size: 1.5em;
-    height: 40px;
-    width: 260px;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-  }
   .dog-tile{
-    width: 51%;
+    width: 70%;
   }
 
 }
 
-@media all and (min-width: 1025px) {
+/* @media all and (min-width: 1025px) {
  .hidden-blog{
    display: none;
  }
-}
+} */
 
 @media print {
   * {
