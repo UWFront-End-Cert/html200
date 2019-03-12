@@ -57,14 +57,14 @@ Web-Site Features
 
 Code Snippet
    1. HTML code for Responsive Image
-        "    <img  src = "./images/content-img/content-img-small.jpg" alt="A woman sitting next to her dog" class = "hugging-img"
+            img  src = "./images/content-img/content-img-small.jpg" alt="A woman sitting next to her dog" class = "hugging-img"
                            srcset = "./images/content-img/content-img-small.jpg 332w,
                                            ./images/content-img/content-img-medium.jpg 885w,
                                            ./images/content-img/content-img-large.jpg 1920w "
                            sizes = "(max-width: 332px) 250px,
                                           (min-width:332px) and (max-width: 885px) 500px,
                                           (max-width:1920px) 700px"
-             >"
+             
    2. CSS Code for Navigation Bar
              
 	"	.nav-bar {
@@ -90,7 +90,7 @@ Browser Testing
 
 	1. Chrome Browser
 	
-		<img scr = "images/Testing/BrowserTesting/Chrome.png" alt = "Printscreen of Webpage open in Chrome Browser">
+		<img scr = "./images/Testing/BrowserTesting/Chrome.png" alt = "Printscreen of Webpage open in Chrome Browser">
 
 	2. FireFox Browser
 
