@@ -39,7 +39,7 @@ Testing:
 
 iPhone 5, iOS Safari
 
-The iPhone 5 is an older, smaller device. The biggest issue with the site was that images appeared in rows instead of as a single, stacked column.
+The iPhone 5 is an older, smaller device. The biggest issue with the site was that images appeared in rows, lowering readability. Adjustments to media query are needed to ensure that images and text appear as a single, stacked column. Users are still able to click on each image to see dog information. With larger images, it will be easier for this to be done.
 
 PC (HP laptop), Mozilla Firefox
 
