@@ -12,4 +12,5 @@ Different viewing modes have been taken into consideration when designing the we
 1. mobile
 2. tablet and 
 3. desktop.
+
 Developer's inspect element is also used throughout the process. A 2-dog-tile layout is displayed on a tablet-mode for best, optimum viewing while a 1-dog-tile layout for mobile-mode viewing.
