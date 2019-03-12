@@ -286,6 +286,14 @@ fieldset {
   height:100%;
 }
 
+@media (hover: none) {
+  .left-side-container{
+    width: 100%;
+  }
+  .dog-tile{
+    width: 100%;
+  }
+ }
 
 /* ipad device */
 /* @media all and (min-width: 412px) and (max-width: 1024px) {
