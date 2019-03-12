@@ -28,8 +28,16 @@
     <div class="container-main">
       <div class="left-side-container">
         <section class="main-intro">
-          <div class="">
-            <img src="images/eric-ward-610868-unsplash.jpg" alt="boy hugging golden retriever" height="220">
+          <div class="shrink-image">
+            <!-- small=590px, medium=1096px, 2100px -->
+            <img
+            srcset="./images/header-large.jpg 2010w,
+                    ./images/header-medium.jpg 1096w"
+                    sizes="50vw"
+                    src="./images/header-small.jpg"
+                    alt="close up picture of dog">
+
+            <!-- <img src="images/eric-ward-610868-unsplash.jpg" alt="boy hugging golden retriever" height="220"> -->
           </div>
           <div class="tile-body">
             <h2>Adopt a dog</h2>
@@ -103,15 +111,13 @@
               <button onclick="runningTotal()" class="adopt">Adopt</button>
             </div>
           </div>
-          <button class="more-dogs-button">
-            <a href="dogs.html">See More Dogs</a>
-          </button>
-          <button class="hidden-blog">
+            <a href="dogs.html" class="more-dogs-button">See More Dogs</a>
+          <!-- <button class="hidden-blog">
             <a href="blog.html">See the Blog</a>
-          </button>
+          </button> -->
         </section>
       </div>
-      <section class="right-blog-container">
+      <!-- <section class="right-blog-container">
         <h2>From Our Blog</h2>
         <div class="side-blog-tile">
             <img src="images/patrick-hendry-221863-unsplash.jpg" alt="boy and dog in canyon" height="150" width="240">
@@ -130,10 +136,8 @@
             <h2>Traveling With Your Dog</h2>
             <p>Iduciendisite quo magnatem iuntum quid quaest ea am, tenderumet adis dolenem quidustrum fuga. Faceaquae estioria derum recuptatur, cum volore, undipsa doloreium hillupta aut es ut.<br>
             <a href="./blogs.html"> Read More>>></a>
-        </div>
-
-
-      </section>
+        </div> -->
+      <!-- </section> -->
     </div>
     <footer>
       <img src="adoptadog-logo.svg" alt="adopt a dog logo" height="70">
