@@ -1,3 +1,21 @@
+User Personas:
+
+Name: John
+Age: 67
+Job: N/A
+Adopting Purpose: Adopting a guide dog to help him go around
+Description: John is blind
+
+Name: Jessica
+Age: 12
+Job: N/A
+Adopting Purpose: Adopting a dog because she needs a bestie and her parents said they will get it for her
+
+Name: Rodger
+Age: 32
+Job: Police Officer
+Adopting Purpose: Needs a German Shepherd to catch bad guys
+
 Testing for Adopt a Dog Page:
 https://vuthatswho.github.io/html200/adopt-a-dog/
 
