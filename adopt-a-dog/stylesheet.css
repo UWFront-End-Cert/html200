@@ -48,14 +48,14 @@ a:visited {
 li {
   margin-left: 3%;
 }
-@media (max-width: 415px) {
+@media screen and (max-width: 415px) {
   .grid-container {
   width: 100%;
   display: flex;
   flex-direction: column;
   }
 }
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .grid-container {
   width: 30%;
   }
@@ -92,6 +92,9 @@ li {
   margin: 2% 2% 0 2%;
 }
 
+.blog {
+  width: 20%;
+}
 p {
   font-family: Arial;
 }
