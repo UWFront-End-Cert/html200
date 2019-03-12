@@ -90,7 +90,7 @@ Browser Testing
 
 	1. Chrome Browser
 	
-		<img scr = "./images/Testing/BrowserTesting/Chrome.png" alt = "Printscreen of Webpage open in Chrome Browser">
+		<img src = "./images/Testing/BrowserTesting/Chrome.png" alt="Printscreen of Webpage open in Chrome Browser">
 
 	2. FireFox Browser
 
