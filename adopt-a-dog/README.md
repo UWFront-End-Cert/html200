@@ -53,14 +53,24 @@ We will be testing the website on a variety of physical devices and platform. Fo
 ### Device 1: Apple iPhone XS
 Intended results: Page sizes down to single column navigation on the main page and text is easy to read.
 
+*results: Passed on Safari Mobile, fail on Chrome Mobile, Safari mobile might be auto scaling, need to adjust media query.
+
 ### Device 2: Samsung Galaxy S8
 Intended results: Page sizes down to single column navigation on the main page and text is easy to read.
 
+*results: Failed on Samsung Internet and Google Chrome Mobile, Currently rendering as 2 columns, need further modification of media query*
+
 ### Device 3: Apple iPad (standard)
-Intended results: In portrait mode, 2 column is displayed and in landscape mode, 3 columns are displayed on the main page.
+Intended results: 2 columns are displayed on the main page.
+
+*results: Passed on Safari Mobile and Chrome Mobile, both rendering as 2 columns.*
 
 ### Device 4: Macbook Pro
 Intended results: Responsive web design, columns show depending on available horizontal space.
 
+*results: Passed on Safari and Chrome, both responsive with 3 columns max working*
+
 ### Device 5: Desktop PC, 16:9 Widescreen
 Intended results: Responsive web design, columns show depending on available horizontal space.
+
+*results: Passed Chrome, responsive with 3 columns max working. Need to test old internet explorer on work computer.*
