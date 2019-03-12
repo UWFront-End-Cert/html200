@@ -8,36 +8,36 @@ Person 1: Matthew Ko
 
 Job title:
 
-International Tax Accountant at Ernst and Young
-High-level position where he has to travel every month  
-One of the partners at EY
-Researches tax law, preparing tax returns, completing tax forms and meeting with clients 
+- International Tax Accountant at Ernst and Young
+- High-level position where he has to travel every month  
+- One of the partners at EY
+- Researches tax law, preparing tax returns, completing tax forms and meeting with clients 
 
 Demographics: 
 
-47 years old
-Born in Santa Monica, California  
-Married
-Father of 3 kids: 1 boy who is 15 years old and 2 girls who are 13 and 7 years old
-Lives in Bellevue near Bellevue High School in a 3 story house - big backyard 
-Masters in Accounting from UCLA
+- 47 years old
+- Born in Santa Monica, California  
+- Married
+- Father of 3 kids: 1 boy who is 15 years old and 2 girls who are 13 and 7 years old
+- Lives in Bellevue near Bellevue High School in a 3 story house - big backyard 
+- Masters in Accounting from UCLA
 
 Goals and Preferences: 
 
-Enjoys spending time with his wife and kids when he isn’t on a business trip 
-He enjoys working out, hiking, reading and solving crossword puzzles 
-Grew up with a dog so he wants his kids to also have the same experience 
-He wants to teach his kids how to be responsible and taking care of a dog 
-He also wants to get his family a dog so they aren’t lonely when he is away 
-He is looking for a dog that is kid friendly, potty trained, doesn’t shed and a medium sized dog, neutered 
+- Enjoys spending time with his wife and kids when he isn’t on a business trip 
+- He enjoys working out, hiking, reading and solving crossword puzzles 
+- Grew up with a dog so he wants his kids to also have the same experience 
+- He wants to teach his kids how to be responsible and taking care of a dog 
+- He also wants to get his family a dog so they aren’t lonely when he is away 
+- He is looking for a dog that is kid friendly, potty trained, doesn’t shed and a medium sized dog, neutered 
 
 Environment: 
 
-Comfortable with technology 
-Uses most of his devices: laptop, iPad and iPhone 
-Wants high speed internet
-Wants responsive web pages that are easy to navigate
-Uses Google Chrome on his laptop and Safari on his iPhone
+- Comfortable with technology 
+- Uses most of his devices: laptop, iPad and iPhone 
+- Wants high speed internet
+- Wants responsive web pages that are easy to navigate
+- Uses Google Chrome on his laptop and Safari on his iPhone
 
 
 ——————————————————————————————————————————
