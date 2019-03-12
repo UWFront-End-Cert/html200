@@ -48,18 +48,25 @@ a:visited {
 li {
   margin-left: 3%;
 }
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 400px) {
   .grid-container {
+    width: 100%;
+    flex-flow: row nowrap;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+  }
+  .dog {
+    outline: 2px solid lightgray;
+    width: 100%;
+    margin: 15px;
+  }
+}
+/*@media screen and (max-width: 1050px) {
+  .dog {
   width: 100%;
-  /*display: flex;*/
-  flex-direction: column;
   }
-}
-@media screen and (max-width: 1050px) {
-  .grid-container {
-  width: 30%;
-  }
-}
+}*/
 
 .grid-container {
   width: 100%;
