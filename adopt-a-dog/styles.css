@@ -491,6 +491,19 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
     overflow: auto;
     padding: 0;
   }
+/*Header & Shopping cart*/
+
+.checkout {
+  visibility: hidden;
+}
+
+.shopping-cart h2 {
+  visibility: hidden;
+}
+
+.fa-shopping-cart {
+  visibility: hidden;
+}
 
 }
 
@@ -511,5 +524,19 @@ Have the grid layout change from 3 columns to 2 on tablet devices*/
     .right-section {
       visibility: hidden;
     }
+
+.checkout {
+  visibility: hidden;
+  width: 0; 
+}
+
+.shopping-cart {
+  visibility: hidden;
+}
+
+.fa-shopping-cart {
+  visibility: hidden;
+}
+
 
   }  
