@@ -1,19 +1,19 @@
-Adopt A Dog - Seattle’s premiere dog adoption agency 
+# Adopt A Dog - Seattle’s premiere dog adoption agency #
 
 ——————————————————————————————————————————
 
-User Persona
+## User Persona ##
 
-Person 1: Matthew Ko 
+### Person 1: Matthew Ko ###
 
-Job title:
+#### Job title: ####
 
 - International Tax Accountant at Ernst and Young
 - High-level position where he has to travel every month  
 - One of the partners at EY
 - Researches tax law, preparing tax returns, completing tax forms and meeting with clients 
 
-Demographics: 
+#### Demographics: ####
 
 - 47 years old
 - Born in Santa Monica, California  
@@ -22,7 +22,7 @@ Demographics:
 - Lives in Bellevue near Bellevue High School in a 3 story house - big backyard 
 - Masters in Accounting from UCLA
 
-Goals and Preferences: 
+#### Goals and Preferences: ####
 
 - Enjoys spending time with his wife and kids when he isn’t on a business trip 
 - He enjoys working out, hiking, reading and solving crossword puzzles 
@@ -31,7 +31,7 @@ Goals and Preferences:
 - He also wants to get his family a dog so they aren’t lonely when he is away 
 - He is looking for a dog that is kid friendly, potty trained, doesn’t shed and a medium sized dog, neutered 
 
-Environment: 
+#### Environment: ####
 
 - Comfortable with technology 
 - Uses most of his devices: laptop, iPad and iPhone 
@@ -42,7 +42,7 @@ Environment:
 
 ——————————————————————————————————————————
 
-Testing
+### Testing ###
 
 During my testing process I checked my website on Google Chrome using the DevTools option. With the DevTool I clicked through all of the resizing options to see how my website looked in different sizes. 
 
