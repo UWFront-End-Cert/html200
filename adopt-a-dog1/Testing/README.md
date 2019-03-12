@@ -14,3 +14,4 @@ There were not many noticeable differences between Chrome and Edge displays of t
 
 Changes
 The header and footer were not reaching the edges of the device screen. Width for both header and footer were changed to 100% within the mobile media query.
+Footer heights were not matching between Chrome and Edge browsers. Heights were changed around.
