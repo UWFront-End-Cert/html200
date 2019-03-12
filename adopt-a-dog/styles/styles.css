@@ -110,6 +110,13 @@ nav > a {
   text-decoration: none;
 }
 
+nav > .active, a:hover {
+background-color: rgb(129,183,65);
+color: white;
+}
+
+
+
 /* Footer Code */
 
 footer {
@@ -137,6 +144,11 @@ footer {
   text-decoration: none;
   font-weight: bold;
   padding: 2%;
+}
+
+.footer-container > .active, a:hover {
+  background-color: rgb(129,183,65);
+  color: white;
 }
 
 .footer-container > img {
@@ -182,16 +194,6 @@ main {
   line-height: 2.1rem;
   /* margin-left: 13%;
   font-size: 1.4rem; */
-}
-
-@media screen and (max-width: 1023px){
-  .right-column {
-    display: none;
-  }
-
-  .left-column {
-    margin-right: 13%;
-  }
 }
 
 .right-column {
@@ -269,14 +271,22 @@ button {
   text-decoration: none;
 }
 
-/* Dog-Tile Code */
+/*Media Quaries*/
+
+@media screen and (max-width: 1023px){
+  .right-column {
+    display: none;
+  }
+
+  .left-column {
+    margin-right: 13%;
+  }
+}
 
 @media screen and (max-width: 500px){
   .grid-container1 {
     display: grid;
     grid-template-columns: auto;
-    /* margin-left: 13%;
-    margin-right: 40%; */
     max-width: 100%;
     min-width: 10%;
     height: 5%;
@@ -286,6 +296,32 @@ button {
   header {
     background-image: url("../images/header-images/header-small.jpg");
     background-size: cover;
+    height: 25rem;
+  }
+
+  .flexbox {
+    flex-wrap: wrap;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .column-left > img {
+    height: 30px;
+  }
+
+  .right-side > button  {
+    width: 40%;
+    height: 20%;
+    margin: 0 13% 0  60%;
+    padding: 4% 8% 8% 8%;
+  }
+
+  .see > a > button {
+    margin: 0 auto 8% auto;
+    width: 50%;
+    padding: 3% 0;
   }
 }
 
@@ -293,8 +329,6 @@ button {
   .grid-container1 {
     display: grid;
     grid-template-columns: auto auto;
-    /* margin-left: 13%;
-    margin-right: 40%; */
     max-width: 100%;
     min-width: 10%;
     height: 5%;
@@ -304,6 +338,42 @@ button {
   header {
     background-image: url("../images/header-images/header-medium.jpg");
     background-size: cover;
+    height: 37rem;
+  }
+
+  .flexbox {
+    flex-wrap: wrap;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .column-left {
+    margin-top: 0;
+    margin-left: 68%;
+  }
+
+  .column-left > img {
+    height: 50px;
+  }
+
+  .column-right {
+    margin-top: 2%;
+    font-size: 1.5rem;
+  }
+
+  .right-side > button  {
+    width: 25%;
+    height: 20%;
+    margin: 2% 13% 0 68%;
+    padding: 2% 8% 4% 8%;
+  }
+
+  .see > a > button {
+    margin: 1% auto 4% auto;
+    width: 25%;
+    padding: 2% 0;
   }
 }
 
@@ -311,8 +381,6 @@ button {
   .grid-container1 {
     display: grid;
     grid-template-columns: auto auto auto;
-    /* margin-left: 13%;
-    margin-right: 40%; */
     max-width: 100%;
     min-width: 10%;
     height: 5%;
@@ -378,6 +446,10 @@ button {
     font-weight: normal;
   }
 }
+
+/*Media Quaries End*/
+
+/* Dog-Tile Code */
 
 .dog-tile {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
