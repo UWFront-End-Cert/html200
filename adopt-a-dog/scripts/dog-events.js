@@ -1,3 +1,5 @@
+// Dog info. and calculate total fees -----------------------------------
+
 let murphy = "Name: Murphy\nBreed: Mutt\nFee: 123.45";
 let poppy = "Name: Poppy\nBreed: Mutt\nFee: 123.45";
 let jack = "Name: Jack\nBreed: Mutt\nFee: 123.45";

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Ryan Petersen">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adopt a Dog - Checkout</title>
+    <title>Adopt a Dog - Contact</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700|Open+Sans:300,700" rel="stylesheet">
   </head>
@@ -27,23 +27,24 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="dogs.html">Dogs</a></li>
           <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </nav>
     <main>
-      <div class="checkout-container">
-        <h1>Checkout</h1>
-        <form class="checkout-form" method="get">
+      <div class="contact-container">
+        <h1>Contact Us</h1>
+        <form class="contact-form" method="get">
           <label for="name">Name:</label>
-          <input class="name" type="text" name="name" id="name">
+          <input class="name" type="text" name="name" id="name" required>
           <label for="email">Email Address:</label>
-          <input class="email" type="email" name="email" id="email">
+          <input class="email" type="email" name="email" id="email" required>
           <label for="street">Street Address:</label>
-          <input class="street" type="text" name="street" id="street">
+          <input class="street" type="text" name="street" id="street" required>
           <div class="form-flex">
             <div>
               <label for="city">City:</label>
-              <input class="city" type="text" name="city" id="city">
+              <input class="city" type="text" name="city" id="city" required>
             </div>
             <div>
               <label for="state">State:</label>
@@ -54,7 +55,7 @@
             </div>
             <div>
               <label for="zip">Zip Code:</label>
-              <input class="zip" type="text" name="zip" id="zip">
+              <input class="zip" type="text" name="zip" id="zip" required>
             </div>
           </div>
           <p>First Time Adopter?</p>
@@ -67,7 +68,7 @@
             <option value="a">A</option>
             <option value="b">B</option>
           </select>
-          <input class="submit-checkout" type="submit" name="submit" value="Submit" id="submit">
+          <input class="submit-contact" type="submit" name="submit" value="Submit" id="submit">
         </form>
       </div>
     </main>
@@ -81,11 +82,13 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="dogs.html">Dogs</a></li>
               <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </nav>
         </div>
         <p>&copy; 2018 Adoptadog, LLC | Seattle, WA</p>
       </div>
     </footer>
+    <script src="scripts/contact-form.js" charset="utf-8"></script>
   </body>
 </html>

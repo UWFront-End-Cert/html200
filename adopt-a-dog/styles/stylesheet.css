@@ -111,12 +111,22 @@ nav.main-nav {
   margin: 0 15px;
 }
 
+.main-nav-container li:nth-child(3)::after {
+  content: "/";
+  margin: 0 15px;
+}
+
 .footer-nav li:nth-child(1)::after {
   content: "/";
   margin: 0 15px;
 }
 
 .footer-nav li:nth-child(2)::after {
+  content: "/";
+  margin: 0 15px;
+}
+
+.footer-nav li:nth-child(3)::after {
   content: "/";
   margin: 0 15px;
 }
@@ -145,7 +155,7 @@ footer p {
 }
 
 .footer-nav-container {
-  margin: 0 0 0 30%;
+  margin: 0 0 0 20%;
 }
 
 .footer-nav ul {
@@ -317,17 +327,17 @@ button.more-dogs {
   grid-gap: 15px;
 }
 
-/* -----------------------------------Checkout page-----------------------------------*/
-.checkout-container {
+/* -----------------------------------contact page-----------------------------------*/
+.contact-container {
   margin: 2% auto;
   max-width: 1000px;
 }
 
-.checkout-container h1 {
+.contact-container h1 {
   margin: 0 0 40px;
 }
 
-.checkout-form label {
+.contact-form label {
   display: block;
   margin: 0 0 10px;
   font-family: 'Noto Serif', serif;
@@ -342,7 +352,7 @@ input.name, input.email, input.street {
   margin: 0 0 30px;
 }
 
-.checkout-form p {
+.contact-form p {
   margin: 0 0 10px;
   font-family: 'Noto Serif', serif;
   font-size: 1.35rem;
@@ -361,7 +371,7 @@ label.radio {
   margin: 0 20px 0 10px;
 }
 
-input.submit-checkout {
+input.submit-contact {
   display: block;
   background-color: #8db553;
   color: white;
