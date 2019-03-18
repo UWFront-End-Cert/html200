@@ -355,7 +355,7 @@ h6 {
   background-color: #f0f0f0;
   position: relative;
   width: 90%;
-  height: 2rem; 
+  height: 4rem; 
   color: #26466D;
   font-weight: bolder;
   cursor: pointer;
@@ -448,6 +448,60 @@ footer ul {
 footer li {
   display: inline;
 }
+
+/*Contact Form*/
+
+form {
+  padding: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #aca7a7;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input {
+  margin-bottom: 1rem;
+  background: #ffffff;
+  border: 1px solid #9c9c9c;
+}
+
+form button {
+  background-color: #f0f0f0;
+  color: #26466D;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 0.8em;
+  border: 2px solid #004466;
+}
+
+
+label {
+  text-align: left;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 0.6rem;
+}
+
+textarea {
+  width: 100%;
+  height: 125px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #9c9c9c;
+  margin-bottom: 1rem;
+  background-color: #ffffff;
+  font-size: 12px;
+  resize: none;
+}
+
 
 
 /*Have the grid layout change from 3 columns to 1 on mobile devices
