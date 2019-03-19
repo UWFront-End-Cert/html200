@@ -26,18 +26,18 @@
     <div>
       <h2>Contact Us</h2>
         <fieldset>
-        <form action="/action.php" method="GET">
+        <form id=contactForm action="/action.php" method="GET">
           <label for="Name">Name:
-           <input type="text" name="Name" id="Name">
+           <input class="formInput" type="text" name="Name" id="Name">
           </label>
           <label for="email">Email:
-          <input type="email" name="user-email" id="email">
+          <input class=formInput type="email" name="user-email" id="email">
           </label>
           <label for="streetAddress">Street address:
-           <input type="text" name="streetAddr" id="streetAddress">
+           <input class=formInput type="text" name="streetAddr" id="streetAddress">
           </label>
           <label for="City">City:
-           <input type="text" name="city" id="City">
+           <input class=formInput type="text" name="city" id="City">
           </label>
           <label for="State">State:
             <select name="State" id="State">
@@ -95,14 +95,14 @@
             </select>
           </label>
           <label for="zipCode">Zip Code:
-           <input type="text" name="zip" id="zipCode">
+           <input class=formInput type="text" name="zip" id="zipCode">
           </label>
-          <label for="firstTimeadopter">First time adopter?
-            <input type="radio" name="firstTime" id="firstTimeadopter" value="Yes">Yes
+          <!-- <label for="firstTimeadopter">First time adopter?
+            <input class=formInput type="radio" name="firstTime" id="firstTimeadopter" value="Yes">Yes
           </label>
           <label for="firstTimeadopterno">
-            <input type="radio" name="firstTime" id="firstTimeadopterno" value="No">No
-          </label>
+            <input class=formInput type="radio" name="firstTime" id="firstTimeadopterno" value="No">No
+          </label> -->
           <label for="pickupLocation">Pickup Location:
             <select name="pickupLocation" id="pickupLocation">
               <option value="downtown">Downtown</option>
@@ -112,7 +112,7 @@
             </select>
           </label>
           <label for="leaveAComment">
-              <textarea name="comment" rows="10" columns="15" id=leaveAComment>
+              <textarea class=formInput name="comment" rows="10" columns="15" id=leaveAComment>
               </textarea>
           <input id="contactSubmit" type="button" onclick="submitForm()" value="Submit">
           <script src="contact-us.js" charset="utf-8"></script>
