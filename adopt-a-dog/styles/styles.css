@@ -545,62 +545,44 @@ h2 {
 
 label {
   color: rgb(9,60,96);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  padding: 1% 1% 1% 0;
   margin-left: 13%;
 }
 
-input[type=text], input[type=email] {
-  margin: 1% 0 1% 13%;
-  padding: 1%;
-  width: 20%;
-}
-
-.move-left {
-  margin-left: 22%;
-}
-
-.move-left2 {
+label[for=message] {
+  margin-top: 0;
   margin-left: 13%;
 }
 
-select {
-  margin-left: 5%;
-  padding: 1%;
-  min-width: 10%;
-  max-width: 100%;
-}
-
-#zip-code {
-  margin-left: 7%;
+button[type=submit] {
+  width: 10%;
+  margin: 2% auto 0 29%;
   padding: 1%;
   width: 10%;
-}
-
-input[type=submit] {
-  background: linear-gradient(rgb(9,60,96), rgb(129,183,65));
-  /* background-color: rgb(129,183,65); */
-  color: white;
-  font-weight: bold;
-  font-size: 1.5rem;
-  width: 15%;
   border-radius: 5px;
   border: none;
-  padding: 1%;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
-.radio-button {
-  margin: 2% 0 1% 13%;
-}
-
-.place > select {
-  margin-left: 13%;
-  margin-top: 2%;
-  padding: 1%;
+input[type=text] {
+  margin: 0 0 1% 1%;
+  padding: 10px;
   width: 20%;
 }
 
-form > p {
-  margin: 2% 13%;
+input[type=email] {
+  margin: 0 0 1% 2.9%;
+  padding: 10px;
+  width: 20%;
+}
+
+textarea[type=textArea] {
+  margin-left: 1.9%;
+  padding: 0;
+  width: 20%;
+  wrap: hard;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
 }
