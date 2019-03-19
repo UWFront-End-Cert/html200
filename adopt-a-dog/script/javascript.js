@@ -28,7 +28,7 @@ function dogtilesload() {
        const box = document.createElement('article');
        box.setAttribute ('class','dog-info');
 
-       box.innerHTML = '<img src = ' + dogInfo[i].img + ' alt = ' + dogInfo[i].altext + ' class = "dog-img" onclick = "displayInfo(0)" >  <h3> ' + dogInfo[i].name + '</h3> <h5><b> Cost to Adopt : </b> ' + dogInfo[i].cost + '</h5> <p>' + dogInfo[i].info + '</p> <button type="button" class="checkout-button" onclick = "checkoutCalculation(0)" > Adopt </button>';
+       box.innerHTML = '<img src = ' + dogInfo[i].img + ' alt = ' + dogInfo[i].altext + ' class = "dog-img" onclick = "displayInfo(0)" >  <h3> ' + dogInfo[i].name + '</h3> <h5><b> Cost to Adopt : </b> ' + dogInfo[i].cost + '</h5> <p>' + dogInfo[i].info + '</p> <button type="button" class="checkout-button-tiles" onclick = "checkoutCalculation(0)" > Adopt </button>';
 
        container.appendChild(box);
     }
@@ -43,7 +43,7 @@ function indexdogtilesload() {
        const box = document.createElement('article');
        box.setAttribute ('class','dog-info');
 
-       box.innerHTML = '<img src = ' + dogInfo[i].img + ' alt = ' + dogInfo[i].altext + ' class = "dog-img" onclick = "displayInfo(0)" >  <h3> ' + dogInfo[i].name + '</h3> <h5><b> Cost to Adopt : </b> ' + dogInfo[i].cost + '</h5> <p>' + dogInfo[i].info + '</p> <button type="button" class="checkout-button" onclick = "checkoutCalculation(0)" > Adopt </button>';
+       box.innerHTML = '<img src = ' + dogInfo[i].img + ' alt = ' + dogInfo[i].altext + ' class = "dog-img" onclick = "displayInfo(0)" >  <h3> ' + dogInfo[i].name + '</h3> <h5><b> Cost to Adopt : </b> ' + dogInfo[i].cost + '</h5> <p>' + dogInfo[i].info + '</p> <button type="button" class="checkout-button-tiles" onclick = "checkoutCalculation(0)" > Adopt </button>';
 
        container.appendChild(box);
 
