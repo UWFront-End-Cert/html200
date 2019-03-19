@@ -15,7 +15,7 @@
 
 <body>
 
-  <header id="showcase">
+  <header id="showcase" class="showcase">
     <div class="container">
       <div class="showcase-container">
         <!-- <img src="images/header-large.jpg" srcset="images/header-large.jpg 1x, images/header-large.jpg 2x"  alt="adopt-a-dog hero image"> -->
@@ -26,19 +26,20 @@
         <div class="category-2">
           <img class="shopping-cart" src="images/cart-icon.svg" alt="adopt a dog shopping cart">
           <span id="count" class="dogPrice">$0.00</span>
-          <a href="checkout.html" class="btnc btn-primary">Checkout</a>
+          <a href="contact.html" class="btnc btn-primary">Checkout</a>
         </div>
       </div>
     </div>
   </header>
 
   <section class="main-navigation">
-    <nav id="main-nav">
+    <nav class="main-nav">
       <div class="container">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="#">Dogs</a></li>
           <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
     </nav>
@@ -172,11 +173,6 @@
               <button aria-label="Adopt" type="Submit" class="button-1">Adopt</button>
             </div>
           </div>
-        </article>
-        <div class="see-more-button">
-          <!-- <button onclick="myFunction()" id="show-more">See More Dogs</button> -->
-          <a href="checkout.html" class="btnc btn-primary" onclick="myFunction()" id="show-more">See More Dogs</a>
-        </div>
       </div>
       <aside class="aside-blog">
         <h2>From Our Blog</h2>
@@ -185,7 +181,7 @@
           <h3>Traveling With Your Dog</h3>
           <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas
             doluptios dolupta tiandebis nem ut.</p>
-          <a href="blog.html">Read more>></a>
+          <a href="blog.html" class="read-more">Read more >></a>
         </div>
 
         <div class="side-blog2">
@@ -193,7 +189,7 @@
           <h3>Traveling With Your Dog</h3>
           <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas
             doluptios dolupta tiandebis nem ut.</p>
-          <a href="blog.html">Read more>></a>
+          <a href="blog.html" class="read-more">Read more >></a>
         </div>
 
         <div class="side-blog3">
@@ -201,11 +197,16 @@
           <h3>Traveling With Your Dog</h3>
           <p>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas
             doluptios dolupta tiandebis nem ut.</p>
-          <a href="blog.html">Read more>></a>
+          <a href="blog.html" class="read-more">Read more >></a>
         </div>
       </aside>
     </div>
   </section>
+  <!-- <div class="see-more-button">
+    <button onclick="myFunction()" id="show-more">See More Dogs</button>
+    <a href="#" class="btnc btn-primary" onclick="myFunction()" id="show-more">See More Dogs</a>
+  </div> -->
+</article>
 
   <footer id="footer-container" class="footer-container">
     <div class="footer-container-inner">
@@ -223,6 +224,7 @@
     </div>
   </footer>
   <script src="javascript/script.js"></script>
+  <script src="javascript/forms.js"></script>
 </body>
 
 </html>

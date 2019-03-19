@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="styles/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Adopt A Dog</title>
+</head>
+
+<body>
+
+  <header id="showcase" class="showcase">
+    <div class="container">
+      <div class="showcase-container">
+        <!-- <img src="images/header-large.jpg" srcset="images/header-large.jpg 1x, images/header-large.jpg 2x"  alt="adopt-a-dog hero image"> -->
+        <div class="category">
+          <img class="logo" src="images/adoptadog-logo.svg" alt="adopt a dog logo">
+          <h1>Seattle's premiere dog adoption agency</h1>
+        </div>
+        <div class="category-2">
+          <img class="shopping-cart" src="images/cart-icon.svg" alt="adopt a dog shopping cart">
+          <span id="count" class="dogPrice">$0.00</span>
+          <a href="checkout.html" class="btnc btn-primary">Checkout</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main-navigation">
+    <nav class="main-nav">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Dogs</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <form onsubmit="return validate()" id="myForm" class="checkout-form" action="thankyou.html">
+    <section class="form-content">
+      <h2>Contact Us</h2>
+      <div class="errormsg"></div>
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="firstName" autofocus>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email">
+      <label for="adr">Street Address</label>
+      <input type="text" id="adr" name="address">
+      <div class="form-content2">
+        <div class="city-field">
+          <label for="city">City</label>
+          <input type="text" id="city" name="city">
+        </div>
+        <div class="state-field">
+          <label for="state">State</label>
+          <input type="text" id="state" name="state">
+        </div>
+        <div class="zip-field">
+        <label for="zip">Zipcode</label>
+        <input type="text" id="zip" name="zip">
+        </div>
+      </div>
+      <br>
+      <p>First Time Adopter?</p>
+      <div class="adopter-container">
+        <div class="">
+          <span>Yes</span>
+          <input type="radio" id="radio1"name="yes_no">
+        </div>
+        <div class="">
+          <span>No</span>
+          <input type="radio" id="radio2" name="yes_no">
+      </div>
+      </div>
+            <br>
+      <p>Pickup Location</p>
+      <select name="pickup-location">
+        <option value="Location">Location 1</option>
+        <option value="Location">Location 2</option>
+        <option value="Location">Location 3</option>
+        <option value="Location">Location 4</option>
+      </select>
+        <input type="Submit" class="submit-btn" value="submit">
+    </section>
+  </form>
+
+  <footer id="footer-container" class="footer-container">
+    <div class="footer-container-inner">
+      <img src="images/adoptadog-logo.svg" alt="Adopt A Dog Logo">
+      <div class="footer-text">
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="copyright">Copyright &copy; 2018 Adoptadog, LLC Seattle, WA</p>
+    </div>
+  </footer>
+    <script src="javascript/forms.js"></script>
+
+</body>
+
+</html>
