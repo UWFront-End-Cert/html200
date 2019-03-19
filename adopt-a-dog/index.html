@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>Adopt A Dog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./styling/stylesheet.css" media = "all">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
-    <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="./styling/stylesheet.css" type="text/css" media = "all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="./script/javascript.js"> </script>
 
   </head>
-  <body onload = " webpageOnLoad() ">
+  <body onload = "indexdogtilesload()">
     <header>
         <div class="page-banner">
            <div class="page-banner-title">
@@ -32,11 +32,12 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="dogs.html">Dogs</a></li>
             <li><a href="blog.html">Blog</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
           </ul>
         </nav>
     </header>
     <main class = "index-main" >
-      <div class="wrapper-main">
+      <div class="wrapper-main" id="wrapperMain">
         <article class="intro">
           <img src = "./images/content-img/content-img-small.jpg" alt="A woman sitting next to her dog" class = "hugging-img"
             srcset = "./images/content-img/content-img-small.jpg 332w,
@@ -52,7 +53,7 @@
               </p>
           </div>
         </article>
-        <article class="dog-info">
+      <!--  <article class="dog-info">
                 <img src="images/alex-lacayo-756508-unsplash.jpg" alt="Murphy Dog Picture" class="dog-img" onclick = " displayInfo(0) ">
                 <h3>Murphy</h3>
                 <h5><b>Cost to Adopt:</b> $123.45</h5>
@@ -93,8 +94,8 @@
                 <h5><b>Cost to Adopt:</b> $123.45</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <button type="button" class="checkout-button" onclick='checkoutCalculation(123.45)'>Adopt</button>
-        </article>
-        <div class="button-article">
+        </article>-->
+        <div class="button-article" id="buttonArticle">
             <form  action="dogs.html">
                 <input type="submit" class="grey-button" value="See More Dogs">
             </form>
@@ -138,6 +139,7 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="dogs.html">Dogs</a></li>
               <li><a href="blog.html">Blog</a></li>
+              <li><a href="contactUs.html">Contact Us</a></li>
             </ul>
           </nav>
           <p>2018 Adoptadog, LLC | Seattle, WA</p>
