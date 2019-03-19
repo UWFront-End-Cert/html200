@@ -1,4 +1,4 @@
-
+// CHECKOUT
 let total = 0;
 let buttonValue = 123.45;
 

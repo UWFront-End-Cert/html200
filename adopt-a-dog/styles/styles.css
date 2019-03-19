@@ -305,6 +305,7 @@ select {
   font-kerning: normal;
   padding: 2rem;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .footer-logo {
@@ -415,5 +416,5 @@ and (max-width: 1024px) and (orientation: landscape) {
    }
 }
 
-
-/* ADD FOOTER MEDIA QUERY */
+/* ADD HOVERS TO LINKS */
+/* FIX TABLET MEDIA QUERY */
