@@ -1,6 +1,6 @@
 
-const form = document.createElement('form');
-const fields = ['First Name', 'Last Name', 'Email Address', 'Comments'];
+let form = document.createElement('form');
+let fields = ['First Name', 'Last Name', 'Email Address', 'Comments'];
 
 document.body.appendChild(form);
 
