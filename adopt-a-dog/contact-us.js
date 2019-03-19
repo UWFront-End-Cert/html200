@@ -1,6 +1,6 @@
 
-let form = document.createElement('form');
-let fields = ['First Name', 'Last Name', 'Email Address', 'Comments'];
+const form = document.createElement('form');
+const fields = ['First Name', 'Last Name', 'Email Address', 'Comments'];
 
 document.body.appendChild(form);
 
@@ -11,7 +11,7 @@ document.body.appendChild(form);
 
 for (let i = 0; i <  fields.lenght >= 1; i += 1) {
      
-const label inputValue = document.createElement('input');
+const inputValue = document.createElement('input');
 inputValue.setAttribute('id', fields[i]);
 
 const label = document.createElement('label');
