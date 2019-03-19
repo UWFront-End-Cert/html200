@@ -27,9 +27,9 @@ let blogStyle1 = document.getElementById('blog-1');
 let blogStyle2 = document.getElementById('blog-2');
 let blogStyle3 = document.getElementById('blog-3');
 
-blogStyle1.innerhtml = blogStyle[0].headline + blogStyle[0].body + blogStyle[0].image + blogStyle[0].alt;
-blogStyle2.innerhtml = blogStyle[1].headline + blogStyle[1].body + blogStyle[1].image + blogStyle[1].alt;
-blogStyle3.innerhtml = blogStyle[2].headline + blogStyle[2].body + blogStyle[2].image + blogStyle[2].alt;
+blogStyle1.innerhtml = '<article class = "blog-style">' + blogStyle[0].headline + blogStyle[0].body + blogStyle[0].image + blogStyle[0].alt;
+blogStyle2.innerhtml = '<article class = "blog-style">' + blogStyle[1].headline + blogStyle[1].body + blogStyle[1].image + blogStyle[1].alt;
+blogStyle3.innerhtml = '<article class = "blog-style">' + blogStyle[2].headline + blogStyle[2].body + blogStyle[2].image + blogStyle[2].alt;
 
 
 
@@ -51,10 +51,6 @@ for (let i=0; i < blogStyle.length; i++) {
   // let image = document.createElement('image');
   // let alt = document.createElement('alt')
   //
-  // article.appendChild(headline);
-  // article.appendChild(body);
-  // article.appendChild(image);
-  // article.appendChild(alt);
 
   console.log(blogStyle1);
   console.log(blogStyle2);
