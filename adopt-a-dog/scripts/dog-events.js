@@ -20,3 +20,13 @@ function calcTotal(fee) {
   totalAdoptionFees += fee;
   alert('Total adoption fees: ' + totalAdoptionFees);
 }
+
+// jQuery ------------------------------------------------------
+$('.dog-bio').hover(
+  function(){
+    $( this ).css('border', '1px solid gray');
+  },
+  function(){
+    $( this ).css('border', '1px solid #ececec');
+  }
+);

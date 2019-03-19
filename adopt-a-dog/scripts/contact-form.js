@@ -1,6 +1,7 @@
 let formElement = document.querySelector('form');
 
-formElement.addEventListener('submit', function(e) {
+
+$('form').submit(function(e) {
   e.preventDefault();
 
   const inputName = formElement.elements[0].value;
