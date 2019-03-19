@@ -194,9 +194,21 @@ li {
   margin: 2% 2% 0 2%;
 }
 
+/*.blog-grid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}*/
 .blog {
   width: 20%;
+
 }
+/*.blog-article {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
 .index-blog-pic {
   width: 100%;
 }
