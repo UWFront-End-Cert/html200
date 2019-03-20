@@ -73,7 +73,7 @@ footer {
   /* margin-left: 80px;
   margin-right: 80px; */
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   width: 100%;
 }
 
@@ -351,3 +351,8 @@ fieldset {
     color: black;
   }
 } */
+
+#userFeedback{
+  font-size: 1.8rem;
+  font-style: italic;
+}

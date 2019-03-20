@@ -17,4 +17,12 @@ formElement.addEventListener('submit', function(e){
 
   alert('Your submission has been received!')
   console.log(dataToSubmit)
+
+
+  let commentUser = document.getElementById("user")
+  let commentUserFeedback = document.getElementById("userFeedback")
+
+  commentUser.textContent = dataToSubmit.fName+' '+dataToSubmit.lName;
+  commentUserFeedback.textContent = dataToSubmit.comments;
+
 })
