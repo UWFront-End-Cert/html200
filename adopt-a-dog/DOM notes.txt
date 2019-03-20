@@ -1,0 +1,13 @@
+console.log(document.querySelector('h1'));
+document.querySelector('h1').textContent = 'We love dogs'
+
+let els = document.querySelector('a');
+for(let i=0; i<els.length; i++) {els[i].style.background = 'red';}
+
+document.createElement('p');
+let el = document.createElement('h4');
+doument.querySelector('.blog-container');
+doument.querySelector('.blog-container').appendChild(el);
+document.querySelector('h4').innerHTL = '<span>hihihi</span>;
+document.querySelector('h4').ineerText = 'nononono';
+document.querySlector('.blog-container').removeChild(el);
