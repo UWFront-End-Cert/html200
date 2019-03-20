@@ -5,6 +5,10 @@ let dogs = [
 ,{name:'Duffy', breed: 'Pitbull', price: 123.45, pic:'images/duffy-brook-350225-unsplash.jpg'}
 ,{name:'Lucas', breed: 'Lab', price: 123.45, pic:'images/tucker-good-589776-unsplash.jpg'}
 ,{name:'Jake', breed: 'Lab', price: 123.45, pic:'images/mitchell-orr-237216-unsplash.jpg'}
+,{name:'Piper', breed: 'Long Hair dachshund', price: 123.45, pic:'images/jamie-street-562280-unsplash.jpg'}
+,{name:'Max', breed: 'Terrier', price: 123.45, pic:'images/jisu-lee-55400-unsplash.jpg'}
+,{name:'Luna', breed: 'Lab', price: 123.45, pic:'images/jonathan-daniels-416786-unsplash.jpg'}
+,{name:'Stella', breed: 'Chihuahua', price: 123.45, pic:'images/alicia-gauthier-253619-unsplash.jpg'}
 ];
 
 
