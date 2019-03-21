@@ -9,13 +9,13 @@ document.body.appendChild(form);
 // create input and label 
 
 
-for (let i = 0; i <  fields.lenght >= 1; i += 1) {
+for (let i = 0; i <  fields.length >= 1; i += 1) {
      
 const inputValue = document.createElement('input');
 inputValue.setAttribute('id', fields[i]);
 
 const label = document.createElement('label');
-label.setAttribute('for', field[i]);
+label.setAttribute('for', fields[i]);
 
 form.appendChild(inputValue);
 form.appendChild(label);
@@ -39,5 +39,6 @@ alert('Your submission has been received. Thank you!');
 
 console.log('form submitted')
 console.log(form);
-  
-}; 
+
+
+}); 
