@@ -451,7 +451,80 @@ footer li {
 
 /*Contact Form*/
 
-form {
+h3.form-title {
+  color: #004466;
+  margin: 0;
+  padding: 10px;
+  font-family: Neuton;
+}
+
+.mainfield * {
+  box-sizing: border-box;
+}
+
+/* .Contact-form label {
+  text-align: left;
+  font-family: Neuton;
+  color: #004466;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+} */
+
+
+
+.mainField {
+  padding: 0;
+  margin: 0;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainFields {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainField input {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 0.6rem;
+  border: 1px solid #9c9c9c;
+}
+
+/* .Contact-form input {
+  margin: 0.5rem 1.5rem 0.5rem 0;
+  padding: .8rem;
+  background: #ffffff;
+  display: block;
+  border: 1px solid #9c9c9c;
+} */
+
+.emailAddress {
+  border: none;
+  padding: 0;
+  padding-top:1rem;
+  display: flex;
+  justify-content: left;
+  margin: 0;
+}
+
+
+.emailAddress input,
+.emailAddress select,{
+  margin: 0.5rem 1.5rem 0.5rem 0;
+  padding: .8rem;
+  background: #ffffff;
+  display: block;
+  border: 1px solid #9c9c9c;
+  font-family: Neuton;
+}
+
+/* .Contact-form {
   padding: 1rem;
   background: #f9f9f9;
   border: 1px solid #aca7a7;
@@ -460,37 +533,24 @@ form {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-form input {
-  margin-bottom: 1rem;
-  background: #ffffff;
-  border: 1px solid #9c9c9c;
-}
 
-form button {
+.submit {
   background-color: #f0f0f0;
   color: #26466D;
   font-weight: bolder;
   cursor: pointer;
   padding: 0.8em;
-  border: 2px solid #004466;
-}
-
-
-label {
-  text-align: left;
+  margin: .8em;
   display: block;
-  padding: 0.5em 1.5em 0.5em 0;
+  border: 2px solid #004466;
+  position: fixed;
+
 }
 
-input {
-  width: 100%;
-  padding: 0.8em;
-  margin-bottom: 0.6rem;
-}
 
-textarea {
+/* textarea {
   width: 100%;
   height: 125px;
   padding: 12px 20px;
@@ -500,7 +560,7 @@ textarea {
   background-color: #ffffff;
   font-size: 12px;
   resize: none;
-}
+} */
 
 
 
