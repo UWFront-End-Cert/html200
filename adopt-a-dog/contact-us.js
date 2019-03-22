@@ -75,7 +75,7 @@ const submitBut = document.createElement('button');
   });
 
 
-  /// OLD JS CODE AND MESSING AROUND 
+  /// OLD JS CODE AND MESSING AROUND
 
 // document.createElement('input');
 // firstNameField.setAttribute('type','text');
