@@ -384,10 +384,10 @@ h6 {
   margin: 10px 120px 15px 120px;
 }
 
-.blog-img {
+.blog-content img {
   padding: 10px;
-  width: 30%;
-  height: auto;
+  /* width: 100%; */
+  height: 350px;
   margin: 10px;
   float: left;
   /* display: inline-block; */
@@ -395,7 +395,7 @@ h6 {
   object-fit: cover;
 } 
 
-.blog-main p {
+.blog-content p {
   display: inline;
   vertical-align: top;
   font-size: 12px;
@@ -404,7 +404,7 @@ h6 {
   font-family: sans-serif;
 }
 
-.blog-main h3 {
+.blog-content h3 {
   color: #004466; 
   font-family: Neuton;
 }
