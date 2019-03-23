@@ -296,6 +296,10 @@ article {
   /* min-width: 10rem; */
 }
 
+.dog-tile:hover {
+  box-shadow: 5px 10px #9c9c9c;
+}
+
 .dog-tile img:hover {
   cursor: pointer;
 }
@@ -310,6 +314,8 @@ article {
   overflow: hidden;
   object-fit: cover;
 }
+
+
 
 .dog-tile p {
   font-size: .6em;
@@ -332,6 +338,11 @@ article {
   position: relative;
   font-family: sans-serif;
   font-weight: bolder;
+}
+
+.dog-tile button:hover {
+  background: #26466D;
+  color: white;
 }
 
 h5 {
