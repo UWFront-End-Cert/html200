@@ -168,6 +168,10 @@ li:last-child:after {
   font-size: 0.563em;
 }
 
+.hover {
+  box-shadow: 5px 10px #f0f0f0;
+}
+
 .hp-dog-box img {
   object-fit: cover;
   width: 100%;
@@ -201,6 +205,10 @@ li:last-child:after {
   border: 1px solid lightgrey;
   text-align: left;
   font-size: 0.563em;
+}
+
+.dog-box:hover {
+  box-shadow: 5px 10px #f0f0f0;
 }
 
 .box-text {

@@ -15,3 +15,11 @@ function navMenu() {
     x.className = "topnav";
   }
 }
+
+$(document).ready(function() {
+  $('.hp-dog-box').hover(function() {
+   $('.hp-dog-box').addClass('hover');
+ }, function() {
+   $('.hp-dog-box').removeClass('hover');
+ })
+});

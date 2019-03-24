@@ -23,19 +23,28 @@ const blogStyle = [
   }
 ];
 
-let blogStyle1 = document.getElementById('blog-1');
-let blogStyle2 = document.getElementById('blog-2');
-let blogStyle3 = document.getElementById('blog-3');
 
-blogStyle1.innerhtml = '<article class = "blog-style">' + blogStyle[0].headline + blogStyle[0].body + blogStyle[0].image + blogStyle[0].alt;
-blogStyle2.innerhtml = '<article class = "blog-style">' + blogStyle[1].headline + blogStyle[1].body + blogStyle[1].image + blogStyle[1].alt;
-blogStyle3.innerhtml = '<article class = "blog-style">' + blogStyle[2].headline + blogStyle[2].body + blogStyle[2].image + blogStyle[2].alt;
+console.log(blogHeader)
 
 
+// let blogStyle1 = document.getElementById('blog-1');
+// let blogStyle2 = document.getElementById('blog-2');
+// let blogStyle3 = document.getElementById('blog-3');
+//
 
+// <article class = "blog-style">' + blogStyle[0].headline + blogStyle[0].body + blogStyle[0].image + blogStyle[0].alt;
+// blogStyle2.innerhtml = '<article class = "blog-style">' + blogStyle[1].headline + blogStyle[1].body + blogStyle[1].image + blogStyle[1].alt;
+// blogStyle3.innerhtml = '<article class = "blog-style">' + blogStyle[2].headline + blogStyle[2].body + blogStyle[2].image + blogStyle[2].alt;
+//
+//
+//
 for (let i=0; i < blogStyle.length; i++) {
-  // const blog = blogStyle[i]
-  //
+  const blogHeader = document.querySelector('.blog-header');
+  const blog = blogStyle[i];
+  blogStyle.innerhtml = '<h2>' + blogStyle[0].headline + '</h2>' + '<p>' blogStyle[i].blogHeader + '</p>';
+  let blogHeader = document.createElement('article');
+  blogHeader.appendChild(blogHeader);
+
   //
   // const headline = document.createElement('headline');
   // headline.setAttribute('for', blog.headline);
@@ -52,7 +61,4 @@ for (let i=0; i < blogStyle.length; i++) {
   // let alt = document.createElement('alt')
   //
 
-  console.log(blogStyle1);
-  console.log(blogStyle2);
-  console.log(blogStyle3);
 }
