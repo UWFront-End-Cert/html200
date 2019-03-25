@@ -43,3 +43,8 @@ for ( let i=0; i < dogs.length; i++){
   dogTileBody.appendChild(dogText);
   dogTileBody.appendChild(dogButton);
 }
+
+$('.dog-tile').hover(function(e){
+  console.log('hovering');
+   $('.dog-tile').toggleClass('image-border');
+});
