@@ -17,3 +17,15 @@ const dog8 = 'Name: Violet, cost $123.45, breed: chihuahua';
 // function showDogInfo(dog) {
 //   alert(dog);
 // }
+
+
+$(document).ready(function(){
+  $('img').click(function(e) {
+    alert('Look at how cute I am! Adopt me today!');
+  });
+  $('.dog').hover(function(){
+    $(this).css('background-color', 'lightgreen');
+    }, function(){
+    $(this).css('background-color', 'white');
+  });
+});
