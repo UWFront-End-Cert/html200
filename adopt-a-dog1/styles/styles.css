@@ -4,8 +4,8 @@
 header {
   width: 100%;
   height: 25rem;
-  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html200/master/adopt-a-dog/images/header-images/header-large.jpg");
-  /* background-image: url('./adopt-a-dog/images/christopher-harris-57366-unsplash.jpg'); */
+  /* background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html200/master/adopt-a-dog/images/header-images/header-large.jpg"); */
+  background-image: url('../adopt-a-dog/images/christopher-harris-57366-unsplash.jpg');
   background-size: cover;
   display: flex;
   justify-content: space-between;
@@ -51,6 +51,9 @@ nav li {
   width: 100%;
   height: 7rem;
   
+}
+.hover {
+  border: 10px solid black;
 }
 .mainpic {
   width: 45%;

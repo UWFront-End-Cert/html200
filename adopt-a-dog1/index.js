@@ -21,3 +21,19 @@ function total() {
     sum = sum + 50;
     alert('Total: $' + sum);
 }
+
+
+// $('img').addClass('item').hover(
+//     function() {
+//         $(this).append($("<span>asdf</span>"));
+//     }
+    
+// )
+
+$(document).ready(function() {
+    $('.item').hover(function() {
+        $('.item').addClass('hover');
+    }, function() {
+        $('.item').removeClass('hover');
+    })
+});
