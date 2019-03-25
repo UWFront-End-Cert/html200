@@ -240,6 +240,11 @@ main {
   font-size: 1.1rem;
 }
 
+.right-column > a:hover {
+  background-color: rgb(129,183,65);
+  color: white;
+}
+
 button {
   background: linear-gradient(rgb(9,60,96), rgb(129,183,65));
   /* background-color: rgb(129,183,65); */
@@ -452,7 +457,7 @@ button {
 /* Dog-Tile Code */
 
 .dog-tile {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 10% 0 5% 0;
 }
 
