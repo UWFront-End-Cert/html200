@@ -76,11 +76,16 @@ body {
   width: 22%;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   padding: 1px;
-  box-shadow: 15px;
+
 }
 .blog-card {
   overflow: auto;
 }
+.blog-card img {
+  width: 50%;
+  height: 40%;
+}
+
 .side-blog {
   display: flex;
   flex-direction: column;
@@ -166,4 +171,8 @@ fieldset {
   .side-blog {
     visibility: hidden;
     width: 0%;
+  }
+  .show {
+    padding: 10px;
+    background-color: pink;
   }

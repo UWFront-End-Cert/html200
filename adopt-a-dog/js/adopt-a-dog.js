@@ -15,19 +15,19 @@ function submitSuccess() {
 }
 
 let formElement = document.querySelector('fieldset');
-console.log(formElement);
+// console.log(formElement);
 
-formElement.addEventListner('submit', function(e){
-  e.preventDefault();
-  const firstName =formElement.elements[0].value;
-  const lastNamename = formElement.elements[1].value;
-
-  const dataToSubmit = {
-    name: inputValue,
-    dog: dogname
-  };
-  console.log(dataToSubmit);
-})
+// formElement.addEventListner('submit', function(e){
+//   e.preventDefault();
+//   const firstName =formElement.elements[0].value;
+//   const lastNamename = formElement.elements[1].value;
+//
+//   const dataToSubmit = {
+//     name: inputValue,
+//     dog: dogname
+//   };
+//   console.log(dataToSubmit);
+// })
 
 
 const form = document.createElement('form');
@@ -36,27 +36,48 @@ const feilds = ['firstName', 'lastName'];
 for (let i = 0; i < feilds.length; i++) {
   const label = document.createElement('label');
   label.textContent = feilds[i];
-  label.setAttibute('for', feilds[i]);
+  label.setAttribute('for', feilds[i]);
 
   const input = document.createElement('input');
-  input.setAttibute('id', feilds[i]);
+  input.setAttribute('id', feilds[i]);
 
   form.appendChild(label);
   form.appendChild(input);
 
 }
 const submitButton = document.createElement('button');
-submitButton.setAttibute('type', 'submit');
+submitButton.setAttribute('type', 'submit');
 submitButton.textContent = 'Submit';
 
 let fromContainer = document.querySelector('.form-container');
 
-form.addEventListner('submit', function(e){
-  // do stuff
-  e.preventDefault();
-  console.log('form submitted');
-  console.log(form.elements[0].value);
-  console.log(form.elements[1].value);
-})
+// form.addEventListner('submit', function(e){
+//   // do stuff
+//   e.preventDefault();
+//   console.log('form submitted');
+//   console.log(form.elements[0].value);
+//   console.log(form.elements[1].value);
+// })
 
-formContainer.appendChild(form);
+// formContainer.appendChild(form);
+
+
+const blogPosts = [
+  {
+    image: 'images/matt-nelson-259365-unsplash.jpg',
+    alt: 'Walking Dogs',
+    headline: 'How to Walk multiple Dogs',
+    blogText: 'Blog is a blog of blogs'
+  }
+]
+
+const blogPostContainer = document.querySelector('.blog-card');
+
+console.log(blogPostContainer);
+let blogPost = document.createElement('article');
+blogPost.innerHTML = '<h1>' + blogPosts[0].headline + '</h1>' + '<img src=' + blogPosts[0].image + ' alt=' + blogPosts[0].alt + '>' +  '<p>' + blogPosts[0].blogText
+blogPostContainer.appendChild(blogPost);
+
+$('.dog-card').hover(function(e){
+  $('.dog-card').toggleClass('show');
+});
