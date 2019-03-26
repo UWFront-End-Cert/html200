@@ -56,11 +56,11 @@ formElement.addEventListener('submit', function(e) {
   const inputValue = formElement.elements[0].value;
   const dogName = formElement.elements[1].value;
 
-  const dataToSubmit = {
-    name: inputValue;
-    dog: dogName;
-  }
-
+//   const dataToSubmit = {
+//     name: inputValue,
+//     dog: dogName
+//   };
+// }
   console.log('this form has been submitted');
 })
 
@@ -132,4 +132,8 @@ let totalCost = 0;
 function addTotal() {
    totalCost = totalCost + 123.45;
    alert('Total adoption Cost (USD): ' + totalCost);
+}
+
+$('.dog-info').hover(function (e) {
+  $('.dog-info').toggleClass(.'hover-dog');
 }

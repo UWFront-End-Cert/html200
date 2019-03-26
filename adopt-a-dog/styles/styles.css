@@ -143,6 +143,14 @@ img.adopt-a-dog-logo {
   font-weight: bolder;
 }
 
+.dog-hover {
+  border: 3px solid red;
+  width: 12.5rem;
+  text-align: center;
+  height: auto;
+  margin: 5px;
+}
+
 .side-bar {
  display: flex;
  flex-direction: column;
