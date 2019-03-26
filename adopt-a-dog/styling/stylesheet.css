@@ -539,7 +539,7 @@ select {
   font-size: 1.5rem;
 }
 
-.checkout-button {
+.checkout-button, .contact-button{
   color: white;
   width: 20%;
   height: 2rem;
@@ -553,10 +553,13 @@ select {
   background-image: linear-gradient(to right, green, aqua );
 }
 
-.checkout-button:hover {
+.checkout-button:hover{
   background-image: linear-gradient(to left, green, lightblue);
 }
 
+.contact-button:hover{
+  background-image: linear-gradient(to left, green, lightblue);
+}
 .checkout-button-tiles {
   color: white;
   width: 60%;
