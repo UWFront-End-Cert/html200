@@ -1,0 +1,387 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif, serif;
+}
+
+.page-header {
+  position: relative;
+  display: block;
+  height: 80%;
+  overflow: hidden;
+  background-image: url('../images/header-image.jpg');
+}
+
+.page-header .header-logo {
+  height: 20%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 0;
+  background-image: url('../images/adoptadog-logo.svg');
+  background-repeat: no-repeat;
+}
+
+.page-header .main-title {
+  margin-left: 10%;
+  margin-top: 0;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: #81B841;
+}
+
+.page-header .checkout-balance {
+  height: 30px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 10%;
+}
+
+.page-header .checkout-balance .cart-icon {
+  width: 20px;
+  margin-right: 2px;
+}
+
+.page-header .checkout-balance .dollar {
+  font-weight: 600;
+  font-size: 8pt;
+}
+
+
+.page-header .button-checkout {
+  background-color: #81B841;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  font-size: 0.7rem;
+  position: absolute;
+  right: 10%;
+  top: 50px;
+  text-transform: capitalize;
+  text-decoration: none; 
+}
+
+
+.page-header .button-checkout:hover {
+  opacity: 0.9;
+}
+
+.topnav {
+  background-color: #e0e0e0;
+  padding: 1% 10%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  word-spacing: 5px;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #134350;
+  font-weight: 800;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2%;
+}
+
+.introduction {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.introduction .intro-image {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.introduction .intro-text .title {
+  color: #134350;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.introduction .intro-text .intro-paragraph {
+  font-size: 1rem;
+  color: #444;
+  line-height: 25px;
+}
+
+.dog-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 650px) {
+  .dog-grid {
+    grid-template-columns: auto auto; 
+  }
+}
+
+
+
+.dog-grid .dog-card {
+  border: solid 2px gray;
+  overflow: hidden;
+}
+
+
+.dog-grid .dog-card .dog-picture {
+  width: 100%;
+}
+
+.dog-grid .dog-card .dog-name {
+  color:  #134350;
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 1.3rem;
+  margin: 0 10px;
+}
+
+.dog-grid .dog-card .dog-cost {
+  margin: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.dog-grid .dog-card .dog-description {
+  margin: 20px 10px;
+  font-size: 0.95rem;
+  line-height: 1.2rem;
+}
+
+.dog-grid .dog-card .dog-link {
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 8px;
+  font-weight: bold;
+  background-color:  #81B841;
+  color: white;
+}
+
+.dog-grid .dog-card .dog-link:hover {
+  opacity: 0.9;
+} 
+
+.see-more-dogs {
+  display: block;
+  margin: 20px auto 80px auto;
+  width: 180px;
+  background-color: #eee;
+  color: #134350;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.blog-title, 
+.title-all-dogs, 
+.page-title {
+  color: #134350;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+}
+
+.blog-story {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.blog-story .text-wrapper {
+  flex-basis: 200px;
+  flex: 1;
+}
+.blog-story .blog-image {
+  width: 350px;
+  margin-right: 40px;
+}
+
+.blog-story .story-title {
+  text-transform: capitalize;
+  color:  #134350;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem; 
+  margin-top: 0;
+}
+
+.blog-story .intro-paragraph {
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5rem;
+}
+
+.checkout-form {
+  margin: auto;
+  padding-right: 45%;
+}
+
+.checkout-form label, 
+.checkout-form h4 {
+  display: block;
+  margin-bottom: 5px;
+  color:  #093c60;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.checkout-form input[type=text],
+.checkout-form input[type=email],
+.checkout-form input[type=number],
+.checkout-form select {
+  box-sizing: border-box;
+  border: solid 2px #e0e0e0;
+  padding: 10px;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  display: block;
+  width: 96%;
+  height: 40px;
+}
+
+.checkout-form input[type=radio] {
+  display: inline;
+}
+
+.checkout-form .answer-label  {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: black;
+  font-size: 0.9rem;
+  display: inline;
+}
+
+.checkout-form input[type=submit] {
+  background-color:  #81B841;
+  border: none;
+  color: white;
+  padding: 3% 15%;
+}
+
+.checkout-form .location {
+  display: flex;
+  width: 96%;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+
+.checkout-form .location input,
+.checkout-form .location select {
+  width: 100%;
+}
+
+.checkout-form .city-input {
+  flex-grow: 3;
+}
+.checkout-form .state-input, 
+.checkout-form .zip-input {
+  flex-grow: 1;
+}
+
+.checkout-form .state-input {
+  margin: 0 5px;
+}
+
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dog-list .adopted-dog {
+  display: flex;
+  align-items: center;
+}
+
+.dog-list .dog-info {
+  padding: 5px 30px 0 5px;
+  width: 150px;
+  margin: 5px 0;
+}
+
+.dog-list .lucas,
+.dog-list .duffy {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/lucas-card.jpg");
+  background-size: cover;
+  background-position-x: center;
+}
+
+.dog-list .duffy {
+  background-image: url("../images/duffy-card.jpg");
+}
+
+.dog-list .dog-name {
+  font-family: 'Times New Roman', Times, serif;
+  color:  #093c60;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.dog-list .dog-cost {
+  margin-top: 5px;
+  font-size: 0.65rem;
+}
+
+.checkout-form .location-select {
+  width: 40%;
+}
+
+.checkout-form .adoption-cost {
+  font-family: 'Times New Roman', Times, serif;
+  color:  #093c60;
+  margin: 30px 0 5px 0;
+}
+
+.checkout-form .adoption-cost-figure {
+  margin: 0 0 40px 0;
+  font-size: 0.7rem;
+}
+
+.page-footer {
+  background-color: #093c60;
+  padding: 30px 0;
+  font-size: 11pt;
+}
+
+
+.page-footer .footer-logo {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+
+footer p {
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+
+.footernav {
+  text-align: center;
+  word-spacing: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.footernav a {
+  color: white;
+  text-decoration: none;
+
+}
