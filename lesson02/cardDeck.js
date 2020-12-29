@@ -10,6 +10,17 @@
 // Git branch.
 
 
+// <<<<<<< lesson2-challenge5
+// let card_values, card_suits, text, csLen, cvLen, i, j;
+// card_values = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"];
+// card_suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades'];
+// csLen = card_suits.length;
+// cvLen = card_values.length;
+// for (i = 0; i < cvLen; i++) {
+//     console.log(card_values[i]);
+//     for (j = 0; j < csLen; j++) {
+//       console.log(' of ' + card_suits[j]);
+// =======
 let card_values, card_suits, csLen, cvLen, i, j;
 card_values = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"];
 // card_values = ["Ace", 2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King"];
@@ -24,6 +35,7 @@ for (i = 0; i < csLen; i++) {
 //     console.log(card_values[i]);
 //     for (j = 0; j < csLen; j++) {
 //       console.log(' of ' + card_suits[j]);
+// >>>>>>> master
   }
 }
 
