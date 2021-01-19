@@ -94,7 +94,11 @@ cvLen = card_values.length;
 // let newArr = arr.join(' ');
 // console.log(newArr);
 
+//<<<<<<< lesson3-challenge2
 // // How about  looping through a multi-dimension array?
+//=======
+// // How about looping through a multi-dimension array?
+//>>>>>>> master
 //   let arr= [[1, 3, 5], ['a', 'b', 'c'], [11, 22, 33, 44]];
 // for (let i= 0; i< arr.length; i++) {
 //   for (let j = 0; j < arr[i].length; j++)
