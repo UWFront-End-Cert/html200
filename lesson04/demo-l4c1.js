@@ -23,7 +23,7 @@ function numbersToMultiply() {
     alert((firstNumber  + ' x ' + secondNumber + ' = ' + (firstNumber * secondNumber)));
 }
 
-
+//
 
 // console.log('JavaScript is working');
 
