@@ -1,0 +1,141 @@
+
+:root {
+    /* background: rgb(188,203,30); */
+    background: rgb(42,171,81);
+
+    background: linear-gradient(90deg, rgba(42,171,81,1) 0%, rgba(5,154,20,1) 65%, rgba(2,56,38,1) 100%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+ul li:hover p {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+ul li:hover a {
+    opacity: 1;
+}
+
+i {
+    color: #ffffff;
+}
+
+.selector-menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.selector-menu a {
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 60px;
+}
+
+.selector-menu a:hover:not(:focus) {
+    background: rgba(0,0,0,0.6);
+}
+
+.selector-menu a:focus {
+    transform: scale(1.2);
+    background: rgba(0,0,0,0.9);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.6);
+}
+
+.menu-container {
+    width: 300px;
+    /* border: 3px solid red; */
+}
+
+.header-img {
+    background: url("https://live.staticflickr.com/8018/7506421482_12c8791136_b.jpg") no-repeat right/cover;
+    height: 150px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.2);  
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.balance {
+    color: #ffffff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.balance h1 {
+    font-size: 1.6rem;
+}
+
+.balance  div {
+    display: flex;
+    align-items: center;
+}
+
+.balance p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.list a, .list p {
+    color: #000000;
+    opacity: 0.4;
+}
+
+.item {
+    background: #ffffff;
+    padding: 20px;
+}
+
+.item:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* <p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" src="https://live.staticflickr.com/8018/7506421482_12c8791136_b.jpg" alt="Wispy clouds"><a href="https://www.flickr.com/photos/25925793@N00/7506421482">"Wispy clouds"</a><span> by <a href="https://www.flickr.com/photos/25925793@N00">fifikins</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=f11b90c5-cb09-4782-9070-a6add40a9df1" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a></p> */
+/* <p style="font-size: 0.9rem;font-style: italic;"><img style="display: block;" src="https://live.staticflickr.com/8434/7651677912_1132f35ca6_b.jpg" alt="Wispy clouds"><a href="https://www.flickr.com/photos/95673220@N00/7651677912">"Wispy clouds"</a><span> by <a href="https://www.flickr.com/photos/95673220@N00">RedMorris</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 2.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=a7e0ab4f-834f-4853-97d9-a50c493bf90f" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a></p> */
