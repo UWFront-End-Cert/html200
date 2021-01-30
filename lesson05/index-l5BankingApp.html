@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="style-l5.css"> -->
+    <link rel="stylesheet" href="style-l5.css">
     <title>BankApp</title>
 </head>
 <body>
@@ -12,138 +12,11 @@
 
     <div class="selector-menu">
         <!-- asked siri, how to link js func from href -->
-        <!-- <p><button class="fa fa-university fa-2x" onclick="bankApp()">BankApp</button></p> -->
         <button class="fa fa-university fa-2x" onclick="bankApp()">BankApp</button>
-        <!-- <a href="javascript:bankApp()"><i class="fa fa-university fa-2x" alt="University"></i>BankApp</a>         -->
+        <!-- <a href="javascript:bankApp()"><i class="fa fa-university fa-2x" alt="University"></i>BankApp</a> -->
+        <!-- href Q renders a blank page, the button tag does expected -->
     </div>
 
-    <!-- <script>
-const bankApp = function() {
-    input = prompt('Enter an option: w to withdraw, d to deposit, b for balance or q to quit.'); 
-    return input;
-}
-
-comment this out if calling from button
-bankApp();
-
-let input = prompt('Enter your desired option at the prompt. Valid options are: w to withdraw, d to deposit, b for balance or q to quit.'); 
-
-let balance = 1000;
-
-switch(input) {
-
- case input = 'w':
-     input = prompt("Enter amount to withdraw: ");
-         withdrawal(input);
-              
-     alert(balance);
- balance = balance;
-   break;
-
- case input = 'd':
-     input = prompt("Enter amount to deposit: ");
-     balance = balance + parseInt(input);
-     alert(balance);
-   break;
- 
- case input = 'b':
-     // Balance does display in this case
-     alert(balance);
-   break;
- 
- case input = 'q':
-   alert('run quit routine here');
-   break;
- 
-default:
- prompt('Still awaiting your desired option: ');
-   bankApp();  
-
- }
-
-
-// withdrawal func called from switch stmt
-function withdrawal() {
-           if (input <= 0) {
-       return alert('Your withdrawl must be greater than zero.')
-           }       
-             console.log(input);
-     balance = balance + parseInt(-input)
-             console.log(balance); 
-     return balance;
-  }
-    </script> -->
-
     <script src="l5BankingApp.js" async defer></script>
-
 </body>
 </html>
-
-<!-- Regular Challenge: Create a simple HTML site with a JavaScript file that is a bank application.
- found this and viewed it first - https://www.youtube.com/watch?v=y_P0Wh_wZc8
-Create a bank application.
-
-    The user should see a prompt so they can type which action to perform.
-    The user will have a list of 4 actions to choose from.
-        Enter Q to quit (immediately quits the program).
-        Enter W to withdraw.
-        The user will be prompted again to enter an amount to withdraw. After withdrawing money, they should be able to type another option.
-        Enter D to deposit.
-        The user will be prompted again to enter an amount to deposit. After depositing money, they should be able to type another option.
-        Enter B to view balance.
-        The user will see their balance. Afterwards, they should be able to type another option.
-    The program will loop asking for input until the user enters Q.
-
-Extra challenges: The additional requirements below are optional. Implement them if you finish the Regular Challenge 1 (above) and are up for more!
-
-    The user should not be able to make excessive withdrawals (no negative balances).
-    The user should have a deposit cap of $50,000.
-    The user should receive a warning to protect against low balances.
-    Create an alert if the user tries to withdraw an amount that would leave them with less than $300 in their account, asking them to confirm if they're sure. -->
-<!-- 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>L5 BankApp</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://fontawesome.com/icons?d=gallery">
-    </head>
-    <body>
-        <h1>Welcome to L5 Banking Application</h1>
-        <script src="" async defer></script>
-    </body>
-</html> -->
-    <!-- <div class="menu-container">
-        <div class="header-img">
-            <div class="overlay"></div>
-            <div class="balance">
-                <h1>Balance</h1>
-                <div>
-                    <i class="fa fa-university"></i>
-                    <p>$350.49</p>
-                </div>
-            </div>
-        </div>
-
-        <ul class="list">
-            <li class="item">
-                <a href="#">Gas Station</a>
-                <p>$17.50</p>    
-            </li>
-            <li class="item">
-                <a href="#">Sushi Dinner</a>
-                <p>$33.77</p>
-            </li>
-            <li class="item">
-                <a href="#">Grocery Shopping</a>
-                <p>$220.88</p>
-            </li>
-            <li class="item">
-                <a href="#">Burger Joint</a>
-                <p>$14.09</p>
-            </li>
-        </ul>
-    </div> -->

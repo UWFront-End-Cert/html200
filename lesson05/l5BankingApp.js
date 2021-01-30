@@ -1,38 +1,57 @@
+// L5 Banking App assignment
 
-// Yes, it looks like you may have some scoping trouble with the inputs you're asking for. 
-// Your withdrawal function at the end can't see the input prompt you ask for in your switch.
-// First, I'd recommend enclosing your switch in the bankApp function and then calling the 
-// bankApp() at the end of your code (and maybe also console log there). Your case for deposit 
-// is perfect and works great. I would just try to mirror that for the withdrawal. You don't need that extra withdrawal function at the end.
-// Your variable of balance outside the switch is good and you are reassigning it's value 
-// with "balance = balance + parseInt(input)". So recreating this for withdrawal will also work.
-
-// so much closer 1/28
-    balance = 1000;
+balance = 1000;
 
     const bankApp = function(input = prompt('Enter an option: W to withdraw, D to deposit, B for balance or Q to quit.')) {
 
-    switch(input) {
+        switch(input) {
 
             case input = 'w':
-//         Enter W to withdraw. The user will be prompted again to enter an amount to withdraw.
-//         After withdrawing money, they should be able to type another option.
-                input = prompt("Enter amount to withdraw: ");
-                    balance = balance + parseInt(-input);
-                alert(balance);
-                bankApp();
+                withdrawalAmt = prompt("Enter amount to withdraw: ");
+
+                if (balance + parseInt(-withdrawalAmt) < 0) {
+                    alert('Sorry, negative balance not allowed. Please start again.');
+                    bankApp();    
+                } 
+
+                if ((balance + parseInt(-withdrawalAmt) >= 0) && (balance + parseInt(-withdrawalAmt) > 299.99)) {
+                    balance = balance + parseInt(-withdrawalAmt);
+                }
+                
+                else {    
+                    if ((balance + parseInt(-withdrawalAmt) >= 0) && (balance + parseInt(-withdrawalAmt) <= 299.99)) {
+                        contPrmpt = prompt('Warning: Your balance will be $' + (balance + parseInt(-withdrawalAmt)) + ' Do you want to continue: Y or N');
+                    }
+                    
+                    if (contPrmpt === 'Y') {
+                        balance = balance + parseInt(-withdrawalAmt); 
+                    }
+                            
+                    else { 
+                        (alert('You are not making a withdrawal. Your balance will remain at: $' + balance) )
+                    }
+                }
+
+            bankApp();
             break;
         
             case input = 'd':
-                input = prompt("Enter amount to deposit: ");
-                    balance = balance + parseInt(input);
-                alert(balance);
-                bankApp();
+                depositAmt = prompt("Enter amount to deposit: ");
+
+                if (depositAmt >= 50000.01) {
+                    alert('Sorry, you have a deposit cap of $50,000')
+                    bankApp();
+                }
+                
+                else { 
+                    balance = balance + parseInt(depositAmt); 
+                    alert('Your current balance is: $' + balance);
+                    bankApp();
+                }
             break;
 
             case input = 'b':
-                // Balance does display in this case
-                alert(balance);
+                alert('Your current balance is: $' + balance);
                 bankApp();
             break;
         
@@ -42,17 +61,13 @@
             break;
 
             case input = 'q':
-                alert('You are quiting the BankApp. Your balance is ' + balance);
-                //  comment above for ->> Enter Q to quit (immediately quits the program).
+                alert('You are quiting the BankApp. Your balance is $' + balance);
             break;
     }  
     return balance;
 }
  // comment this out if calling from button
 //  bankApp();
-console.log(balance); 
-
-// 1/28 above
 
 
 // ******************
