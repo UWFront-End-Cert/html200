@@ -43,7 +43,7 @@ const balance = function(x) {
       } else {
     // overdrawn, do not continue
       if (current - amount < 0) {
-          alert('You do not have enough money to withdraw this. Please try again.');
+          alert('You do not have enough money to withdraw this amount. Please try again.');
     // if < $300 warning
       } else if (current - amount < 300) {
         let inpU = prompt('This will put your balance below $300. Do you want to proceed? Type "yes" to continue, or "no" to cancel.');
