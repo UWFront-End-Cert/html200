@@ -17,4 +17,3 @@ if (x >= 4) {
   console.log('Current total:' + ' ' + total);
 }
 
-
