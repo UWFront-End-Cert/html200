@@ -11,5 +11,5 @@ arr.push("succulents");
 arr.splice(2, 1);
 
 // Create a string from the elements and comma separate them
-let str = arr.join(" ");
+let str = arr.join(", ");
 console.log(str);
