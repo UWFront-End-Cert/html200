@@ -1,0 +1,76 @@
+html, body, div {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.header-img {
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  height: 60%;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 30%;
+}
+
+.bio {
+  color: yellowgreen;
+  position: absolute;
+  top: 20%;
+  font-size: 190%;
+  font-style: italic;
+  left: 5%;
+}
+
+.menu {
+  position: relative;
+  background-color: #E8E8E8;
+  padding: 0.5em;
+  color: navy;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-indent: 10%;
+  top: 30%;
+}
+
+.intro {
+  position: absolute;
+  top: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.intro-container {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-img {
+  width: 50%;
+  float: left;
+}
+
+.intro-info {
+  font-family: sans-serif;
+  font-family: sans-serif;
+  color: grey;
+  font-size: 120%;
+}
+
+h1 {
+  font-family: serif;
+  color: navy;
+}
