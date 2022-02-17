@@ -1,0 +1,11 @@
+let i = 1;
+let x = 4;
+let y = 5;
+let z = 10;
+console.log('i'+'x'+'y'+'z');
+console.log(i+x+y+z);
+console.log(x + y);
+console.log((z*i)+x);
+console.log(x===y);
+console.log(y >= z);
+console.log(x <= y);
