@@ -1,4 +1,4 @@
-let a = 0;
+et a = 0;
 let b = 2;
 let c = 10;
 let d = 4;
