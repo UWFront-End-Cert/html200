@@ -1,0 +1,3 @@
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://vickiekknight.github.io/html200/adopt-a-dog/bundle/ultisnips
