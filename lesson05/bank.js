@@ -7,31 +7,22 @@ function bank() {
     }
     // withdraw $
     case 'W': {
-      var withdraw = Number(prompt('Enter the amount you would like to withdraw'));
-      if (withdraw >= 0) {
-        alert('You withdrew $' + withdraw);
-      } else {
-        alert('Please type in a valid amount.')
-      }
+      let withdraw = Number(prompt('Enter the amount you would like to withdraw'));
+      alert('You withdrew $' + withdraw);
+      break;
     }
     // deposit $
     case 'D': {
-      var deposit = Number(prompt('Enter the amount you would like to deposit'));
-      if (deposit >=0) {
-        alert('You deposited $' + deposit);
-      } else {
-        alert('Please type in a valid amount.')
-      }
+      let deposit = Number(prompt('Enter the amount you would like to deposit'));
+      alert('You deposited $' + deposit);
+      break;
     }
     // view balance
     case 'B': {
-      var balance = 0;
-      if (withdraw >=0 && deposit >= 0) {
-        var newBalance = balance - withdraw + deposit;
-        alert('Your balance is $' + newBalance);
-      } else {
-        alert('Your balance is zero.');
-      }
+      let balance = 0;
+      let newBalance = balance - withdraw + deposit;
+      alert('Your balance is $' + newBalance);
+      break;
     }
   }
 }
