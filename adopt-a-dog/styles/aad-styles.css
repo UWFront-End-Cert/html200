@@ -1,0 +1,209 @@
+body {
+    font-family: sans-serif;
+    font-size: 80%;
+}
+a {
+    text-decoration: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  gap: .8rem;
+  /* background-color: orange; */
+  padding: 1rem;
+  /* border: 1px dashed red; */
+}
+.grid-container div {
+  /* background-color: lightgrey; */
+  padding: .5rem 0;
+  /* border: 1px dashed red; */
+}
+.grid-header { 
+    grid-area: header;
+    background-image: url("../images/header/header-medium.jpg");
+}
+#logo {
+    width: 40%;
+    height: 40%;
+    margin-top: 1rem;
+    /* border: 1px dashed red; */
+    float: left;
+}
+.logo-sub {
+    margin: 0%;
+    color:greenyellow;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 100%;
+    position: relative;
+    top: 7rem;
+    left: -20rem;
+}
+#checkout {
+    width: 20%;
+    height: 20%;
+    margin-top: 1rem;
+    /* border: 1px dashed red; */
+    float: right;
+}
+.menu { 
+    grid-area: menu;
+    background-color: lightgrey;
+}
+.menu ul {
+    list-style-type: none;
+}
+.menu li {
+    /* border: .5px dashed red; */
+    display: inline;
+    padding-right: 1rem;
+    font-weight: bolder;
+}
+.menu a:link {
+    color:#013d62;
+}
+.menu a:visited {
+    color: #013d62;
+}
+.menu a:hover {
+    color: orange;
+}
+.content { 
+    grid-area: main; 
+}
+h1 {
+    color: #013d62;
+    font-family:'Times New Roman', Times, serif;
+}
+h2 {
+    color: #013d62;
+    font-family:'Times New Roman', Times, serif;
+}
+.flexbox-container { 
+    /* border: .5px dashed green; */
+    /* width: 60rem; */
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.box img {
+    width: 25%;
+    height: 90%;
+    float: left;
+    padding: 1rem;
+}
+.profile-box {
+    width: 8rem;
+    font-size: 75%;
+    padding: 1rem;
+    margin: 1.5rem 3rem 1.5rem 3rem;
+    border: 1px solid lightgray;
+}
+.profile-box img {
+    width: 95%;
+    height: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price {
+    font-weight: bolder;
+}
+.adopt-btn {
+    background-color: green;
+    color:white;
+    text-align: center;
+    padding: .5rem 3rem .5rem 3rem;
+}
+.more-btn {
+    width: 5rem;
+    background-color: lightgrey;
+    color: #013d62;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 85%;
+    padding: .5rem 1.25rem .5rem 1.25rem;
+    margin: 1rem auto 1rem auto;
+}
+.blog-box {
+    width: 40rem;
+    font-size: 75%;
+    padding: 1rem;
+    margin: 1rem 3rem 1rem 3rem;
+    /* border: 1px solid lightgray; */
+}
+.blog-box img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    padding: 1rem;
+}
+form {
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:#013d62;
+}
+button, input, select, textarea {
+    display: block;
+    margin: 1rem;
+}
+.choice {
+    display:inline;
+}
+#submit-button {
+    margin: 3rem 0rem 1rem 0rem;
+    background-color: green;
+    color:white;
+    text-align: center;
+    padding: .25rem 1.5rem .25rem 1.5rem;
+    border: none;
+}
+input:hover {
+    background-color: lightgreen
+    color: white;
+}
+form img {
+    height: 5%;
+    width: 5%;
+    padding-right: 1rem;
+}
+.footer { 
+    grid-area: footer;
+    background-color: #013d62;
+    text-align: center;
+    color: white;
+    font-size: 80%;
+}
+.footer img {
+    margin: 1rem;
+    width: 30%;
+    height: 30%;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 1.5rem 1.5rem;
+}
+.footer li {
+    /* border: .5px dashed red; */
+    display: inline;
+    padding-right: 1rem;
+    color: white;
+}
+.footer a:link {
+    color: white;
+}
+.footer a:visited {
+    color: white;
+}
+.footer a:hover {
+    color: orange;
+}
