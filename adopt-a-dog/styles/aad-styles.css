@@ -168,7 +168,7 @@ button, input, select, textarea {
     border: none;
 }
 input:hover {
-    background-color: lightgreen
+    background-color: lightgreen;
     color: white;
 }
 form img {
