@@ -7,3 +7,7 @@ function cartTotal() {
 
     alert ('Your total fees are: $' + (cartTotal));
 }
+
+
+
+
