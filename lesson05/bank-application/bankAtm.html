@@ -1,0 +1,44 @@
+<html lang="zxx" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Banking Application</title>
+        
+    </head>
+    
+    <body>
+        <h1>Banking Application</h1>
+        <p>Welcome to our ATM.</p>
+
+        <button onclick='myATM()'>Begin</button>
+        
+        <script>
+            function myATM() {
+                let text;
+                let myOption = prompt('Please choose a letter option', 'B = View Balance | D = Make Deposit | W = Withdrawl | Q = Exit');
+                let balanceStart = 1000;
+            
+                switch(myOption) {
+                    case 'B':
+                        alert('Your current balance is $' + balanceStart);
+                        break;
+                    case 'D':
+                        let deposit = prompt('Please enter your deposit amount: ');
+                        function balanceNew(depositAmt) {
+                        return (Number(depositAmt) + Number(balanceStart));
+                        }
+                        alert ('Your updated balance is $' + balanceNew(deposit));
+                        break;
+                    case 'W':
+                        let withdrawl = prompt('Please enter your withdrawl amount: ');
+                        function balanceNew(withdrawlAmt) {
+                        return + Number(balanceStart) - Number(withdrawlAmt);
+                        }
+                        alert ('Your updated balance is $' + balanceNew(withdrawl));
+                        break;
+                    case 'Q':
+                        text = 'Thank you for using this ATM. Have a wonderful day.';
+                }
+            }
+        </script>
+    </body>
+</html>
