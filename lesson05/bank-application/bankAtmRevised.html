@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Banking Application</title>
+    </head>
+    
+    <body>
+        <h1>Banking Application</h1>
+        <p>Welcome to our ATM.</p>
+
+        <script>
+        let balance = 1000;
+        const bankApp = function() {
+            input = prompt('Enter an option: w to withdraw, d to deposit, b for balance or q to quit.'); 
+            
+            switch(input) {
+                case input = 'w', 'W':
+                    input = prompt("Enter amount to withdraw: ");
+                    if (input <= 0) {
+                        return alert('Your withdrawl must be greater than zero.')
+                    }
+                    balance = balance - parseInt(input);
+                    alert(balance);
+                    break;    
+                case input = 'd':
+                    input = prompt("Enter amount to deposit: ");
+                    balance = balance + parseInt(input);
+                    alert(balance);
+                    break;
+                case input = 'b':
+                    alert(balance);
+                    break;
+                case input = 'q', 'Q':
+                    alert('Quitting application');
+                    break;
+                default:
+                    prompt('Still awaiting your desired option: ');
+                    bankApp();
+            }
+                return input;
+        }
+        
+        bankApp();
+        console.log(balance);
+        </script>
+    
+    </body>
+</html>

@@ -23,7 +23,7 @@
                     if (deposit >= 50000) {
                         alert('The current deposit amount exceeds the limit for this ATM. Please enter a dollar amount that is less than $50,000.')
                     } else {
-                    balance = balance + parseInt(deposit);
+                    balance = balance + Number(deposit);
                     alert('Your updated balance is $' + balance);
                     }
                     toContinue();
@@ -33,7 +33,7 @@
                         if(withdrawl <= 0) {
                             alert('Your withdrawl must be greater than zero.')
                         } else {
-                        balance = balance - parseInt(withdrawl);
+                        balance = balance - Number(withdrawl);
                         alert('Your updated balance is $' + balance);
                         }
                         toContinue();
