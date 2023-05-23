@@ -1,13 +1,9 @@
 function cartTotal() {
-    let quantity = prompt('Enter the quantiy of dogs you are planning to adopt: ');
+    let total = 0;
     let fee = 123.45;
-    let cartTotal = 0;
+
+    total += fee;
+    alert('Added adoption fee of ' + fee + ' was added to your cart.')
     
-    cartTotal = fee * quantity;
-
-    alert ('Your total fees are: $' + (cartTotal));
+    console.log ('Your total fees are: $' + (total));
 }
-
-
-
-

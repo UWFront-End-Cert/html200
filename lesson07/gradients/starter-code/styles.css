@@ -9,15 +9,16 @@ div {
 }
 
 .linear-gradient-1 {
-    /* background: linear-gradient(to left, purple, white); */
+    background: linear-gradient(to right, purple, white);
 }
 
 .linear-gradient-2 {
-    /* background: linear-gradient(45deg, yellow, black 30%); */
+    background: linear-gradient(45deg, yellow, black 30%);
+    /* start black 30% into the gradient from left to right */
 }
 
 .linear-gradient-3 {
-    /* background: linear-gradient(
+    background: linear-gradient(
         to right,
         red, 
         orange, 
@@ -26,17 +27,19 @@ div {
         blue,
         indigo,
         violet
-    ); */
+    );
 }
 
 .radial-gradient-1 {
-    /* background: radial-gradient(red, pink); */
+    background: radial-gradient(red, pink);
 }
 
 .radial-gradient-2 {
-    /* background: radial-gradient(blue, orange 30%); */
+    background: radial-gradient(blue, orange 30%);
+    /* orange starts at 30% */
 }
 
 .radial-gradient-3 {
-    /* background: radial-gradient(circle, red 5%, white 15%); */
+    background: radial-gradient(circle, red 5%, white 15%);
+    /* this is a circular gradient with red starting at 5% into the gradient surrounded by white */
 }
