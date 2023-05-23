@@ -246,7 +246,7 @@ aside img {
         /* for medium-low hi-res devices such as iPad mini & res 480-1039px */
         .grid-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         /* background-color: orange; */
         padding: .5em;
     }
