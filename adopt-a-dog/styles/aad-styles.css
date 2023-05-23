@@ -1,35 +1,9 @@
-@media only screen and (min-width: 20em) and (max-width: 29em) {
-    /* xs-s resolution mobile devices w/ min width of 320px */
-        .grid-container {
-        display: grid;
-        grid-template-columns: auto;
-        padding: .5em;
-    }
-    aside {display:none;}
+body {
+    font-family: sans-serif;
+    background: linear-gradient(180deg, #013d62, white 25%);
 }
-@media only screen and (min-width: 30em) and (max-width: 64.9375em) {
-        /* for medium-low hi-res devices such as iPad mini & res 480-1039px */
-        .grid-container {
-        display: grid;
-        grid-template-columns: auto auto;
-        /* background-color: orange; */
-        padding: .5em;
-    }
-}
-@media only screen and (min-width: 65em) {
-    /* for high-res devices starting at approx 1040px & higher */
-        .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        /* background-color: yellow; */
-        padding: .5em;
-    }
-}
-@media print {
-    p {color:black;}
-    img {display: none;}
-    aside {display:none;}
-    .header {background-image: none;}
+a {
+    text-decoration: none;
 }
 .grid-container {
     display: grid;
@@ -39,8 +13,8 @@
     /* border: 1px solid red; */
 }
 .grid-item {
-    width: 9rem;
-    font-size: 80%;
+    width: 12rem;
+    font-size: 90%;
     padding: .5rem;
     margin: 1.5rem 2rem;
     border: 1px solid lightgray;
@@ -56,14 +30,6 @@
     background-image: url("../images/header/header-medium.jpg");
     background-position: top;
     background-repeat: repeat-x;
-}
-body {
-    font-family: sans-serif;
-    font-size: 90%;
-    background: linear-gradient(180deg, #013d62, white 25%);
-}
-a {
-    text-decoration: none;
 }
 #logo {
     width: 400px;
@@ -176,7 +142,7 @@ h2 {
 }
 .blog-box {
     width: 40rem;
-    font-size: 80%;
+    font-size: 90%;
     padding: 1rem;
     margin: 1rem 3rem 1rem 3rem;
     /* border: 1px solid lightgray; */
@@ -266,4 +232,37 @@ aside img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+    /* xs-s resolution mobile devices w/ min width of 320px */
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: .5em;
+    }
+    aside {display:none;}
+}
+@media only screen and (min-width: 30em) and (max-width: 64.9375em) {
+        /* for medium-low hi-res devices such as iPad mini & res 480-1039px */
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        /* background-color: orange; */
+        padding: .5em;
+    }
+}
+@media only screen and (min-width: 65em) {
+    /* for high-res devices starting at approx 1040px & higher */
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        /* background-color: yellow; */
+        padding: .5em;
+    }
+}
+@media print {
+    p {color:black;}
+    img {display: none;}
+    aside {display:none;}
+    .header {background-image: none;}
 }
