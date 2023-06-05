@@ -37,21 +37,45 @@
                 </label>
             
                 <label for="city">City</label>
-                <input id="City" type="text" name="customerCity">
+                <input id="city" type="text" name="customerCity">
             
                 <label>State
-                    <input type="State" name="customerState">
+                    <select name="state">
+                      <option value="">Please select</option>
+                      <option value="Washington">Washington</option>
+                      <option value="Oregon">Oregon</option>
+                      <option value="Idaho">Idaho</option>
+                    </select>
                 </label>
 
                 <label>ZIP Code
-                    <input type="Zip" name="customerZip">
+                    <input type="number" name="customerZip">
+                </label>
+
+                <fieldset>
+                    <legend>First Time Adopter?</legend>
+                    <label>Yes
+                      <input type="radio" name="firsttime" value="yes">
+                    </label>
+                    <label>No
+                      <input type="radio" name="firsttime" value="no">
+                    </label>
+                </fieldset>
+
+                <label>Pickup Location
+                    <select name="location">
+                      <option value="">Please select</option>
+                      <option value="Bellevue">Bellevue</option>
+                      <option value="Northgate">Northgate</option>
+                      <option value="Renton">Renton</option>
+                    </select>
                 </label>
                 
             </form>
             <button>Submit</button>
         </article>
         <footer>
-            <img></img>
+            <img src="adoptadog-logo.svg" alt="logo">
             <p>Lorem Ipsum</p>
             <p>Home</p>
             <p>Dogs</p>
