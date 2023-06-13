@@ -1,0 +1,93 @@
+@media only screen and (min-width: 65em) {
+    /* for high-res devices starting at approx 1025px */
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+        }
+    }
+    @media only screen and (min-width: 20em) {
+    /* xs-s resolution mobile devices w/ min width of 320px */
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+        }
+    }
+    @media only screen and (min-width: 30em) and (max-width: 63em) {
+        /* for medium-low hi-res devices such as iPad mini & res 480-1024px */
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+        }
+    }
+    .grid-item {
+        background-color:antiquewhite;
+        border: 1px dashed black;
+        padding: 10px;
+    }
+    .grid-header { 
+        background-image: url("../images/header/header-medium.jpg");
+    }
+    #logo {
+        width: 50%;
+        height: 50%;
+        margin-top: 1rem;
+        border: 1px dashed red;
+        float: left;
+    }
+    .logo-sub {
+        margin-left: 1rem;
+        color:greenyellow;
+        font-family: 'Times New Roman', serif;
+        font-style: italic;
+        font-size: 120%;
+        margin-left: .5rem;
+        margin-top: 8rem;
+        border: 1px dashed red;
+    }
+    #checkout {
+        width: 25%;
+        height: 25%;
+        margin-top: 2rem;
+        border: 1px dashed red;
+        float: right;
+    }
+    .menu { 
+        background-color: lightgrey;
+        float: left;
+    }
+    .menu ul {
+        list-style-type: none;
+    }
+    .menu li {
+        /* border: .5px dashed red; */
+        display: inline;
+        padding-right: 1rem;
+        font-weight: bolder;
+    }
+    .menu a:link {
+        color:#013d62;
+    }
+    .menu a:visited {
+        color: #013d62;
+    }
+    .menu a:hover {
+        color: orange;
+        transition-duration: .5s;
+    }
+    h1 {
+        color: #013d62;
+        font-family:'Times New Roman', Times, serif;
+    }
+    h2 {
+        color: #013d62;
+        font-family:'Times New Roman', Times, serif;
+    }
