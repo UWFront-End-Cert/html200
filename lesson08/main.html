@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Adopt a Dog - Pet Adoption Agency</title>
+        <link rel="stylesheet" type="text/css" href="https://www.msn.com/">
+    </head>
+
+    <body>
+        <h1>Check console for output</h1>
+        <script>
+            const fields = [
+                {
+                    name:'full-name',
+                    label:'Full Name'
+                },
+                {
+                    name:'email',
+                    label:'Email Address'
+                }
+            ];
+
+            const form = document.createElement('form');
+            document.body.appendChild(form);
+
+            for (let i = 0; i < fields.length; i += 1) {
+                const field = fields[i];
+
+                const label = document.createElement('label');
+                label.textContent = field.label;
+                label.setAttribute('for', field.name);
+
+                const input = document.createElement('input');
+                input.setAttribute('id', field.name);
+
+                form.appendChild(label);
+                form.appendChild(input);
+            }
+        </script>
+    </body>
+</html>
