@@ -8,15 +8,16 @@
     <title>Responsive Images</title>
 </head>
 <body>
-    <!-- <img
+    <img 
         alt="placeholder image"
         src="https://via.placeholder.com/300"
         srcset="https://via.placeholder.com/600 600w,
                 https://via.placeholder.com/300 300w"
-        sizes="(max-width: 600px) 200px,
-               500px"
-    /> -->
-    <img
+        sizes="(max-width: 600px) 200px,500px"
+    />
+<!-- each size of entry should consist of a media query followed by an image slot size which will be applied if the query evaluates to true. -->
+
+    <img 
         class="responsive-img"
         src="./images/uw-umbrella.jpg"
         alt="University of Washington umbrella"

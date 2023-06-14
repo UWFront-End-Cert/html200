@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Banking Application</title>
+        
+    </head>
+    
+    <body>
+        <h1>Banking Application</h1>
+        <p>Welcome to our ATM.</p>
+
+        <button onclick='myATM()'>Begin</button>
+        
+        <script>
+            function myATM() {
+                let mainMenu = prompt('Please choose a letter option', 'B = View Balance | D = Make Deposit | W = Withdrawl | Q = Exit');
+                let balanceStatus = 1000;
+
+                switch(mainMenu) {
+                    case 'B':
+                        alert('Your current balance is $' + balanceStatus);
+                        toContinue();
+                        break;
+                    case 'D':
+                    let deposit = prompt('Enter a deposit: ')
+                    if (deposit >= 50000) {
+                        alert('The current deposit amount exceeds the limit for this ATM. Please enter a dollar amount that is less than $50,000.')
+                    } else {
+                    function balanceD(depositAmt) {
+                        return Number(depositAmt) + Number(balanceStatus);
+                    }
+                    alert ('Your updated balance is $' + balanceD(deposit));
+                    }
+                    toContinue();
+                    break;
+                    case 'W':
+                        let withdrawl = prompt('Please enter your withdrawl amount: ');
+                        function balanceW(withdrawlAmt) {
+                        return + Number(balanceStatus) - Number(withdrawlAmt);
+                        }
+                        alert ('Your updated balance is $' + balanceW(withdrawl));
+                        toContinue();
+                        break;
+                    case 'Q':
+                        alert ('Thank you and have a wonderful day.');
+                        break;
+                    }
+                }
+                
+
+                function toContinue() {
+                        let choice =  prompt('What would you like to do next?', 'M = See Main Menu | E = EXIT');
+                        if (choice === 'M') {
+                                myATM();
+                        } else if (choice === 'E') {
+                            return exit();
+                        } 
+                        else {
+                            alert('Please make a valid selection');
+                            toContinue();
+                        }
+                    }
+
+                function exit() {
+                                return alert('Thank you for using this ATM.');
+                            }
+        </script>
+    </body>
+</html>
