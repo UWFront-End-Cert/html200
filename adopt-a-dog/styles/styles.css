@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+}
+
+header {
+    color: green;
+}
+
+body {
+
+}
+
+nav {
+    background-color: grey;
+}
+
+h1 {
+    background-color: grey;
+}
+
+h2 {
+    background-color: grey;
+}
+
+.dogcard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+p {
+    
+}
+
+div {
+
+}
+
+img {
+    
+}
+
+button {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
