@@ -3,15 +3,18 @@
 }
 
 header {
+    background-image: url("images/header-large.jpg");
     color: green;
+    width: 100%;
 }
 
 body {
-
+    max-width: 100%;
 }
 
 nav {
     background-color: grey;
+    justify-content: left;
 }
 
 h1 {
@@ -23,10 +26,9 @@ h2 {
 }
 
 .dogcard {
+    height: 2rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    justify-content: space-around;
-    align-content: space-around;
 }
 
 p {
@@ -34,11 +36,11 @@ p {
 }
 
 div {
-
+    max-width: 100%;
 }
 
 img {
-    
+    max-width: 100%;
 }
 
 button {
@@ -47,6 +49,7 @@ button {
 }
 
 footer {
+    max-height: 33%;
     background-color: blue;
     color: white;
     text-align: center;
