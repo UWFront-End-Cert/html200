@@ -2,6 +2,10 @@
     display: grid;
 }
 
+.flex-containter{
+    display: flex;
+}
+
 header {
     background-image: url("images/header-large.jpg");
     color: green;
