@@ -5,6 +5,7 @@
 
 header {
     background-image: url("images/header-large.jpg");
+    background-size: 100%;
     color: green;
     background-color: darkgrey;
     justify-content: left;
@@ -33,6 +34,7 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
+    box-sizing: border-box;
 }
 
 p {
@@ -44,7 +46,7 @@ div {
 }
 
 img {
-    max-width: 100%;
+    max-width: 20%;
 }
 
 button {
