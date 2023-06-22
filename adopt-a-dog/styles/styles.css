@@ -5,11 +5,14 @@
 
 header {
     background-image: url("images/header-large.jpg");
-    background-size: 100%;
     color: green;
     background-color: darkgrey;
     justify-content: left;
     width: 80%;
+}
+
+.figure {
+    background-size: 100%;
 }
 
 body {
