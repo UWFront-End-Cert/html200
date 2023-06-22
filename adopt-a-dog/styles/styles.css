@@ -1,9 +1,6 @@
 .grid-container {
     display: grid;
-}
-
-.flex-containter{
-    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -35,6 +32,7 @@ h2 {
     height: 2rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
 }
 
 p {
@@ -55,7 +53,7 @@ button {
 }
 
 footer {
-    max-height: 33%;
+    max-height: 25%;
     background-color: blue;
     color: white;
     text-align: center;
