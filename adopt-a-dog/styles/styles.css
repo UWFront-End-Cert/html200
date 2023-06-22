@@ -8,11 +8,13 @@ header {
     color: green;
     background-color: darkgrey;
     justify-content: left;
-    width: 80%;
+    height: 75%;
+    width: 100%;
 }
 
 .figure {
     width: 100%;
+    height: 20%;
     background-size: cover;
 }
 
@@ -33,7 +35,7 @@ h2 {
     background-color: grey;
 }
 
-.dogcard {
+.flex-container {
     height: 2rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -51,6 +53,7 @@ div {
 
 img {
     max-width: 20%;
+    max-height: 20%;
 }
 
 button {
