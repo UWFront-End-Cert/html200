@@ -1,15 +1,35 @@
 .grid-container {
     display: grid;
-    justify-content: center;
+    justify-content: right;
 }
 
 header {
     background-image: url("images/header-large.jpg");
     color: green;
-    background-color: darkgrey;
+    background-color: rgb(34, 34, 34);
     justify-content: left;
-    height: 33%;
+    height: 100%;
     width: 100%;
+}
+
+.header-background {
+
+}
+
+.header-logo {
+    position: absolute;
+}
+
+.hidden {
+    padding: 0;
+    margin: 0;
+}
+
+.cart-icon {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    justify-content: flex-end;
 }
 
 .figure {
@@ -36,12 +56,12 @@ h2 {
 }
 
 .flex-container {
-    height: 20rem;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
+    display: flex;
     box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 3px gray;
+    justify-content: space-evenly;
 }
 
 p {
@@ -52,9 +72,8 @@ div {
     max-width: 100%;
 }
 
-img {
-    max-width: 50%;
-    max-height: 50%;
+.flex-container img {
+    max-width: 10rem;
 }
 
 button {
@@ -62,6 +81,11 @@ button {
     color: white;
     width: 100px;
     height: 40px;
+}
+
+.footer-logo {
+    height: 15rem;
+    position: center;
 }
 
 footer {
