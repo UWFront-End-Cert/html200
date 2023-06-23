@@ -13,7 +13,8 @@ header {
 }
 
 .header-background {
-    
+    max-width: stretch;
+    justify-content: right;
 }
 
 .header-logo {
