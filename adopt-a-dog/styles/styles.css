@@ -85,9 +85,18 @@ p {
     justify-content: right;
 }
 
+.blog-title {
+    
+}
+
 .blog-image {
     max-width: 20%;
     max-height: 20%;
+}
+
+.blog-heading {
+    color:rgb(10, 4, 66)
+
 }
 
 div {
