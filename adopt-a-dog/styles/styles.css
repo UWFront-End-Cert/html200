@@ -72,8 +72,17 @@ h2 {
     justify-content: space-evenly;
 }
 
+.flex-container-blog {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px gray;
+    justify-content: space-evenly;
+}
+
 p {
-    
+    justify-content: right;
 }
 
 .blog-image {
