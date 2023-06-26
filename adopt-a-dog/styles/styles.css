@@ -76,6 +76,11 @@ p {
     
 }
 
+.blog-image {
+    max-width: 20%;
+    max-height: 20%;
+}
+
 div {
     max-width: 100%;
 }
