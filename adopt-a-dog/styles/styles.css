@@ -8,28 +8,29 @@ header {
     color: green;
     background-color: rgb(34, 34, 34);
     justify-content: left;
-    height: 100%;
-    width: 100%;
+    max-height: 40%;
+    max-width: stretch;
 }
 
 .header-background {
     max-width: stretch;
+    max-height: 30%;
     justify-content: right;
 }
 
 .header-logo {
     position: absolute;
-    
 }
 
 .hidden {
+    position: absolute;
     padding: 0;
     margin: 0;
 }
 
 .cart-icon {
-    height: 5rem;
-    width: 5rem;
+    height: 3.5rem;
+    width: 3.5rem;
     position: absolute;
     justify-content: flex-end;
 }
@@ -46,15 +47,17 @@ body {
 
 nav {
     background-color: grey;
+    color: rgb(10, 4, 66);
     justify-content: left;
+    max-height: 10rem;
 }
 
 h1 {
-    background-color: grey;
+    color: green;
 }
 
 h2 {
-    background-color: grey;
+    color: rgb(10, 4, 66);
 }
 
 .flex-container {
@@ -79,7 +82,7 @@ div {
 }
 
 button {
-    background-color: green;
+    background-color: rgb(1, 187, 1);
     color: white;
     width: 100px;
     height: 40px;
