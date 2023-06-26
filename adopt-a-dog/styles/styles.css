@@ -93,11 +93,13 @@ button {
 
 .checkout {
     max-width: 70%;
+    padding: 2rem;
 }
 
 .adopted-dogs {
     max-width: 10%;
     max-height: 10%;
+    flex-flow: row wrap;
 }
 
 .footer-logo {
