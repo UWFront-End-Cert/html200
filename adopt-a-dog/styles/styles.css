@@ -91,6 +91,15 @@ button {
     height: 40px;
 }
 
+.checkout {
+    max-width: 70%;
+}
+
+.adopted-dogs {
+    max-width: 10%;
+    max-height: 10%;
+}
+
 .footer-logo {
     height: 15rem;
     position: center;
