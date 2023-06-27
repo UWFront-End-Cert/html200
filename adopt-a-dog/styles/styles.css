@@ -1,26 +1,23 @@
-flex-container {
-    
-}
-
-header {
-    display: grid;
+.header {
+    display: flex;
     background-image: url("images/header-large.jpg");
-    color: green;
+    color: white;
     background-color: rgb(34, 34, 34);
-    max-height: 40%;
+    max-height: 80%;
     max-width: 100%;
 }
 
 .header-background {
-    display: grid;
+    display: flex;
     max-width: 100%;
     max-height: 30%;
     min-height: 30%;
 }
 
 .header-logo {
-    display: grid;
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
     width: 30%;
 }
 
@@ -36,12 +33,6 @@ header {
     position: absolute;
     display: flex;
     justify-content: flex-end;
-}
-
-.figure {
-    width: 100%;
-    height: 20%;
-    background-size: cover;
 }
 
 body {
