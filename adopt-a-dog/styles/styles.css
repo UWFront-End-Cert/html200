@@ -15,6 +15,7 @@ header {
 .header-background {
     max-width: stretch;
     max-height: 30%;
+    min-height: 30%;
     justify-content: right;
 }
 
