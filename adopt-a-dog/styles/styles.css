@@ -2,6 +2,9 @@ header {
     display: flex;
     color: white;
     background-color: rgb(34, 34, 34);
+    justify-content: right;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 40%;
     width: 100%;
 }
@@ -11,7 +14,6 @@ header {
     background-image: url("images/header-large.jpg");
     background-size: 80%;
     background-color: rgb(34, 34, 34);
-    justify-content: right;
     position: absolute;
     height: 50%;
     width: 100%;
@@ -58,9 +60,9 @@ h2 {
     color: rgb(10, 4, 66);
 }
 
-.flex-container{
+.flex-container {
     display: flex;
-    
+    flex-direction: row;
 }
 
 .flex-item {
@@ -70,6 +72,7 @@ h2 {
     flex-wrap: wrap;
     border: 3px gray;
     justify-content: flex-start;
+    text-align: center;
     padding: 2rem;
 }
 
@@ -115,6 +118,8 @@ button {
     width: 100px;
     height: 40px;
     border-style: none;
+    justify-content: center;
+    position: center;
 }
 
 .checkout {
