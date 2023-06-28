@@ -58,13 +58,18 @@ h2 {
     color: rgb(10, 4, 66);
 }
 
+.flex-container{
+    display: flex;
+    
+}
+
 .flex-item {
     display: flex;
     box-sizing: border-box;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     border: 3px gray;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     padding: 2rem;
 }
 
