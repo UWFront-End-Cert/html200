@@ -30,6 +30,7 @@ header {
     position: absolute;
     padding: 0;
     margin: 0;
+    position: -100000px;
 }
 
 .cart-icon {
@@ -49,7 +50,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     max-height: 10rem;
-    padding: .5rem;
+    padding: 1rem;
 }
 
 h1 {
