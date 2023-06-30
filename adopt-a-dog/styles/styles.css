@@ -12,11 +12,12 @@ header {
 .header-background {
     display: flex;
     background-image: url("images/header-large.jpg");
-    background-size: auto;
     z-index: 2;
     background-color: rgb(34, 34, 34);
     /* max-height: 15rem; */
     width: 100%;
+    object-fit: cover;
+    height: 20rem;
 }
 
 .header-logo {
