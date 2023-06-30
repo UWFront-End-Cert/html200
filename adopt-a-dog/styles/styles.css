@@ -1,23 +1,23 @@
 header {
-    display: flex;
     color: white;
-    background-color: rgb(34, 34, 34);
+    position: relative;
     justify-content: right;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 40%;
+    height: 40rem;
     width: 100%;
 }
 
+.sub-header {
+    position: relative;
+    bottom: 25rem;
+    z-index: 10;
+}
+
 .header-background {
-    display: flex;
     background-image: url("images/header-large.jpg");
-    z-index: 2;
-    background-color: rgb(34, 34, 34);
-    /* max-height: 15rem; */
     width: 100%;
     object-fit: cover;
-    height: 20rem;
+    object-position: 0 5rem;
+    height: 30rem;
 }
 
 .header-logo {
@@ -42,7 +42,6 @@ header {
 }
 
 main {
-    position: static;
     z-index: 1;
 }
 
