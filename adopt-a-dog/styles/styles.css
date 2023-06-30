@@ -42,6 +42,7 @@ header {
 
 .checkout-button {
     position: relative;
+    object-fit: cover;
     object-position: 0 5rem;
 }
 
