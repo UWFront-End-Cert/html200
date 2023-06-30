@@ -12,10 +12,10 @@ header {
 .header-background {
     display: flex;
     background-image: url("images/header-large.jpg");
-    background-size: 80%;
+    background-size: auto;
+    z-index: 2;
     background-color: rgb(34, 34, 34);
-    position: absolute;
-    height: 50%;
+    /* max-height: 15rem; */
     width: 100%;
 }
 
@@ -38,6 +38,11 @@ header {
     width: 3.5rem;
     display: flex;
     justify-content: right;
+}
+
+main {
+    position: static;
+    z-index: 1;
 }
 
 body {
