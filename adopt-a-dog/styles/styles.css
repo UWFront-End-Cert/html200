@@ -31,7 +31,6 @@ header {
     position: absolute;
     padding: 0;
     margin: 0;
-    position: -100000px;
 }
 
 .cart-icon {
@@ -39,6 +38,11 @@ header {
     width: 3.5rem;
     display: flex;
     justify-content: right;
+}
+
+.checkout-button {
+    position: relative;
+    object-position: 0 5rem;
 }
 
 a {
