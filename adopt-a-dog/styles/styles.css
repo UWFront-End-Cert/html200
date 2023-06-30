@@ -23,7 +23,7 @@ header {
 .header-logo {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: right;
     width: 30%;
 }
 
