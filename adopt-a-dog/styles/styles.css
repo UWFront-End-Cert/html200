@@ -34,8 +34,8 @@ header {
 }
 
 .cart-icon {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2rem;
+    width: 2rem;
     display: flex;
     justify-content: right;
 }
@@ -43,7 +43,8 @@ header {
 .checkout-button {
     position: relative;
     object-fit: cover;
-    object-position: 10 10rem;
+    object-position: 10 20rem;
+    font-weight: bold;
 }
 
 a {
@@ -66,6 +67,7 @@ nav {
     justify-content: flex-start;
     max-height: 10rem;
     padding: 1rem;
+    font-weight: bold;
 }
 
 h1 {
@@ -99,6 +101,30 @@ h2 {
     flex-wrap: wrap;
     border: 3px gray;
     justify-content: space-evenly;
+}
+
+.first-page-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.first-article-img {
+    height: 16rem;
+    width: 22rem;
+    padding: 3rem;
+}
+
+.first-page-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.first-page-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 p {
