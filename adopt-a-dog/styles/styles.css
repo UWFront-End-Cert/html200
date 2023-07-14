@@ -83,6 +83,10 @@ h2 {
     flex-direction: row;
 }
 
+.grid-container {
+    display: grid;
+}
+
 .flex-item {
     display: flex;
     box-sizing: border-box;
@@ -117,16 +121,18 @@ h2 {
 }
 
 .first-page-title {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 1 / span 1;
     justify-content: left;
     padding: 1rem;
 }
 
 .first-page-para {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 2 / span 1;
+    justify-content: space-evenly;
     position: relative;
     padding: 1rem;
 }
