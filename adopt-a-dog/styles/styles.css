@@ -1,0 +1,192 @@
+header {
+    color: white;
+    position: relative;
+    justify-content: right;
+    height: 40rem;
+    width: 100%;
+}
+
+.sub-header {
+    position: relative;
+    bottom: 25rem;
+    z-index: 10;
+}
+
+.header-background {
+    background-image: url("images/header-images/header-large.jpg");
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 5rem;
+    height: 30rem;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 30%;
+}
+
+.hidden {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-icon {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: right;
+}
+
+.checkout-button {
+    position: relative;
+    object-fit: cover;
+    object-position: 10 20rem;
+    font-weight: bold;
+}
+
+a {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+main {
+    z-index: 1;
+}
+
+body {
+    max-width: 100%;
+}
+
+nav {
+    background-color: grey;
+    color: rgb(10, 4, 66);
+    display: flex;
+    justify-content: flex-start;
+    max-height: 10rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: rgb(10, 4, 66);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px gray;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 2rem;
+}
+
+.flex-item-blog {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px gray;
+    justify-content: space-evenly;
+}
+
+.first-page-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+}
+
+.first-article-img {
+    height: 16rem;
+    width: 22rem;
+    padding: 3rem;
+}
+
+.first-page-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.first-page-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+p {
+    justify-content: right;
+}
+
+.blog-title {
+    color:rgb(10, 4, 66)
+}
+
+.blog-image {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.blog-heading {
+    color:rgb(10, 4, 66)
+
+}
+
+div {
+    max-width: 100%;
+}
+
+.flex-container img {
+    max-width: 10rem;
+    float: right;
+}
+
+button {
+    background-color: rgb(133, 221, 60);
+    color: white;
+    width: 160px;
+    height: 40px;
+    border-style: none;
+    justify-content: center;
+    position: center;
+}
+
+.checkout {
+    max-width: 70%;
+    padding: 2rem;
+}
+
+.adopted-dogs {
+    max-width: 10%;
+    max-height: 10%;
+    flex-flow: row wrap;
+}
+
+.footer-logo {
+    height: 11rem;
+    position: center;
+    padding-top: 1rem;
+}
+
+footer {
+    max-height: 25%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
