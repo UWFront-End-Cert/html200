@@ -120,7 +120,7 @@ h2 {
     padding: 2rem;
 }
 
-.first-page-title {
+.first-page-content {
     display: grid;
     grid-template-columns: auto;
     grid-column: 1 / span 1;
@@ -128,14 +128,22 @@ h2 {
     padding: 1rem;
 }
 
-.first-page-para {
+/* .first-page-title {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column: 1 / span 1;
+    justify-content: left;
+    padding: 1rem;
+} */
+
+/* .first-page-para {
     display: grid;
     grid-template-columns: auto;
     grid-column: 2 / span 1;
     justify-content: space-evenly;
     position: relative;
     padding: 1rem;
-}
+} */
 
 p {
     justify-content: right;
