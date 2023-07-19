@@ -92,9 +92,6 @@ h2 {
     box-sizing: border-box;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 160px;
-    height: 106.67px;
-    object-fit: cover;
     border: 3px gray;
     justify-content: flex-start;
     text-align: center;
@@ -121,6 +118,12 @@ h2 {
     height: 16rem;
     width: 22rem;
     padding: 2rem;
+}
+
+.first-page-dog-img {
+    height: 160px;
+    width: 120px;
+    object-fit: cover;
 }
 
 .first-page-content {
