@@ -156,11 +156,6 @@ div {
     max-width: 100%;
 }
 
-.flex-container img {
-    max-width: 10rem;
-    float: right;
-}
-
 button {
     background-color: rgb(133, 221, 60);
     color: white;
