@@ -145,6 +145,9 @@ p {
     width: 160px;
     height: 40px;
     padding-bottom: 3rem;
+    border-style: none;
+    justify-content: center;
+    position: center;
 }
 
 .blog-title {
