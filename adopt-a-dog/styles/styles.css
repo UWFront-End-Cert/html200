@@ -142,6 +142,7 @@ p {
     background-color: lightgray;
     color:rgb(10, 4, 66);
     font-weight: bold;
+    padding-bottom: 3rem;
 }
 
 .blog-title {
