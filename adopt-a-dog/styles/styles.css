@@ -140,7 +140,8 @@ p {
 
 .more-dogs-button {
     background-color: lightgray;
-    color:rgb(10, 4, 66)
+    color:rgb(10, 4, 66);
+    font-weight: bold;
 }
 
 .blog-title {
