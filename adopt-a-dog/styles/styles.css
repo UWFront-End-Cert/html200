@@ -138,6 +138,11 @@ p {
     justify-content: right;
 }
 
+.more-dogs-button {
+    background-color: lightgray;
+    color:rgb(10, 4, 66)
+}
+
 .blog-title {
     color:rgb(10, 4, 66)
 }
