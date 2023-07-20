@@ -93,7 +93,6 @@ h2 {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    flex-wrap: wrap;
     border: 3px gray;
     justify-content: flex-start;
     text-align: center;
