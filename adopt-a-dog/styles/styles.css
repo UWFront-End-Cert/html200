@@ -168,6 +168,11 @@ p {
     max-height: 20%;
 }
 
+.blog-item img {
+    height: auto;
+    width: 20rem;
+}
+
 div {
     max-width: 100%;
 }
