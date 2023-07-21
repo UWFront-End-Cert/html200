@@ -78,6 +78,10 @@ h2 {
     color: rgb(10, 4, 66);
 }
 
+h3 {
+    color:rgb(10, 4, 66)
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
