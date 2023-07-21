@@ -192,6 +192,11 @@ button {
     position: center;
 }
 
+.adopted-dogs {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .checkout {
     max-width: 70%;
     padding: 2rem;
