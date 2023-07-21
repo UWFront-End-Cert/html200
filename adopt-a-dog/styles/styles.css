@@ -193,7 +193,7 @@ button {
 }
 
 .checkout-dogs {
-    display: flex;
+    display: grid;
     grid-template-rows: auto auto;
 }
 
