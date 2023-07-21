@@ -153,7 +153,8 @@ p {
 }
 
 .blog-title {
-    color:rgb(10, 4, 66)
+    color:rgb(10, 4, 66);
+    font-weight: bold;
 }
 
 .blog-image {
