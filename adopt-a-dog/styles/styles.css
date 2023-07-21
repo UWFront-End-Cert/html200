@@ -205,6 +205,8 @@ button {
 .adopted-dogs {
     width: 10%;
     height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .footer-logo {
