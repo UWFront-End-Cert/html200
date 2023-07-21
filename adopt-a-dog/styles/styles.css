@@ -161,14 +161,6 @@ p {
     max-height: 20%;
 }
 
-.blog-heading {
-    color:rgb(10, 4, 66);
-    display: grid;
-    grid-template-columns: auto;
-    grid-column: 1 / span 1;
-    justify-content: left;
-}
-
 div {
     max-width: 100%;
 }
