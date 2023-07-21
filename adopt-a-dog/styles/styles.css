@@ -200,6 +200,9 @@ button {
 .checkout {
     max-width: 70%;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .adopted-dogs {
