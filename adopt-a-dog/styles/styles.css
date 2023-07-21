@@ -170,7 +170,7 @@ p {
 
 .blog-item {
     display: flex;
-    flex-flow: row-wrap;
+    flex-flow: wrap;
 }
 
 .blog-item img {
@@ -202,7 +202,7 @@ button {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .adopted-dogs {
@@ -210,6 +210,11 @@ button {
     height: auto;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.adopted-dogs img {
+    width: 65%;
+    height: auto;
 }
 
 .footer-logo {
