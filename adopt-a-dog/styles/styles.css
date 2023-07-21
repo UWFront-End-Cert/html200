@@ -192,9 +192,9 @@ button {
     position: center;
 }
 
-.adopted-dogs {
+.checkout-dogs {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 .checkout {
@@ -203,9 +203,8 @@ button {
 }
 
 .adopted-dogs {
-    max-width: 10%;
-    max-height: 10%;
-    flex-flow: row wrap;
+    width: 10%;
+    height: auto;
 }
 
 .footer-logo {
