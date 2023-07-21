@@ -168,9 +168,15 @@ p {
     max-height: 20%;
 }
 
+.blog-item {
+    display: flex;
+    flex-flow: row-wrap;
+}
+
 .blog-item img {
     height: auto;
     width: 20rem;
+    padding: 3rem;
 }
 
 div {
