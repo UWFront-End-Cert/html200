@@ -208,7 +208,7 @@ button {
 .adopted-dogs {
     width: 10%;
     height: auto;
-    display: flex;
+    display: grid;
     grid-template-columns: auto auto;
 }
 
