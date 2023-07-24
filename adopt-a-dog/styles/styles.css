@@ -70,6 +70,11 @@ nav {
     font-weight: bold;
 }
 
+.header-right-side {
+    position: relative;
+    
+}
+
 h1 {
     color: green;
 }
