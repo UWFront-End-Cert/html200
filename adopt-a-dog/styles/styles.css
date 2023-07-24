@@ -71,8 +71,8 @@ nav {
 }
 
 .header-right-side {
-    position: relative;
-    
+    display: flex;
+    justify-content: flex-end;
 }
 
 h1 {
