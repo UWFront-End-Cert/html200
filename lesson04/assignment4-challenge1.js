@@ -1,9 +1,10 @@
-function square(x) {
-let input = prompt('Enter a number');
-let x = 2;
-let result = 0;
+function square() {
+    let input = prompt('Enter a number');
 
-result = numberToAdd * Number(input);
-
-alert(result);
-}
+    input = Number(input);
+    let result = 0;
+    
+    result = input * input;
+    
+    alert(result);
+    }
