@@ -1,3 +1,3 @@
-object.onclick = function dogDescription('Murphy'){
-
+object.onclick = function dogDescription('Murphy, Breed, Adoption Cost'){
+    
 }
