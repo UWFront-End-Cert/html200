@@ -3,7 +3,7 @@ object.onclick = function dogDescription('Murphy, Breed, Adoption Cost'){
     const dogBreed = 'Breed'
     const dogCost = '$100.00'
 
-    result = 
+    result = dogDescription
 
     alert(result)
 }
