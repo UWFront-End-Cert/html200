@@ -1,4 +1,4 @@
-object.onclick = function dogDescription(){
+function dogDescription(){
     const dogName = 'Murphy'
     const dogBreed = 'Breed'
     const dogCost = '$100.00'
