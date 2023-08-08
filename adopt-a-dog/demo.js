@@ -1,5 +1,5 @@
 function dogDescription1(){
-    const dogName = 'Murphy'
+    let dogName = 'Murphy'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -9,7 +9,7 @@ function dogDescription1(){
 }
 
 function dogDescription2(){
-    const dogName = 'Poppy'
+    let dogName = 'Poppy'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -19,7 +19,7 @@ function dogDescription2(){
 }
 
 function dogDescription3(){
-    const dogName = 'Jack'
+    let dogName = 'Jack'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -29,7 +29,7 @@ function dogDescription3(){
 }
 
 function dogDescription4(){
-    const dogName = 'Duffy'
+    let dogName = 'Duffy'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -39,7 +39,7 @@ function dogDescription4(){
 }
 
 function dogDescription5(){
-    const dogName = 'Lucas'
+    let dogName = 'Lucas'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -49,7 +49,7 @@ function dogDescription5(){
 }
 
 function dogDescription6(){
-    const dogName = 'Jake'
+    let dogName = 'Jake'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -59,7 +59,7 @@ function dogDescription6(){
 }
 
 function dogDescription7(){
-    const dogName = 'Angus'
+    let dogName = 'Angus'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
@@ -69,7 +69,7 @@ function dogDescription7(){
 }
 
 function dogDescription8(){
-    const dogName = 'Violet'
+    let dogName = 'Violet'
     const dogBreed = ' Breed'
     const dogCost = ' $100.00'
 
