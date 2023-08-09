@@ -79,5 +79,5 @@ function dogDescription8(){
 }
 
 function dogTotalcost(){
-    
+    dogCost 
 }
