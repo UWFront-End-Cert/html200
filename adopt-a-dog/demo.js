@@ -82,7 +82,7 @@ function dogTotalcost(){
     dogCost = 0
 
     function adder(dogCost){
-
+        result = 
     }
 
     adder(dogCost)
