@@ -51,41 +51,40 @@ function dogDescription5(){
 function dogDescription6(){
     let dogName = 'Jake';
     const dogBreed = ' Breed';
-    const dogCost = ' $100.00';
+    const dogCost = ' 100.00';
 
     result = dogName + dogBreed + dogCost;
 
     alert(result);
 }
 
-function dogDescription7(){
+function dogDescription7(aDog){
     let dogName = 'Angus';
-    const dogBreed = ' Breed';
-    const dogCost = ' $100.00';
+    const dogBreed = ' Breed $';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + aDog;
 
     alert(result);
 }
 
-function dogDescription8(){
+function dogDescription8(vDog){
     let dogName = 'Violet';
-    const dogBreed = ' Breed';
-    const dogCost = ' $100.00';
+    const dogBreed = ' Breed $';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + vDog;
 
     alert(result);
 }
 
-function dogTotalcost(){
-    dogCost = 0
+let totalCost = 0;
+let anyDog = 0;
 
-    function adder(dogCost){
-        result = 
+function dogTotalcost(anyDog){
+    
+    function adder(anyDog){
+        totalCost = totalCost + anyDog
     }
 
-    adder(dogCost)
-
-    alert(result);
+    adder(anyDog);
+    alert(totalCost);
 }
