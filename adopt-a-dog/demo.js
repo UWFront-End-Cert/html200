@@ -79,7 +79,10 @@ function dogDescription8(){
 }
 
 function dogTotalcost(){
-    dogCost =
+    dogCost
+
+    function adder(dogCost)
+    
 
     alert(result);
 }
