@@ -1,57 +1,53 @@
-function dogDescription1(){
-    let dogName = 'Murphy'
+function dogDescription1(mDog){
+    let dogName = 'Murphy';
     const dogBreed = ' Breed $';
-    const dogCost = ' $100.00'
 
-    result = dogName + dogBreed + dogCost
+    result = dogName + dogBreed + mDog;
 
-    alert(result)
+    alert(result);
 }
 
-function dogDescription2(){
+function dogDescription2(pDog){
     let dogName = 'Poppy';
     const dogBreed = ' Breed $';
-    const dogCost = ' $100.00';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + pDog;
 
     alert(result);
 }
 
-function dogDescription3(){
+function dogDescription3(jaDog){
     let dogName = 'Jack';
     const dogBreed = ' Breed $';
-    const dogCost = ' $100.00';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + jaDog;
 
     alert(result);
 }
 
-function dogDescription4(){
+function dogDescription4(dDog){
     let dogName = 'Duffy';
     const dogBreed = ' Breed $';
-    const dogCost = ' $100.00';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + dDog;
 
     alert(result)
 }
 
-function dogDescription5(){
+function dogDescription5(lDog){
     let dogName = 'Lucas';
     const dogBreed = ' Breed $';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + lDog;
 
     alert(result);
 }
 
-function dogDescription6(){
+function dogDescription6(jDog){
     let dogName = 'Jake';
     const dogBreed = ' Breed $';
 
-    result = dogName + dogBreed + dogCost;
+    result = dogName + dogBreed + jDog;
 
     alert(result);
 }
