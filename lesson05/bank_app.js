@@ -1,1 +1,5 @@
-const yourAccount = '';
+const yourAccount = 'Bank Account';
+
+switch (yourAccount) {
+    
+}
