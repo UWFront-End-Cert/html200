@@ -1,5 +1,9 @@
 const yourAccount = 'Bank Account';
 
-switch (yourAccount) {
+if (yourAccount) {
     
+}
+
+switch (yourAccount) {
+
 }
