@@ -1,4 +1,4 @@
-const yourAccount = 'Bank Account';
+const yourAccount = 50000;
 
 if (yourAccount) {
     console.log()
