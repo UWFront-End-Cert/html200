@@ -1,13 +1,13 @@
 let yourBalance = 50000;
-
+// Created starting balance, create function to hold all of our code when the user starts, get user's input, pass input to switch statement, in switch statement, decide what needs to be done.
 const yourAccount = function(){
-    
+    input = prompt('What would you like to do today? Q to Quit, W to Withdraw, D to Deposit, and B to View Balance');
+    switch(input){
+        case input = 'B':
+            alert(yourBalance);
+            break;
+        case input = 'Q':
+            alert('Goodbye');
+            break;
+    }
 };
-
-if (yourAccount) {
-    console.log()
-} else
-
-switch (yourAccount) {
-
-}
