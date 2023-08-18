@@ -1,4 +1,8 @@
-const yourAccount = 50000;
+let yourBalance = 50000;
+
+const yourAccount = function(){
+    
+};
 
 if (yourAccount) {
     console.log()
