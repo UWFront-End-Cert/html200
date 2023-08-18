@@ -16,6 +16,7 @@ const yourAccount = function(){
             break;
         case input = 'W', 'w':
             withdrawInput = prompt('Enter your withdrawal here:');
+            if (yourBalance = <=0);
             yourBalance = yourBalance - parseInt(withdrawInput);
             alert(yourBalance);
             break;
