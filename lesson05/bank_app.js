@@ -9,5 +9,15 @@ const yourAccount = function(){
         case input = 'Q':
             alert('Goodbye');
             break;
+        case input = 'D':
+            depositInput = prompt('Enter your deposit here:');
+            yourBalance = parseInt(depositInput) + yourBalance;
+            alert(yourBalance);
+            break;
+        case input = 'W':
+            withdrawInput = prompt('Enter your withdrawal here:');
+            yourBalance = yourBalance - parseInt(withdrawInput);
+            alert(yourBalance);
+            break;
     }
 };
