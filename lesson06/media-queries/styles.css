@@ -4,6 +4,25 @@
     margin-right: 10px;
 }
 
+@media screen and (max-width: 400px) {
+    .header-image {
+        display: block;
+        float: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .header-image {
+        width: 500px;
+    }
+}
+
+@media print {
+    body img {
+        display: none;
+    }
+}
+
 p {
     font-family: Calibri, Arial, Helvetica, sans-serif;
 }
