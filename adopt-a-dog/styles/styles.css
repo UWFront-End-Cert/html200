@@ -28,6 +28,18 @@ header {
     position: static;
 }
 
+@media screen (max-width: 600px) {
+    .small-box {
+        height: 400px;
+    }
+}
+
+@media screen (min-width: 700px) {
+    .large-box {
+        height: 1000px;
+    }
+}
+
 .hidden {
     position: absolute;
     padding: 0;
