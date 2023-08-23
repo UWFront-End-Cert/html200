@@ -38,9 +38,12 @@ header {
     .large-box {
         height: 1000px;
     }
+    .flex-item {
+        
+    }
 }
 
-@media {
+@media screen and {
     
 }
 
