@@ -40,6 +40,10 @@ header {
     }
 }
 
+@media {
+    
+}
+
 .hidden {
     position: absolute;
     padding: 0;
