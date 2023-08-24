@@ -32,6 +32,18 @@ header {
     .small-box {
         height: 400px;
     }
+    .blog-title {
+        
+    }
+    .blog-image {
+
+    }
+    .blog-item {
+
+    }
+    .blog-item img {
+        
+    }
 }
 
 @media screen (min-width: 700px) {
