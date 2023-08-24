@@ -43,10 +43,6 @@ header {
     }
 }
 
-@media screen and {
-    
-}
-
 .hidden {
     position: absolute;
     padding: 0;
