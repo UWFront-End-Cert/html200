@@ -93,14 +93,12 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     border: 3px gray;
-    width: 70%;
 }
 
 .aside {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    width: 20%;
 }
 
 .grid-container {
