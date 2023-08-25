@@ -28,33 +28,6 @@ header {
     position: static;
 }
 
-@media screen and (max-width: 600px) {
-    .small-box {
-        height: 400px;
-    }
-    if (.blog-title) {
-        
-    }
-    .blog-image {
-
-    }
-    .blog-item {
-
-    }
-    .blog-item img {
-
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .large-box {
-        height: 1000px;
-    }
-    .flex-item {
-        
-    }
-}
-
 .hidden {
     position: absolute;
     padding: 0;
@@ -120,6 +93,14 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     border: 3px gray;
+    width: 70%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 20%;
 }
 
 .grid-container {
@@ -266,4 +247,30 @@ footer {
     color: white;
     text-align: center;
     padding: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .flex-container {
+        width: 40%;
+    }
+}
+
+/* tablet size */
+@media screen and (min-width: 768px) {
+    .flex-container {
+        width: 70%;
+    }   
+    .aside {
+        visibility: hidden;
+    }
+}
+
+/* phone size */
+@media screen and (min-width: 576px) {
+    .flex-container {
+        width: 70%;
+    }
+    .aside {
+        visibility: hidden;
+    }
 }
