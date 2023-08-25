@@ -28,7 +28,7 @@ header {
     position: static;
 }
 
-@media screen (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .small-box {
         height: 400px;
     }
@@ -46,7 +46,7 @@ header {
     }
 }
 
-@media screen (min-width: 700px) {
+@media screen and (min-width: 700px) {
     .large-box {
         height: 1000px;
     }
