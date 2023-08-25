@@ -32,7 +32,7 @@ header {
     .small-box {
         height: 400px;
     }
-    .blog-title {
+    if (.blog-title) {
         
     }
     .blog-image {
