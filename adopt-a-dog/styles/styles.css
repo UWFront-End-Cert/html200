@@ -176,12 +176,13 @@ p {
 
 .blog-title {
     display:flex;
-    flex: column;
+    flex-flow: wrap;
     color:rgb(10, 4, 66);
     font-weight: bold;
 }
 
 .blog-image {
+    display: flex;
     max-width: 20%;
     max-height: 20%;
 }
