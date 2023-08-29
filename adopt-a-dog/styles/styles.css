@@ -259,7 +259,7 @@ footer {
         width: 70%;
     }   
     .aside {
-        visibility: none;
+        display: none;
     }
 }
 
@@ -269,6 +269,6 @@ footer {
         width: 70%;
     }
     .aside {
-        visibility: none;
+        display: none;
     }
 }
