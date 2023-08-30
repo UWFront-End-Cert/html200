@@ -175,7 +175,7 @@ p {
 }
 
 .blog-title {
-    display:flex;
+    display: flex;
     flex-flow: wrap;
     color:rgb(10, 4, 66);
     font-weight: bold;
