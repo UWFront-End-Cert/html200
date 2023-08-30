@@ -175,6 +175,7 @@ p {
 }
 
 .blog-title {
+    display: flex;
     color:rgb(10, 4, 66);
     font-weight: bold;
 }
