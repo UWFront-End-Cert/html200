@@ -92,6 +92,11 @@ h3 {
     display: grid;
 }
 
+.grid-container-main {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -125,9 +130,6 @@ h3 {
 }
 
 .first-page-article {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-content: space-between;
 }
 
