@@ -176,6 +176,7 @@ p {
 
 .blog-title {
     display: flex;
+    justify-content: flex-start;
     color:rgb(10, 4, 66);
     font-weight: bold;
 }
