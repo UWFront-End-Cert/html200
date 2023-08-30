@@ -90,7 +90,7 @@ h3 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 60% 40%;
 }
 
 .flex-container {
@@ -127,6 +127,7 @@ h3 {
 
 .first-page-article {
     align-content: space-between;
+    width: 60%;
 }
 
 .first-article-img {
