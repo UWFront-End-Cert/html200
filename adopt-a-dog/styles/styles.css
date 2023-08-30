@@ -92,11 +92,6 @@ h3 {
     display: grid;
 }
 
-.grid-container-main {
-    display: grid;
-    grid-template-columns: 65% 35%;
-}
-
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -134,8 +129,8 @@ h3 {
 }
 
 .first-article-img {
-    height: 32rem;
-    width: 44rem;
+    height: 48rem;
+    width: 66rem;
     padding: 2rem;
 }
 
