@@ -92,10 +92,8 @@ h3 {
     display: grid;
 }
 
-.flex-container-main {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+.grid-container-main {
+    display: grid;
 }
 
 .flex-container {
