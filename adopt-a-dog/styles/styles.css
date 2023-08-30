@@ -90,6 +90,7 @@ h3 {
 
 .grid-container {
     display: grid;
+    grid-template-columns: 65% 35%;
 }
 
 .flex-container {
