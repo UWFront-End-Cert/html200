@@ -175,8 +175,6 @@ p {
 }
 
 .blog-title {
-    display: flex;
-    flex-flow: wrap;
     color:rgb(10, 4, 66);
     font-weight: bold;
 }
@@ -189,7 +187,7 @@ p {
 
 .blog-item {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: nowrap;
 }
 
 .blog-item img {
