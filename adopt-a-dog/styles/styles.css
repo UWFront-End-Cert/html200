@@ -178,6 +178,7 @@ p {
     justify-content: flex-start;
     color:rgb(10, 4, 66);
     font-weight: bold;
+    font-size: 3rem;
 }
 
 .blog-image {
