@@ -260,9 +260,9 @@ footer {
     .flex-container {
         width: 70%;
     }   
-    .aside {
+    /* aside {
         display: none;
-    }
+    } */
 }
 
 /* phone size */
@@ -270,7 +270,7 @@ footer {
     .flex-container {
         width: 70%;
     }
-    .aside {
+    /* aside {
         display: none;
-    }
+    } */
 }
