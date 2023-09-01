@@ -259,18 +259,18 @@ footer {
 @media screen and (min-width: 768px) {
     .flex-container {
         width: 70%;
-    }   
-    /* aside {
+    }
+    .blog-link {
         display: none;
-    } */
+    } 
 }
 
 /* phone size */
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .flex-container {
         width: 70%;
     }
-    /* aside {
+    aside {
         display: none;
-    } */
+    }
 }
