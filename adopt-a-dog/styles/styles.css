@@ -5,8 +5,6 @@ header {
     height: 35rem;
     width: 100%;
     background-image: linear-gradient(to right, black, white);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .sub-header {
