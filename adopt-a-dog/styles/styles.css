@@ -2,8 +2,9 @@ header {
     color: white;
     position: relative;
     justify-content: right;
-    height: 45rem;
+    height: 35rem;
     width: 100%;
+    background-color: black;
 }
 
 .sub-header {
@@ -13,11 +14,12 @@ header {
 }
 
 .header-background {
-    background-image: url("images/header-images/header-large.jpg");
-    width: 100%;
-    object-fit: cover;
-    object-position: 0 1rem;
+    width: 85%;
     height: 35rem;
+    background-image: url("images/header-images/header-large.jpg");
+    background-size: 90% 100%;
+    object-position: 0 1rem;
+    
 }
 
 .header-logo {
