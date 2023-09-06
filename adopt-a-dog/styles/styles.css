@@ -249,7 +249,7 @@ button {
 
 footer {
     max-height: 25%;
-    background-image: url("images/header-images/header-large.jpg");
+    background-color: blue;
     color: white;
     text-align: center;
     padding: 2rem;
