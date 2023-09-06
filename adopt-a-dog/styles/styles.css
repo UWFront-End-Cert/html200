@@ -20,6 +20,7 @@ header {
     background-size: 100% 85%;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center center;
     object-position: 0 1rem;
 }
 
