@@ -75,7 +75,7 @@ nav {
     max-height: 10rem;
     padding: 1rem;
     font-weight: bold;
-    position: absolute;
+    position: relative;
 }
 
 h1 {
@@ -133,6 +133,7 @@ h3 {
 }
 
 .first-article-img {
+    max-width: 50%;
     height: 40rem;
     padding: 2rem;
 }
