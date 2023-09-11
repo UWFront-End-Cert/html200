@@ -21,10 +21,9 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    position: absolute;
+    position: relative;
     justify-content: right;
     left: 15%;
-    bottom: 20px;
     object-position: 0 1rem;
 }
 
