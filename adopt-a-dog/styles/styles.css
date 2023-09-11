@@ -17,12 +17,14 @@ header {
     width: 85%;
     height: 35rem;
     background-image: url("images/header-images/header-large.jpg");
-    background-size: 100% 85%;
+    background-size: 100% 90%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    position: relative;
+    position: absolute;
     justify-content: right;
+    left: 15%;
+    bottom: 20px;
     object-position: 0 1rem;
 }
 
@@ -32,12 +34,6 @@ header {
     justify-content: right;
     width: 30%;
     position: static;
-}
-
-.hidden {
-    position: absolute;
-    padding: 0;
-    margin: 0;
 }
 
 .cart-icon {
@@ -80,7 +76,7 @@ nav {
     max-height: 10rem;
     padding: 1rem;
     font-weight: bold;
-    position: relative;
+    position: absolute;
 }
 
 h1 {
