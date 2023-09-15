@@ -128,13 +128,12 @@ h3 {
 
 .first-page-article {
     align-content: space-between;
-    padding-top: 5rem;
+    padding-top: 10rem;
     width: 60%;
 }
 
 .first-article-img {
     height: 33rem;
-    padding-top: 5rem;
     padding: 2rem;
 }
 
