@@ -51,6 +51,7 @@ header {
 
 .header-right-side {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
 }
 
