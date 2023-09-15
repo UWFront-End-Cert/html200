@@ -15,6 +15,7 @@ header {
 
 .header-background {
     height: 35rem;
+    width: auto;
     background-image: url("images/header-images/header-large.jpg");
     background-size: 150% 150%;
     background-repeat: no-repeat;
@@ -127,6 +128,7 @@ h3 {
 
 .first-page-article {
     align-content: space-between;
+    padding-top: 5rem;
     width: 60%;
 }
 
