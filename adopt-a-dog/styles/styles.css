@@ -53,6 +53,11 @@ header {
     justify-content: flex-end;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
 a {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -89,9 +94,10 @@ h3 {
     color:rgb(10, 4, 66)
 }
 
-.grid-container {
+.aside {
     display: grid;
-    grid-template-columns: 60% 40%;
+    flex-direction: column;
+    position: relative;
 }
 
 .flex-container {
@@ -99,12 +105,6 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
     border: 3px gray;
-}
-
-.aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
 
 .flex-item {
