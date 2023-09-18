@@ -47,11 +47,12 @@ header {
     object-fit: cover;
     object-position: 10 20rem;
     font-weight: bold;
+    justify-content: right;
 }
 
 .header-right-side {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: right;
 }
 
