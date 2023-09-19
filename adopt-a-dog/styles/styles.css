@@ -264,6 +264,15 @@ footer {
     }
 }
 
+@media screen and (max-width: 1360px) {
+    .grid-container {
+        width: 90%;
+    }
+    .first-article-img {
+        display: none;
+    } 
+}
+
 /* tablet size */
 @media screen and (min-width: 768px) {
     .flex-container {
