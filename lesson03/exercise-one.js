@@ -1,8 +1,8 @@
-let artSupplies = [['redpaint' , 'orangepaint' , 'yellowpaint' , 'greenpaint' , 'aquapaint', 'violetpaint' ], ['smallbrush', 'largebrush'], ['hat', 'apron'], ['chair' , 'easel'], ['charcoal','pencil']];
+let artSupplies = ['red paint', 'orange paint', 'yellow paint', 'green paint', 'aqua paint', 'violet paint'];
 
-console.log(artSupplies[0].length);
+console.log(artSupplies.length);
 
-artSupplies.push('cleaning cloth' , 'bucket');
+artSupplies.push( 'goldpaint' );
 
 console.log(artSupplies);
 
@@ -12,5 +12,4 @@ console.log(artSupplies);
 
 const artSupplieslist = artSupplies.join(',');
 
-console.log(artSupplies);
 console.log(artSupplieslist);
