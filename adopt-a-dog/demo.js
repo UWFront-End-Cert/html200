@@ -1,6 +1,11 @@
-const blog = {
-    title: 'How to Walk Multiple Dogs',
-}
+const blogentry1 = [
+    {
+        title: 'Traveling With Your Dog',
+    },
+    {
+        content: 'Lorem Ipsum',
+    }
+];
 
 function dogDescription1(mDog){
     let dogName = 'Murphy';

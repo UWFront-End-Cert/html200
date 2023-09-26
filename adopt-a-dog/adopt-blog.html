@@ -6,7 +6,6 @@
             <link rel="stylesheet" type="text/css" href="styles/styles.css">
         </head>
         <body>
-            <a href="#main-content" class="hidden">Skip to Main Content</a>
         <article>
             <header>
                 <div>
@@ -29,12 +28,16 @@
             </header>
         </article>
         <article>
-            <p class="blog-title">Adoptadog Blog</p>
+            <p class="blog-title" >Adoptadog Blog</p>
                 <div class="blog-item">
                     <img src="images/patrick-hendry-221863-unsplash.jpg" alt="Dog and woman at canyon">
-                    <div>
-                    <h3>Traveling With Your Dog</h3>
-                    <p>Lorem Ipsum</p>
+                    <div id="blogentry1">
+                    <script>
+                    document.getElementById("title").innerHTML = "Traveling With Your Dog!";
+                    document.getElementById("title").style.color = "darkblue";
+                    document.getElementById("content").innerHTML = "Lorem Ipsum";
+                    document.getElementById("content").style.color = "black";
+                    </script>
                     </div>
                 </div>
                 <div class="blog-item">
