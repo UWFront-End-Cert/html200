@@ -1,3 +1,7 @@
+const blog = {
+    title: 'How to Walk Multiple Dogs',
+}
+
 function dogDescription1(mDog){
     let dogName = 'Murphy';
     const dogBreed = ' Breed $';
