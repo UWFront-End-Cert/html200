@@ -1,16 +1,16 @@
 const blogentry1 = [
     {
-        title: 'Traveling With Your Dog!',
-        content: 'Lorem Ipsum'
+        title: "Traveling With Your Dog!",
+        content: "Lorem Ipsum"
     }
 ];
 
-const div = document.createElement('blogentry1')
-document.body.appendChild(blogentry1)
+const div = document.createElement('blogentry1');
+document.body.appendChild(blogentry1);
 
 const h2 = document.createElement('h2');
-h2.innerhtml = blog.title
-div.appendChild(h2)
+h2.innerhtml = blog.title;
+div.appendChild(h2);
 
 function dogDescription1(mDog){
     let dogName = 'Murphy';
