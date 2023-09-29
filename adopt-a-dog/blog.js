@@ -25,6 +25,10 @@ const content = document.createElement('p');
 content.innerHTML = blogentry1.content;
 document.getElementById('dynamicblog').appendChild(content);
 
+function show_image(src, width, height, alt);
+const img = document.createElement("img");
+document.body.appendChild(img);
+
 const title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
 document.getElementById('dynamicblog').appendChild(title2);
