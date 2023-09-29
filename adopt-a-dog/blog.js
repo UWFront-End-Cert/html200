@@ -25,9 +25,15 @@ const content = document.createElement('p');
 content.innerHTML = blogentry1.content;
 document.getElementById('dynamicblog').appendChild(content);
 
-function show_image(src, width, height, alt);
-const img = document.createElement("img");
-document.body.appendChild(img);
+document.createElement(img);
+function displayImage(src, width, height) {
+    const img = document.createElement("img");
+    img.src = src;
+    img.width = width;
+    img.height = height;
+    document.body.appendChild(img);
+   }
+displayImage('patrick-hendry-221863-unsplash.jpg', 480, 480)
 
 const title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
@@ -44,6 +50,10 @@ document.getElementById('dynamicblog').appendChild(title3);
 const content3 = document.createElement('p');
 content3.innerHTML = blogentry3.content3;
 document.getElementById('dynamicblog').appendChild(content3);
+
+// function show_image(src, width, height, alt);
+// const img = document.createElement("img");
+// document.body.appendChild(img);
 
 // For Styling
 // const blge1 = document.getElementById('blogentry1');
