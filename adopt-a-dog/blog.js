@@ -25,7 +25,6 @@ const content = document.createElement('p');
 content.innerHTML = blogentry1.content;
 document.getElementById('dynamicblog').appendChild(content);
 
-document.createElement(img);
 function displayImage(src, width, height) {
     const img = document.createElement("img");
     img.src = src;
@@ -33,7 +32,7 @@ function displayImage(src, width, height) {
     img.height = height;
     document.body.appendChild(img);
    }
-displayImage('patrick-hendry-221863-unsplash.jpg', 480, 480)
+displayImage('images/patrick-hendry-221863-unsplash.jpg', 480, 480);
 
 const title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
