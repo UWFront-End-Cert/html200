@@ -32,7 +32,7 @@ function displayImage(src, width, height) {
     img.height = height;
     document.body.appendChild(img);
    }
-displayImage('images/patrick-hendry-221863-unsplash.jpg', 480, 480);
+displayImage('images/patrick-hendry-221863-unsplash.jpg', 480, 360);
 
 const title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
