@@ -251,8 +251,9 @@ button {
 }
 
 footer {
-    max-height: 20%;
+    max-height: 10%;
     background-color: blue;
+    background-position: bottom;
     color: white;
     text-align: center;
     padding: 2rem;
