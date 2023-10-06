@@ -25,14 +25,22 @@ const content = document.createElement('p');
 content.innerHTML = blogentry1.content;
 document.getElementById('dynamicblog').appendChild(content);
 
-function displayImage(src, width, height) {
-    const img = document.createElement("img");
-    img.src = src;
-    img.width = width;
-    img.height = height;
-    document.body.appendChild(img);
-   }
-displayImage('images/patrick-hendry-221863-unsplash.jpg', 480, 360);
+const dogimg = document.createElement('img');
+dogimg.src = './images/patrick-hendry-221863-unsplash.jpg';
+dogimg.style.width = '480px';
+dogimg.style.height = '360px';
+dogimg.style.float = 'left';
+dogimg.style.padding = '1rem';
+document.getElementById('dynamicblog').appendChild(img);
+
+// function displayImage(src, width, height) {
+//     const img = document.createElement("img");
+//     img.src = src;
+//     img.width = width;
+//     img.height = height;
+//     document.body.appendChild(img);
+//    }
+// displayImage('images/patrick-hendry-221863-unsplash.jpg', 480, 360);
 
 const title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
