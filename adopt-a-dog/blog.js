@@ -31,16 +31,7 @@ dogimg.style.width = '480px';
 dogimg.style.height = '360px';
 dogimg.style.float = 'left';
 dogimg.style.padding = '1rem';
-document.getElementById('dynamicblog').appendChild(img);
-
-// function displayImage(src, width, height) {
-//     const img = document.createElement("img");
-//     img.src = src;
-//     img.width = width;
-//     img.height = height;
-//     document.body.appendChild(img);
-//    }
-// displayImage('images/patrick-hendry-221863-unsplash.jpg', 480, 360);
+document.getElementById('dynamicblog').appendChild(dogimg);
 
 const title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
@@ -49,6 +40,14 @@ document.getElementById('dynamicblog').appendChild(title2);
 const content2 = document.createElement('p');
 content2.innerHTML = blogentry2.content2;
 document.getElementById('dynamicblog').appendChild(content2);
+
+const dogimg = document.createElement('img');
+dogimg.src = './images/matt-nelson-259365-unsplash.jpg';
+dogimg.style.width = '480px';
+dogimg.style.height = '360px';
+dogimg.style.float = 'left';
+dogimg.style.padding = '1rem';
+document.getElementById('dynamicblog').appendChild(dogimg);
 
 const title3 = document.createElement('h2');
 title3.innerHTML = blogentry3.title3;
