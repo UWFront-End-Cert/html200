@@ -1,3 +1,4 @@
 const submitButton = function(){
-    input = prompt('Thank you. The form information has been received.')
+    input = alert('Thank you. The form information has been received.')
+    alert(result)
 };
