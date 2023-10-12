@@ -64,16 +64,3 @@ dogimg3.style.height = '360px';
 dogimg3.style.float = 'left';
 dogimg3.style.padding = '1rem';
 document.getElementById('dynamicblog').appendChild(dogimg3);
-
-// function show_image(src, width, height, alt);
-// const img = document.createElement("img");
-// document.body.appendChild(img);
-
-// For Styling
-// const blge1 = document.getElementById('blogentry1');
-// console.log(blge1.innerText)
-
-// document.getElementById("title").innerHTML = "Traveling With Your Dog!";
-// document.getElementById("title").style.color = "darkblue";
-// document.getElementById("content").innerHTML = "Lorem Ipsum";
-// document.getElementById("content").style.color = "black";
