@@ -182,9 +182,13 @@ p {
     display: flex;
 }
 
-.blog-title {
+.dynamicblog {
     display: flex;
     justify-content: flex-start;
+    flex-flow: wrap;
+}
+
+.blog-title {
     color:rgb(10, 4, 66);
     font-weight: bold;
     font-size: 3rem;
@@ -197,16 +201,10 @@ p {
     max-height: 20%;
 }
 
-.blog-item {
+/* .blog-item {
     display: flex;
     flex-flow: wrap;
-}
-
-.blog-item img {
-    height: auto;
-    width: 20rem;
-    padding: 3rem;
-}
+} */
 
 div {
     max-width: 100%;
