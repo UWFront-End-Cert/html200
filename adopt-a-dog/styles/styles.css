@@ -186,6 +186,7 @@ p {
     display: flex;
     justify-content: flex-start;
     flex-flow: wrap;
+    height: 75%;
 }
 
 .blog-title {
