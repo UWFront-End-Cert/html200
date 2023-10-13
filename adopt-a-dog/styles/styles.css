@@ -201,10 +201,16 @@ p {
     max-height: 20%;
 }
 
-/* .blog-item {
+.blog-item {
     display: flex;
     flex-flow: wrap;
-} */
+}
+
+.blog-item img {
+    height: auto;
+    width: 20rem;
+    padding: 3rem;
+}
 
 div {
     max-width: 100%;
