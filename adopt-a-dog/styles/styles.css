@@ -213,6 +213,10 @@ p {
     padding: 3rem;
 }
 
+#dynamicblog {
+    display: grid;
+}
+
 div {
     max-width: 100%;
 }
