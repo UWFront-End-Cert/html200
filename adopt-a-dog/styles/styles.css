@@ -208,7 +208,7 @@ p {
 }
 
 .blog-item img {
-    height: auto;
+    min-height: 75%;
     width: 20rem;
     padding: 3rem;
 }
