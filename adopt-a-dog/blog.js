@@ -64,6 +64,3 @@ dogimg3.style.height = '360px';
 dogimg3.style.float = 'left';
 dogimg3.style.padding = '1rem';
 document.getElementById('dynamicblog').appendChild(dogimg3);
-
-
-$('h1')
