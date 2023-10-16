@@ -65,8 +65,21 @@ dogimg3.style.float = 'left';
 dogimg3.style.padding = '1rem';
 document.getElementById('dynamicblog').appendChild(dogimg3);
 
+
+
 $(function(){
     console.log("DOM is ready, script is loading!")
     $('img').hide().delay(500).show('slow')
-    $
+})
+
+$('img').mouseenter(function(){
+        console.log("mouse has entered")
+        $(this).css({border: '0 solid black'}).animate({
+            borderwidth: 5
+        }, 500);
+    }).mouseleave(function(){
+        console.log("mouse has left")
+        $(this).animate({
+            borderWidth: 0
+        }, 500);
 });
