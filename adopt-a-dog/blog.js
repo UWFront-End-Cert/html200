@@ -65,8 +65,8 @@ dogimg3.style.float = 'left';
 dogimg3.style.padding = '1rem';
 document.getElementById('dynamicblog').appendChild(dogimg3);
 
-$('dogimg1').on("mouseenter mouseleave", function(){
-    console.log( "mouse hovered over or left a div" )
-    $('nav').hide().delay(500).show('slow')
+$(function(){
+    console.log("DOM is ready, script is loading!")
+    $('img').hide().delay(500).show('slow')
     $
 });
