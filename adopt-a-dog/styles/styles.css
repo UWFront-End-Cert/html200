@@ -182,13 +182,6 @@ p {
     display: flex;
 }
 
-.dynamicblog {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: wrap;
-    height: 75%;
-}
-
 .blog-title {
     color:rgb(10, 4, 66);
     font-weight: bold;
