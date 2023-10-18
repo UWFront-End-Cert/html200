@@ -72,12 +72,12 @@ $(function(){
     $('img').hide().delay(300).show('fast')
 })
 
-$('img').mouseenter(function(){
+$('img').mouseenter(function() {
         console.log("mouse has entered")
         $(this).css({border: '0 solid black'}).animate({
             borderwidth: 5
         }, 400);
-    }).mouseleave(function(){
+    }).mouseleave(function() {
         console.log("mouse has left")
         $(this).animate({
             borderWidth: 0
