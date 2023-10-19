@@ -67,7 +67,7 @@ document.getElementById('dynamicblog').appendChild(dogimg3);
 
 
 
-$(function(){
+$(function() {
     console.log("DOM is ready, script is loading!")
     $('img').hide().delay(300).show('fast')
 })
