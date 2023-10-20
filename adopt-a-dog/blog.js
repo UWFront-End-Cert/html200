@@ -73,7 +73,7 @@ $(function() {
 })
 
 $(function(){
-    $('img').mouseenter(function(){
+    $('img').mouseenter(function() {
         console.log("mouse has entered")
         $(this).toggleClass('.blog-item img'); // note you will add a class for the border - see below
     }).mouseleave(function() {
