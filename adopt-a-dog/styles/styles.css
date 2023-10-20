@@ -204,6 +204,8 @@ p {
     min-height: 75%;
     width: 20rem;
     padding: 3rem;
+    border-width: 2rem;
+    border-color: black;
 }
 
 #dynamicblog {

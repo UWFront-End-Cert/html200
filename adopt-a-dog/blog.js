@@ -72,14 +72,11 @@ $(function() {
     $('img').hide().delay(200).show('fast')
 })
 
-$('img').mouseenter(function() {
+$(function(){
+    $('img').mouseenter(function(){
         console.log("mouse has entered")
-        $(this).css({border: '0 solid black'}).animate({
-            borderwidth: 5
-        }, 400);
+        $(this).toggleClass('.blog-item img'); // note you will add a class for the border - see below
     }).mouseleave(function() {
-        console.log("mouse has left")
-        $(this).animate({
-            borderWidth: 0
-        }, 400);
-});
+        $(this).toggleClass('.blog-item img');
+    })
+})
