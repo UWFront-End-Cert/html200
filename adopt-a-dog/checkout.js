@@ -60,6 +60,24 @@ for (let i = 0; i < fields.length; i++) {
     dogform.appendChild(input);
 }
 
+
+$(function() {
+    $('form').submit(function(event) {
+        event.preventDefault();
+        console.log($("#contactName").val());
+        console.log($("#contactEmail").val());
+        console.log($("#contactAddress").val());
+        console.log($("#contactCity").val());
+        console.log($("#contactState").val());
+        console.log($("#contactZip").val());
+        console.log($("#contactOwnerlevel").val());
+        console.log($("#contactPickuplocation").val());
+    // you'll add a console log for each input on your form here and then alert the user that the form has been received.
+    alert("The form has been received!");
+    })
+});
+
+
 const submitButton = document.createElement('button');
 submitButton.setAttribute('type', 'submit');
 submitButton.textContent = 'Submit';
