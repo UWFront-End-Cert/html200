@@ -1,31 +1,38 @@
 const fields = [
     {
         name: 'name',
-        label: 'Name'
+        label: 'Name',
+        id: '#name'
     },
     {
         name: 'address',
-        label: 'Address'
+        label: 'Address',
+        id: '#address'
     },
     {
         name: 'city',
-        label: 'City'
+        label: 'City',
+        id: '#city'
     },
     {
         name: 'state',
-        label: 'State'
+        label: 'State',
+        id: '#state'
     },
     {
         name: 'zip',
-        label: 'Zip'
+        label: 'Zip',
+        id: '#zip'
     },
     {
         name: 'ownerlevel',
-        label: 'First Time Adopter?'
+        label: 'First Time Adopter?',
+        id: '#ownerlevel'
     },
     {
         name: 'pickuplocation',
-        label: 'Pickup Location'
+        label: 'Pickup Location',
+        id: '#pickuplocation'
     },
 ]
 
@@ -37,8 +44,6 @@ checkoutTitle.textContent = 'Checkout';
 let checkoutForm = document.querySelector('.checkout');
 checkoutForm.appendChild(checkoutTitle);
 checkoutForm.appendChild(dogform);
-
-
 
 
 for (let i = 0; i < fields.length; i++) {
@@ -64,3 +69,10 @@ dogform.addEventListener('submit', function(event) {
     event.preventDefault();
     alert("Thank you. The form information has been received.")
 });
+
+let total = 0;
+
+function dogTotalCost(cost) {
+    total = total + Number(cost);
+    $('#total').text('$ ' + Number(total));
+}
