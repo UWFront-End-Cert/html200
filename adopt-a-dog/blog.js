@@ -74,10 +74,10 @@ $(function() {
 
 $(function(){
     $('img').mouseenter(function() {
-        console.log("mouse has entered")
-        $(this).toggleClass('.blog-item img'); // note you will add a class for the border - see below
+        console.log('mouse has entered');
+        $(this).toggleClass('.blog-item-img'); // note you will add a class for the border - see below
     }).mouseleave(function() {
-        console.log("mouse has left")
-        $(this).toggleClass('.blog-item img');
+        console.log('mouse has left');
+        $(this).toggleClass('.blog-item-img');
     })
 })

@@ -200,7 +200,7 @@ p {
     flex-flow: wrap;
 }
 
-.blog-item img {
+.blog-item-img {
     min-height: 75%;
     width: 20rem;
     padding: 3rem;
