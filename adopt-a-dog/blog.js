@@ -21,11 +21,11 @@ title.innerHTML = blogentry1.title;
 document.getElementById('dynamicblog').appendChild(title);
 console.log(title);
 
-const content = document.createElement('p');
+let content = document.createElement('p');
 content.innerHTML = blogentry1.content;
 document.getElementById('dynamicblog').appendChild(content);
 
-const dogimg1 = document.createElement('img');
+let dogimg1 = document.createElement('img');
 dogimg1.src = './images/patrick-hendry-221863-unsplash.jpg';
 dogimg1.style.width = '480px';
 dogimg1.style.height = '360px';
@@ -33,15 +33,15 @@ dogimg1.style.float = 'left';
 dogimg1.style.padding = '1rem';
 document.getElementById('dynamicblog').appendChild(dogimg1);
 
-const title2 = document.createElement('h2');
+let title2 = document.createElement('h2');
 title2.innerHTML = blogentry2.title2;
 document.getElementById('dynamicblog').appendChild(title2);
 
-const content2 = document.createElement('p');
+let content2 = document.createElement('p');
 content2.innerHTML = blogentry2.content2;
 document.getElementById('dynamicblog').appendChild(content2);
 
-const dogimg2 = document.createElement('img');
+let dogimg2 = document.createElement('img');
 dogimg2.src = './images/matt-nelson-259365-unsplash.jpg';
 dogimg2.style.width = '480px';
 dogimg2.style.height = '360px';
@@ -49,35 +49,35 @@ dogimg2.style.float = 'left';
 dogimg2.style.padding = '1rem';
 document.getElementById('dynamicblog').appendChild(dogimg2);
 
-const title3 = document.createElement('h2');
+let title3 = document.createElement('h2');
 title3.innerHTML = blogentry3.title3;
 document.getElementById('dynamicblog').appendChild(title3);
 
-const content3 = document.createElement('p');
+let content3 = document.createElement('p');
 content3.innerHTML = blogentry3.content3;
 document.getElementById('dynamicblog').appendChild(content3);
 
-const dogimg3 = document.createElement('img');
+let dogimg3 = document.createElement('img');
 dogimg3.src = './images/wyatt-ryan-367017-unsplash.jpg';
 dogimg3.style.width = '480px';
 dogimg3.style.height = '360px';
 dogimg3.style.float = 'left';
 dogimg3.style.padding = '1rem';
+dogimg3.classList.add(".blog-item-img");
 document.getElementById('dynamicblog').appendChild(dogimg3);
 
 
-
 $(function() {
-    console.log("DOM is ready, script is loading!")
-    $('img').hide().delay(200).show('fast')
+    console.log("DOM is ready, script is loading!");
+    $('img').hide().delay(200).show('fast');
 })
 
 $(function(){
-    $('img').mouseenter(function() {
+    $('img').on('click', function() {
         console.log('mouse has entered');
-        $(this).toggleClass('.blog-item-img'); // note you will add a class for the border - see below
-    }).mouseleave(function() {
+        $(this).removeClass(".blog-item-img"); // note you will add a class for the border - see below
+    }).on('click', function() {
         console.log('mouse has left');
-        $(this).toggleClass('.blog-item-img');
+        $(this).removeClass(".blog-item-img");
     })
 })

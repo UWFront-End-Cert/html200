@@ -16,7 +16,6 @@ header {
 .header-background {
     height: 35rem;
     width: auto;
-    background-image: url("images/header-images/header-large.jpg");
     background-size: 150% 150%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -201,9 +200,6 @@ p {
 }
 
 .blog-item-img {
-    min-height: 75%;
-    width: 20rem;
-    padding: 3rem;
     border: 5px solid black;
 }
 
