@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("flex-item").hover(function(){
+    $("div.flex-item").hover(function(){
       $(this).css("background-color", "yellow");
     });
   });
