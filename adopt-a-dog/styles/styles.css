@@ -116,7 +116,6 @@ h3 {
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
-    border: 3px gray;
     justify-content: flex-end;
     text-align: center;
     padding: 2rem;
