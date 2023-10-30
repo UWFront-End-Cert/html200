@@ -1,10 +1,10 @@
-$(function(){
-    console.log("DOM is loading!")
-    $('first-page-dog-img').on( "click", function() {
-        console.log('mouse has entered');
-        $(this).animate({ "top": "+30px" }, "slow" );
-    })
-})
+$(document).ready(function(){
+    $("blog-item").hover(function(){
+      $(this).css("background-color", "yellow");
+      }, function(){
+      $(this).css("background-color", "pink");
+    });
+  });
 
 function dogDescription1(mDog){
     let dogName = 'Murphy';

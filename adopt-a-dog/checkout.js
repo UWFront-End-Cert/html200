@@ -1,40 +1,3 @@
-const fields = [
-    {
-        name: 'name',
-        label: 'Name',
-        id: '#name'
-    },
-    {
-        name: 'address',
-        label: 'Address',
-        id: '#address'
-    },
-    {
-        name: 'city',
-        label: 'City',
-        id: '#city'
-    },
-    {
-        name: 'state',
-        label: 'State',
-        id: '#state'
-    },
-    {
-        name: 'zip',
-        label: 'Zip',
-        id: '#zip'
-    },
-    {
-        name: 'ownerlevel',
-        label: 'First Time Adopter?',
-        id: '#ownerlevel'
-    },
-    {
-        name: 'pickuplocation',
-        label: 'Pickup Location',
-        id: '#pickuplocation'
-    },
-]
 
 const dogform = document.createElement('form');
 
@@ -72,7 +35,6 @@ $(function() {
         console.log($("#contactZip").val());
         console.log($("#contactOwnerlevel").val());
         console.log($("#contactPickuplocation").val());
-    // you'll add a console log for each input on your form here and then alert the user that the form has been received.
     alert("The form has been received!");
     })
 });
