@@ -82,3 +82,5 @@ function dogTotalcost(anyDog){
     adder(anyDog);
     alert(totalCost);
 }
+
+console.log($('first-page-dog-img'))
