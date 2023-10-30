@@ -1,10 +1,9 @@
 $(document).ready(function(){
-    $("blog-item").hover(function(){
+    $("flex-item").hover(function(){
       $(this).css("background-color", "yellow");
-      }, function(){
-      $(this).css("background-color", "pink");
-    });
+      }),
   });
+});
 
 function dogDescription1(mDog){
     let dogName = 'Murphy';
