@@ -96,7 +96,7 @@ h2 {
 }
 
 h3 {
-    color:rgb(10, 4, 66)
+    color:rgb(10, 4, 66);
 }
 
 .aside {
@@ -193,10 +193,16 @@ p {
     max-height: 20%;
 }
 
+.blog-item {
+    display: flex;
+    flex-flow: wrap;
+    padding: 3rem;
+}
 
-
-.blog-item-img {
-    border: 5px solid black;
+.blog-item img {
+    width: 50%;
+    height: 50%;
+    padding: 2rem;
 }
 
 #dynamicblog {
