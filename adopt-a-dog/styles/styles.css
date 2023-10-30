@@ -101,7 +101,6 @@ h3 {
 
 .aside {
     display: grid;
-    flex-direction: column;
     position: relative;
     padding-top: 10rem;
 }
@@ -194,10 +193,7 @@ p {
     max-height: 20%;
 }
 
-.blog-item {
-    display: flex;
-    flex-flow: wrap;
-}
+
 
 .blog-item-img {
     border: 5px solid black;
