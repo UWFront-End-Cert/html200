@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $("div.flex-item").hover(function(){
       $(this).css("background-color", "yellow");
+    $("div.flex.item").hover(function(){
+      $(this).css("background-color", "pink");
     });
   });
 
