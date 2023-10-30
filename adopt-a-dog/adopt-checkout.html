@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Adopt-A-Dog Checkout</title>
+            <link rel="stylesheet" type="text/css" href="styles/styles.css">
+            <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <a href="#main-content" class="hidden">Skip to Main Content</a>
+        <article>
+            <header>
+                <div>
+                    <img src="images/header-images/header-large.jpg" class="header-background" alt="dog closeup">
+                    <div class="sub-header">
+                        <img src="images/adoptadog-logo.svg" class="header-logo" alt="logo">
+                        <h1>Seattle's premiere dog adoption agency</h1>
+                    <div class="header-right-side">
+                        <img src="images/cart-icon.svg" class="cart-icon" alt="shopping cart logo">
+                        <p>$1234.56</p>
+                        <button class="checkout-button">Checkout</button>
+                    </div>
+                        <nav style="text-align:left">
+                            <a href="index.html">Home</a>
+                            <a href="adoption-page.html">Dogs</a>
+                            <a href="adopt-blog.html">Blog</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </article>
+        <article>
+            <h1>Checkout</h1>
+            <div class="checkout">
+                <form method="post">
+                    <label>Name
+                        <input type="text" name="contactName" id="contactName">
+                    </label>
+                    <label>Email
+                        <input type="email" name="contactEmail" id="contactEmail">
+                    </label>
+                    <label>Address
+                        <input type="address" name="contactAddress" id="contactAddress">
+                    </label>
+                    <label>City
+                        <input type="city" name="contactCity" id="contactCity">
+                    </label>
+                    <label>State
+                        <input type="state" name="contactState" id="contactState">
+                    </label>
+                    <label>ZIP
+                        <input type="zip" name="contactZip" id="contactZip">
+                    </label>
+                    <label>First Time Adopter?
+                        <input type="ownerlevel" name="contactOwnerlevel" id="contactOwnerlevel">
+                    </label>
+                    <label>Pickup Location
+                        <input type="pickuplevel" name="contactPickuplevel" id="contactPickuplevel">
+                    </label>
+            
+            <h2>Dogs Adopted</h2>
+            <div class="grid-container">
+                <div class="checkout">
+            <img src="images/tucker-good-589776-unsplash.jpg" class="adopted-dogs" alt="Good doggo">
+            <h3>Lucas</h3>
+            <p>Cost to Adopt: $123.45</p>
+                </div> 
+                <div class="checkout">
+            <img src="images/duffy-brook-350225-unsplash.jpg" class="adopted-dogs" alt="Sweet doggo">
+            <h3>Duffy</h3>
+            <p>Cost to Adopt: $123.45</p>
+                </div>
+
+            <h2>Total Adoption Cost:</h2>
+            <p id="total"></p>
+            <input type="button" value="checkout">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+        </article>
+        <footer>
+            <img src="images/adoptadog-logo.svg" class="footer-logo" alt="logo">
+            <p>Lorem Ipsum</p>
+            <p>Home</p>
+            <p>Dogs</p>
+            <p>Contact</p>
+            <p>Adopt-A-Dog LLC</p>
+            <p>Seattle, WA</p>
+        </footer>
+        <script src="./checkout.js"></script>
+    </body>
+</html>
