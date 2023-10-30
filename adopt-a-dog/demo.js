@@ -1,3 +1,11 @@
+$(function(){
+    console.log("DOM is loading!")
+    $('first-page-dog-img').on( "click", function() {
+        console.log('mouse has entered');
+        $(this).animate({ "top": "+30px" }, "slow" );
+    })
+})
+
 function dogDescription1(mDog){
     let dogName = 'Murphy';
     const dogBreed = ' Breed $';
@@ -82,5 +90,3 @@ function dogTotalcost(anyDog){
     adder(anyDog);
     alert(totalCost);
 }
-
-console.log($('first-page-dog-img'))
