@@ -5,6 +5,7 @@ $(document).ready(function() {
       $(this).css("background-color", "pink");
     });
   });
+});
 
 function dogDescription1(mDog){
     let dogName = 'Murphy';
