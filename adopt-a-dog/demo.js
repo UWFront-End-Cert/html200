@@ -1,7 +1,7 @@
-$(document).ready(function(){
-    $("div.flex-item").hover(function(){
+$(document).ready(function() {
+    $("div.flex-item").hover(function() {
       $(this).css("background-color", "yellow");
-    $("div.flex.item").hover(function(){
+    $("div.flex.item").hover(function() {
       $(this).css("background-color", "pink");
     });
   });
