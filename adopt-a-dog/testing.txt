@@ -1,3 +1,5 @@
 Testing of Adopt-A-Dog Website:
 
-The first round of testing involved opening the website in Chrome, Firefox and Edge, then using an emulator in chrome to simulate tablets and smartphone screens.
+The first round of testing involved opening the website in Chrome, Firefox and Edge, then using an emulator in chrome to simulate tablets and smartphone screens. A validator was used to verify the HTML for errors. An issue with Javascript was solved.
+
+I used a Moto G Power for cell phone testing. All PC testing was done on a custom-made Windows 10 computer with the tablet emulated with Chrome's emulator. 

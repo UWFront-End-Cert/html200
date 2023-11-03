@@ -1,0 +1,1 @@
+The Adopt-A-Dog website is written in HTML5, CSS and Javascript with aid from the JQuery 3.7.1 version on Windows 10 with Visual Studio Code v1.84. 
