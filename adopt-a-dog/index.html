@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Adopt-A-Dog</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script
+			  src="https://code.jquery.com/jquery-3.7.1.min.js"
+			  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			  crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="images/header-images/header-large.jpg" class="header-background" alt="dog closeup">
+            <div class="sub-header">
+                <img src="images/adoptadog-logo.svg" class="header-logo" alt="logo">
+                <h1>Seattle's premiere dog adoption agency</h1>
+                <div class="header-right-side">
+                    <img src="images/cart-icon.svg" class="cart-icon" alt="shopping cart logo">
+                    <p>$1234.56</p>
+                    <button class="checkout-button">Checkout</button>
+                </div>
+                <nav style="text-align:left">
+                    <a href="index.html">Home</a>
+                    <a href="adoption-page.html">Dogs</a>
+                    <a href="adopt-blog.html">Blog</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="grid-container">
+        <article class="first-page-article">
+                <img src="images/eric-ward-610868-unsplash.jpg" class="first-article-img" alt="man hugging good doggo">
+            <div class="first-page-content">
+                <h2>Adopt-A-Dog</h2>
+                <p>Lorem ipsum</p>
+            </div>
+        </article>
+
+        <aside>
+            <p class="blog-title">From Our Blog</p>
+            <div class="blog-item">
+                <img src="images/patrick-hendry-221863-unsplash.jpg" alt="Dog and woman at canyon">
+                <div>
+                <h3>Traveling With Your Dog</h3>
+                <p>Lorem Ipsum</p>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="images/matt-nelson-259365-unsplash.jpg" alt="Multiple sitting dogs">
+                <div>
+                <h3>How To Walk Multiple Dogs</h3>
+                <p>Lorem Ipsum</p>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="images/wyatt-ryan-367017-unsplash.jpg" alt="Woman holding ball for an eager dog">
+                <div>
+                <h3>Teach Your Dog To Fetch!</h3>
+                <p>Lorem Ipsum</p>
+                </div>
+            </div>
+        </aside>
+
+        <article class="flex-container">
+            <div class="flex-item">
+                <img src="images/alex-lacayo-756508-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription1(100.00)">
+                <h3>Murphy</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/nikolay-tchaouchev-785309-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription2(100.00)">
+                <h3>Poppy</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/marcus-wallis-471438-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription3(100.00)">
+                <h3>Jack</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/duffy-brook-350225-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription4(100.00)">
+                <h3>Duffy</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/tucker-good-589776-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription5(100.00)">
+                <h3>Lucas</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/mitchell-orr-237216-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription6(100.00)">
+                <h3>Jake</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/mitchell-orr-237216-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription7(200.00)">
+                <h3>Angus</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(200.00)">Adopt</button>
+            </div>
+            <div class="flex-item">
+                <img src="images/mitchell-orr-237216-unsplash.jpg" class="first-page-dog-img" alt="dog picture" onclick="dogDescription8(100.00)">
+                <h3>Violet</h3>
+                <p>Lorem ipsum</p>
+                <button onclick="dogTotalcost(100.00)">Adopt</button>
+            </div>
+        </article>
+
+        </div>
+        
+        <a class="blog-link" href="adopt-blog.html">Blog</a>
+
+        <div class="button-container">
+        <button class="more-dogs-button">See More Dogs</button>
+        </div>
+    </main>
+    <footer>
+        <img src="images/adoptadog-logo.svg" class="footer-logo" alt="logo">
+        <p>Lorem Ipsum</p>
+        <p>Home / Dogs / Contact</p>
+        <p>Adopt-A-Dog LLC</p>
+        <p>Seattle, WA</p>
+    </footer>
+    <script src="./demo.js"></script>
+</body>
+</html>
