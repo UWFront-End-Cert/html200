@@ -5,4 +5,12 @@ body {
 
 .responsive-img {
     display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 600px) {
+    .responsive-img {
+        width: 600px;
+    }
 }
