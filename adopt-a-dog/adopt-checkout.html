@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Adopt-A-Dog Adoptions</title>
+            <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        </head>
+        <body>
+            <a href="#main-content" class="hidden">Skip to Main Content</a>
+        <article>
+            <header>
+                <div class="grid-container"></div>
+                <figure>
+                    <img src="images/header-large.jpg" alt="Header, picture of dog">
+                    <img src="images/adoptadog-logo.svg" alt="logo">
+                </figure>
+                <h1>Adopt-A-Dog</h1>
+                <nav style="text-align:left">
+                    <a href="index.html">Home</a>
+                    <a href="adoption-page.html">Dogs</a>
+                    <a href="adopt-blog.html">Blog</a>
+                </nav>
+                <img src="images/cart-icon.svg" alt="shopping cart logo">
+                <p>$1234.56</p>
+                <button>Checkout</button>
+            </header>
+        </article>
+        <article>
+            <h1>Checkout</h1>
+            <form method="GET">
+                <label>Name
+                    <input type="text" name="customerName">
+                </label>
+            
+                <label>Email
+                    <input type="email" name="customerEmail">
+                </label>
+            
+                <label>Address
+                    <input type="text" name="customerStreet">
+                </label>
+            
+                <label for="city">City</label>
+                <input id="city" type="text" name="customerCity">
+            
+                <label>State
+                    <select name="state">
+                      <option value="">Please select</option>
+                      <option value="Washington">Washington</option>
+                      <option value="Oregon">Oregon</option>
+                      <option value="Idaho">Idaho</option>
+                    </select>
+                </label>
+
+                <label>ZIP Code
+                    <input type="number" name="customerZip">
+                </label>
+
+                <fieldset>
+                    <legend>First Time Adopter?</legend>
+                    <label>Yes
+                      <input type="radio" name="firsttime" value="yes">
+                    </label>
+                    <label>No
+                      <input type="radio" name="firsttime" value="no">
+                    </label>
+                </fieldset>
+
+                <label>Pickup Location
+                    <select name="location">
+                      <option value="">Please select</option>
+                      <option value="Bellevue">Bellevue</option>
+                      <option value="Northgate">Northgate</option>
+                      <option value="Renton">Renton</option>
+                    </select>
+                </label>
+                
+            </form>
+            <h2>Dogs Adopted</h2>
+            <img src="images/tucker-good-589776-unsplash.jpg" alt="Good doggo">
+            <h3>Lucas</h3>
+            <p>Cost to Adopt: $123.45</p>
+            <img src="images/duffy-brook-350225-unsplash.jpg" alt="Sweet doggo">
+            <h3>Duffy</h3>
+            <p>Cost to Adopt: $123.45</p>
+
+            <h2>Total Adoption Cost:</h2>
+            <p>$1234.56</p>
+
+            <button>Submit</button>
+        </article>
+        <footer>
+            <img src="images/adoptadog-logo.svg" alt="logo">
+            <p>Lorem Ipsum</p>
+            <p>Home</p>
+            <p>Dogs</p>
+            <p>Contact</p>
+            <p>Adopt-A-Dog LLC</p>
+            <p>Seattle, WA</p>
+        </footer>
+    </body>
+</html>
