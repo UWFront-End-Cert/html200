@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Banking Application</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    // Initial balance
+    let balance = 0;
+
+    function bankApp() {
+        while (true) {
+            // Prompt user
+            let action = prompt("Choose an action: W (Withdraw), D (Deposit), B (View Balance), Q (Quit)").toUpperCase();
+
+            // Process user input
+            switch (action) {
+                case 'W':
+                    withdrawMoney();
+                    break;
+                case 'D':
+                    depositMoney();
+                    break;
+                case 'B':
+                    viewBalance();
+                    break;
+                case 'Q':
+                    alert("Thank you.");
+                    return; // Exit the function to end the program
+                default:
+                    alert("Invalid option. Please choose again.");
+                    break; // Invalid input
+            }
+        }
+    }
+
+    // Withdraw
+    function withdrawMoney() {
+      let input = prompt("Enter the amount to withdraw:");
+    // Check if input contains any non-numeric characters
+    if (!input || isNaN(input) || /\D/.test(input)) {
+        alert("Invalid input. Please enter a valid numeric amount.");
+        return;
+    }
+    let amount = parseFloat(input);
+    if (amount <= 0) {
+        alert("Invalid amount. Please enter a valid amount greater than zero.");
+        return;
+    }
+    if (amount > balance) {
+        alert("Insufficient funds.");
+    }
+    // Check if withdraw will leave less than $300 in account
+    if (balance - amount < 300) {
+        let confirmWithdraw = confirm("Withdrawing this amount will leave you with less than $300 in your account. Are you sure you want to proceed?");
+        if (!confirmWithdraw) {
+            return; // Exit function if user cancels
+      }
+    }
+    balance -= amount;
+       alert(`Successfully withdrew $${amount}. Current balance: $${balance}`);
+  }
+// Function to deposit money
+function depositMoney() {
+    let input = prompt("Enter the amount to deposit:");
+    // Check if input contains any non-numeric characters
+    if (!input || isNaN(input) || /\D/.test(input)) {
+        alert("Invalid input. Please enter a valid numeric amount.");
+        return;
+    }
+    let amount = parseFloat(input);
+    if (amount <= 0) {
+        alert("Invalid amount. Please enter a valid amount greater than zero.");
+        return;
+    }
+    if (amount > 50000) {
+      alert("You have a deposit limit of $50,000");
+      return;
+    }
+    balance += amount;
+    alert(`Successfully deposited $${amount}. Current balance: $${balance}`);
+}
+
+
+    // View balance
+    function viewBalance() {
+        alert(`Your current balance is: $${balance}`);
+    }
+
+    // Start bank application
+    bankApp();
+
+    </script>
+    <header>
+      <h1>Assignment 6.1 Banking Applictation</h1>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
