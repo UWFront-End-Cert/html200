@@ -1,0 +1,37 @@
+<!-- Write a simple webpage that contains a button. 
+ When users click the button it should open a prompt that takes a number 
+ from the user and squares it. Next, it should open a second alert with the result. 
+ Create an HTML page and write your JavaScript in a script tag, or create a JavaScript 
+ file and link to it from the HTML page.
+
+You must use a function and an event handler.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+
+</head>
+<body>
+  <header>
+    <h1>Banking Application</h1>
+     <p>Please select an option to continue</p>
+  </header>
+
+ <button onclick="quitMessage('You will be logged out of the Banking Application')">Quit</button>
+
+ <button onclick="withdrawMessage('Enter an amount to withdraw')">Withdraw</button>
+
+ <button onclick="depositMessage('How nuch would you like to deposit today?')">Deposit</button>
+
+ <button onclick="balanceMessage('Your balance is 1,200');">View Balance</button>
+ 
+
+
+<!-- This links to the Javascript file -->
+<script src="./index.js"charset="UTF-8"> </script>
+
+</body>
+</html>
