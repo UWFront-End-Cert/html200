@@ -1,0 +1,63 @@
+body {
+    background-color: $body-color;
+    font-family: $font;
+}
+.rolodex-card {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    place-self: center;
+    margin-top: 2em;
+    background-color: white;
+    padding: 2em;
+}
+// First nesting
+.img-info {
+   
+    h1 {
+        color: $primary-color;
+    }
+    h2 {
+        color: $secondary-color;
+        font-size: 1.3em;
+        font-weight: 100;
+        font-style: italic;
+        margin-top: -0.8em;
+    }
+}
+
+// Second nesting
+.info-card {
+    background-color: rgb(245, 243, 243);
+    padding: 2em;
+    width: 29em;
+    height: 14em;
+
+    p { 
+    color: $secondary-color;
+    }
+
+    b {
+        color: $primary-color;
+    }
+
+    i {
+    background-color: rgb(6, 127, 175);
+    padding: 0.3em;
+    color: white;
+}
+}
+@media (max-width: 600px) {
+    .rolodex-card {
+        flex-direction: column;
+        gap: 1em;
+        place-self: none;
+        padding: 1em;
+        margin-top: 0;
+    }
+    .info-card {
+        padding: 1em;
+        width: auto;
+        
+    }
+}
